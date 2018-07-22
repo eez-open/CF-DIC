@@ -18,10 +18,10 @@ Current-fed dual inductor converter (CF-DIC) project files (work in progress)
 
 ### PCB layout preview
 
-![PCB top layer](Images/CF-DIC R3B2 PCB top layer.png)
+![PCB top layer](Images/CF-DIC_R3B2_PCB_top_layer.png)
 
 *Top layer*
 
-![PCB top layer](Images/CF-DIC R3B2 PCB bottom layer.png)
+![PCB top layer](Images/CF-DIC_R3B2_PCB_bottom_layer.png)
 
 *Bottom layer*
