@@ -742,8 +742,8 @@ Farnell: &lt;b&gt;1886596&lt;/b&gt;</description>
 <rectangle x1="0.254" y1="-1.905" x2="0.889" y2="1.905" layer="21"/>
 </package>
 <package name="ECAP7.5/18">
-<wire x1="0.635" y1="0" x2="2.032" y2="0" width="0.1524" layer="21"/>
-<wire x1="-0.889" y1="0" x2="-2.032" y2="0" width="0.1524" layer="21"/>
+<wire x1="0.635" y1="0" x2="1.905" y2="0" width="0.1524" layer="21"/>
+<wire x1="-0.889" y1="0" x2="-1.905" y2="0" width="0.1524" layer="21"/>
 <wire x1="-0.889" y1="1.905" x2="-0.889" y2="0" width="0.1524" layer="21"/>
 <wire x1="-0.889" y1="-1.905" x2="-0.254" y2="-1.905" width="0.1524" layer="21"/>
 <wire x1="-0.254" y1="-1.905" x2="-0.254" y2="1.905" width="0.1524" layer="21"/>
@@ -819,17 +819,17 @@ Panasonic TS-HA series,  ECOS1VA103CA (10.000uF/35V)&lt;br&gt;Farnell: &lt;b&gt;
 <wire x1="0" y1="2.54" x2="0" y2="-2.54" width="0.8128" layer="21" curve="-180"/>
 </package>
 <package name="ECAP5/10.5">
-<wire x1="-1.143" y1="0" x2="-0.889" y2="0" width="0.1524" layer="21"/>
-<wire x1="-0.889" y1="0" x2="-0.889" y2="-1.143" width="0.1524" layer="21"/>
-<wire x1="-0.889" y1="-1.143" x2="-0.254" y2="-1.143" width="0.1524" layer="21"/>
+<wire x1="-1.016" y1="0" x2="-0.762" y2="0" width="0.1524" layer="21"/>
+<wire x1="-0.762" y1="0" x2="-0.762" y2="-1.143" width="0.1524" layer="21"/>
+<wire x1="-0.762" y1="-1.143" x2="-0.254" y2="-1.143" width="0.1524" layer="21"/>
 <wire x1="-0.254" y1="-1.143" x2="-0.254" y2="1.143" width="0.1524" layer="21"/>
-<wire x1="-0.254" y1="1.143" x2="-0.889" y2="1.143" width="0.1524" layer="21"/>
-<wire x1="-0.889" y1="1.143" x2="-0.889" y2="0" width="0.1524" layer="21"/>
-<wire x1="0.635" y1="0" x2="1.143" y2="0" width="0.1524" layer="21"/>
+<wire x1="-0.254" y1="1.143" x2="-0.762" y2="1.143" width="0.1524" layer="21"/>
+<wire x1="-0.762" y1="1.143" x2="-0.762" y2="0" width="0.1524" layer="21"/>
+<wire x1="0.635" y1="0" x2="1.016" y2="0" width="0.1524" layer="21"/>
 <wire x1="-3.81" y1="1.651" x2="-3.81" y2="0.889" width="0.1524" layer="21"/>
 <wire x1="-3.429" y1="1.27" x2="-4.191" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="1.143" y1="0" x2="1.651" y2="0" width="0.1524" layer="51"/>
-<wire x1="-1.651" y1="0" x2="-1.143" y2="0" width="0.1524" layer="51"/>
+<wire x1="1.016" y1="0" x2="2.54" y2="0" width="0.1524" layer="51"/>
+<wire x1="-2.54" y1="0" x2="-1.016" y2="0" width="0.1524" layer="51"/>
 <circle x="0" y="0" radius="5.08" width="0.1524" layer="21"/>
 <pad name="+" x="-2.54" y="0" drill="1.016" diameter="2.54"/>
 <pad name="-" x="2.54" y="0" drill="1.016" diameter="2.54" shape="octagon"/>
@@ -1884,11 +1884,12 @@ Panasonic TS-HA series,  ECOS1VA103CA (10.000uF/35V)&lt;br&gt;Farnell: &lt;b&gt;
 <wire x1="2.2352" y1="2.1336" x2="3.2004" y2="2.1336" width="0.1524" layer="51"/>
 <wire x1="3.2004" y1="2.1336" x2="3.2004" y2="2.4384" width="0.1524" layer="51"/>
 <wire x1="3.2004" y1="2.4384" x2="2.2352" y2="2.4384" width="0.1524" layer="51"/>
-<wire x1="-2.2352" y1="-2.54" x2="2.2352" y2="-2.54" width="0.1524" layer="51"/>
-<wire x1="2.2352" y1="-2.54" x2="2.2352" y2="2.54" width="0.1524" layer="51"/>
-<wire x1="-0.3048" y1="2.54" x2="-2.2352" y2="2.54" width="0.1524" layer="21"/>
-<wire x1="-2.2352" y1="2.54" x2="-2.2352" y2="-2.54" width="0.1524" layer="51"/>
-<wire x1="0.3048" y1="2.54" x2="-0.3048" y2="2.54" width="0.1524" layer="21" curve="-180"/>
+<wire x1="-2.2352" y1="-2.667" x2="2.2352" y2="-2.667" width="0.1524" layer="51"/>
+<wire x1="2.2352" y1="-2.667" x2="2.2352" y2="2.667" width="0.1524" layer="51"/>
+<wire x1="-0.3048" y1="2.667" x2="-2.2352" y2="2.667" width="0.1524" layer="21"/>
+<wire x1="-2.2352" y1="2.667" x2="-2.2352" y2="2.4384" width="0.1524" layer="51"/>
+<wire x1="-2.2352" y1="2.4384" x2="-2.2352" y2="-2.667" width="0.1524" layer="51"/>
+<wire x1="0.3048" y1="2.667" x2="-0.3048" y2="2.667" width="0.1524" layer="21" curve="-180"/>
 <text x="-2.3622" y="2.921" size="1.016" layer="25" ratio="6" rot="SR0">&gt;NAME</text>
 <text x="0" y="0" size="1.016" layer="27" ratio="6" rot="SR0" align="center">&gt;VALUE</text>
 <polygon width="0.1524" layer="21">
@@ -1896,11 +1897,11 @@ Panasonic TS-HA series,  ECOS1VA103CA (10.000uF/35V)&lt;br&gt;Farnell: &lt;b&gt;
 <vertex x="-0.889" y="2.159"/>
 <vertex x="-0.889" y="1.651"/>
 </polygon>
-<wire x1="2.2352" y1="2.54" x2="0.3048" y2="2.54" width="0.1524" layer="21"/>
-<wire x1="-2.2352" y1="-2.54" x2="2.2352" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="-0.3048" y1="2.54" x2="-2.2352" y2="2.54" width="0.1524" layer="51"/>
-<wire x1="0.3048" y1="2.54" x2="-0.3048" y2="2.54" width="0.1524" layer="51" curve="-180"/>
-<wire x1="2.2352" y1="2.54" x2="0.3048" y2="2.54" width="0.1524" layer="51"/>
+<wire x1="2.2352" y1="2.667" x2="0.3048" y2="2.667" width="0.1524" layer="21"/>
+<wire x1="-2.2352" y1="-2.667" x2="2.2352" y2="-2.667" width="0.1524" layer="21"/>
+<wire x1="-0.3048" y1="2.667" x2="-2.2352" y2="2.667" width="0.1524" layer="51"/>
+<wire x1="0.3048" y1="2.667" x2="-0.3048" y2="2.667" width="0.1524" layer="51" curve="-180"/>
+<wire x1="2.2352" y1="2.667" x2="0.3048" y2="2.667" width="0.1524" layer="51"/>
 </package>
 <package name="TO247BV">
 <description>&lt;b&gt;Molded Package&lt;/b&gt;&lt;p&gt;
