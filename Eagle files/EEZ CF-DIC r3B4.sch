@@ -20706,13 +20706,13 @@ wire to board 2.54 mm (0.100") pitch header</description>
 <part name="SUPPLY19" library="supply2" deviceset="GND" device=""/>
 <part name="P+2" library="supply2" deviceset="V+" device=""/>
 <part name="IC10" library="EEZ_Lib1" deviceset="LM211" device="" value="LM211PWR"/>
-<part name="NTC1" library="EEZ_Lib1" deviceset="NTC" device="R_0805" value="10K"/>
+<part name="NTC1" library="EEZ_Lib1" deviceset="NTC" device="R_0805" value="10K/3570K"/>
 <part name="R84" library="rcl" deviceset="R-EU_" device="R0805" value="10K"/>
 <part name="SUPPLY25" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY26" library="supply2" deviceset="GND" device=""/>
-<part name="R80" library="rcl" deviceset="R-EU_" device="R0805" value="1K"/>
-<part name="R81" library="rcl" deviceset="R-EU_" device="R0805" value="100K"/>
-<part name="R82" library="rcl" deviceset="R-EU_" device="R0805" value="10K"/>
+<part name="R80" library="rcl" deviceset="R-EU_" device="R0805" value="3K9"/>
+<part name="R81" library="rcl" deviceset="R-EU_" device="R0805" value="82K"/>
+<part name="R82" library="rcl" deviceset="R-EU_" device="R0805" value="27K"/>
 <part name="SUPPLY21" library="supply2" deviceset="GND" device=""/>
 </parts>
 <sheets>
@@ -23334,9 +23334,9 @@ wire to board 2.54 mm (0.100") pitch header</description>
 <wire x1="241.3" y1="170.18" x2="241.3" y2="165.1" width="0.1524" layer="101"/>
 <text x="224.155" y="172.085" size="1.778" layer="101">X4 2-pin output connector</text>
 <wire x1="223.52" y1="134.62" x2="226.06" y2="134.62" width="0.1524" layer="97" style="shortdash"/>
-<wire x1="162.56" y1="40.64" x2="76.2" y2="40.64" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="162.56" y1="43.18" x2="73.66" y2="43.18" width="0.1524" layer="97" style="shortdash"/>
 <text x="127.635" y="38.1" size="1.778" layer="97">Temperature alarm (optional)</text>
-<wire x1="76.2" y1="40.64" x2="76.2" y2="10.16" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="73.66" y1="43.18" x2="73.66" y2="10.16" width="0.1524" layer="97" style="shortdash"/>
 </plain>
 <instances>
 <instance part="FRAME3" gate="G$1" x="0" y="0" smashed="yes"/>
@@ -23490,11 +23490,11 @@ wire to board 2.54 mm (0.100") pitch header</description>
 <attribute name="VALUE" x="65.405" y="46.99" size="1.778" layer="96"/>
 </instance>
 <instance part="C72" gate="G$1" x="88.9" y="58.42" smashed="yes">
-<attribute name="NAME" x="91.059" y="57.531" size="1.778" layer="95"/>
-<attribute name="VALUE" x="91.059" y="55.626" size="1.778" layer="96"/>
+<attribute name="NAME" x="86.741" y="57.531" size="1.778" layer="95" rot="MR0"/>
+<attribute name="VALUE" x="86.741" y="55.626" size="1.778" layer="96" rot="MR0"/>
 </instance>
 <instance part="SUPPLY5" gate="GND" x="88.9" y="48.26" smashed="yes">
-<attribute name="VALUE" x="90.805" y="46.99" size="1.778" layer="96"/>
+<attribute name="VALUE" x="86.995" y="46.99" size="1.778" layer="96" rot="MR0"/>
 </instance>
 <instance part="R74" gate="G$1" x="71.12" y="73.66" smashed="yes" rot="R180">
 <attribute name="NAME" x="68.58" y="75.1586" size="1.778" layer="95"/>
@@ -23694,12 +23694,12 @@ wire to board 2.54 mm (0.100") pitch header</description>
 <attribute name="VALUE" x="128.27" y="32.385" size="1.778" layer="96"/>
 </instance>
 <instance part="IC10" gate="A" x="124.46" y="17.78" smashed="yes">
-<attribute name="NAME" x="116.84" y="6.985" size="1.778" layer="95"/>
-<attribute name="VALUE" x="116.84" y="4.445" size="1.778" layer="96"/>
+<attribute name="NAME" x="116.84" y="8.255" size="1.778" layer="95" rot="MR180"/>
+<attribute name="VALUE" x="116.84" y="5.715" size="1.778" layer="96" rot="MR180"/>
 </instance>
 <instance part="NTC1" gate="G$1" x="86.36" y="27.94" smashed="yes">
 <attribute name="NAME" x="84.455" y="28.575" size="1.778" layer="95" rot="MR0"/>
-<attribute name="VALUE" x="83.82" y="26.035" size="1.778" layer="96" rot="MR0"/>
+<attribute name="VALUE" x="83.82" y="26.035" size="1.27" layer="96" rot="MR0"/>
 </instance>
 <instance part="R84" gate="G$1" x="86.36" y="15.24" smashed="yes" rot="MR90">
 <attribute name="NAME" x="85.09" y="16.9164" size="1.778" layer="95" rot="R180"/>
