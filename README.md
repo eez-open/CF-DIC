@@ -24,10 +24,4 @@ Inspired by article Filho, Barbi (1996), *[A comparison between two current-fed 
 
 ### PCB layout preview
 
-![PCB top layer](Images/CF-DIC_PCB_top_layer.png)
-
-*Top layer*
-
-![PCB top layer](Images/CF-DIC_PCB_bottom_layer.png)
-
-*Bottom layer*
+![PCB top layer](Images/Bare_PCB_r3B7.JPG)
