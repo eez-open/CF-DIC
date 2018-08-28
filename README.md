@@ -24,4 +24,6 @@ Inspired by article Filho, Barbi (1996), *[A comparison between two current-fed 
 
 ### PCB r3B7
 
+_IMPORTANT: This PCB version is malfunctioning, due to inappropriate routing of HV section and wrongly wired AUX section of QR flyback. A new PCB layout is required!_
+
 ![PCB top layer](Images/Bare_PCB_r3B7.JPG)
