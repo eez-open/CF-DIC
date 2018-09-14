@@ -22,8 +22,8 @@ Inspired by article Filho, Barbi (1996), *[A comparison between two current-fed 
 * QR flyback as bias power supply (VIPer35)
 * Compact size (155 x 85 mm)
 
-### PCB r3B7
+### New PCB layout preview (r4B4)
 
-_IMPORTANT: This PCB version is malfunctioning, due to inappropriate routing of HV section and wrongly wired AUX section of QR flyback. A new PCB layout is required!_
+![PCB top layer](Images/CF-DIC_PCB_top_layer.png)
 
-![PCB top layer](Images/Bare_PCB_r3B7.JPG)
+![PCB bottom layer](Images/CF-DIC_PCB_bottom_layer.png)
