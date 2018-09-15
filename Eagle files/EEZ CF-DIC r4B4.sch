@@ -18211,23 +18211,23 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <circle x="242.57" y="143.51" radius="0.635" width="0.1524" layer="101"/>
 <circle x="242.57" y="146.05" radius="0.635" width="0.1524" layer="101"/>
 <text x="240.665" y="146.685" size="1.4224" layer="101" rot="R180">U_MON 1</text>
-<text x="240.665" y="144.145" size="1.4224" layer="101" rot="R180">Bias- 2</text>
+<text x="240.665" y="144.145" size="1.4224" layer="101" rot="R180">Bias+ 2</text>
 <wire x1="243.84" y1="127" x2="241.3" y2="127" width="0.1524" layer="101"/>
 <wire x1="241.3" y1="127" x2="241.3" y2="147.32" width="0.1524" layer="101"/>
 <wire x1="241.3" y1="147.32" x2="243.84" y2="147.32" width="0.1524" layer="101"/>
 <wire x1="243.84" y1="147.32" x2="243.84" y2="127" width="0.1524" layer="101"/>
 <circle x="242.57" y="140.97" radius="0.635" width="0.1524" layer="101"/>
-<text x="240.665" y="141.605" size="1.4224" layer="101" rot="R180">Bias+ 3</text>
+<text x="240.665" y="141.605" size="1.4224" layer="101" rot="R180">Bias- 3</text>
 <circle x="242.57" y="138.43" radius="0.635" width="0.1524" layer="101"/>
-<text x="240.665" y="139.065" size="1.4224" layer="101" rot="R180">PWRGOOD 4</text>
+<text x="240.665" y="139.065" size="1.4224" layer="101" rot="R180">!FAULT! 4</text>
 <circle x="242.57" y="135.89" radius="0.635" width="0.1524" layer="101"/>
-<text x="240.665" y="136.525" size="1.4224" layer="101" rot="R180">+5 Vdc 5</text>
+<text x="240.665" y="136.525" size="1.4224" layer="101" rot="R180">V+ 5</text>
 <circle x="242.57" y="133.35" radius="0.635" width="0.1524" layer="101"/>
 <text x="240.665" y="133.985" size="1.4224" layer="101" rot="R180">GND 6</text>
 <circle x="242.57" y="130.81" radius="0.635" width="0.1524" layer="101"/>
-<text x="240.665" y="131.445" size="1.4224" layer="101" rot="R180">-5 Vdc 7</text>
+<text x="240.665" y="131.445" size="1.4224" layer="101" rot="R180">V- 7</text>
 <circle x="242.57" y="128.27" radius="0.635" width="0.1524" layer="101"/>
-<text x="240.665" y="128.905" size="1.4224" layer="101" rot="R180">-9 Vdc 8</text>
+<text x="240.665" y="128.905" size="1.4224" layer="101" rot="R180">PE 8</text>
 <text x="224.155" y="149.225" size="1.778" layer="101">X3 8-pin output connector</text>
 <circle x="242.57" y="161.29" radius="0.635" width="0.1524" layer="101"/>
 <circle x="242.57" y="163.83" radius="0.635" width="0.1524" layer="101"/>
@@ -18241,6 +18241,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <text x="240.665" y="159.385" size="1.4224" layer="101" rot="R180">AC neutral 3</text>
 <text x="226.695" y="167.005" size="1.778" layer="101">X2 3-pin input connector</text>
 <text x="156.718" y="40.64" size="1.27" layer="103">"Power" (yellow)</text>
+<rectangle x1="184.785" y1="55.88" x2="190.5" y2="64.77" layer="97"/>
 </plain>
 <instances>
 <instance part="R15" gate="G$1" x="134.62" y="35.56" smashed="yes" rot="R270">
@@ -18328,8 +18329,8 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <attribute name="VALUE" x="169.164" y="94.361" size="1.778" layer="96"/>
 </instance>
 <instance part="LED1" gate="G$1" x="162.56" y="48.26" smashed="yes">
-<attribute name="NAME" x="162.306" y="51.308" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="165.1" y="51.308" size="1.27" layer="96" rot="R90"/>
+<attribute name="NAME" x="164.973" y="49.784" size="1.778" layer="95"/>
+<attribute name="VALUE" x="164.973" y="47.625" size="1.27" layer="96"/>
 </instance>
 <instance part="R11" gate="G$1" x="162.56" y="63.5" smashed="yes" rot="MR270">
 <attribute name="NAME" x="161.29" y="63.7286" size="1.778" layer="95" rot="MR0"/>
@@ -18716,7 +18717,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <junction x="127" y="91.44"/>
 </segment>
 </net>
-<net name="PWRGOOD" class="0">
+<net name="!FAULT" class="0">
 <segment>
 <pinref part="R12" gate="G$1" pin="2"/>
 <wire x1="187.96" y1="55.88" x2="187.96" y2="45.72" width="0.1524" layer="91"/>
@@ -18726,7 +18727,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <wire x1="193.04" y1="45.72" x2="193.04" y2="50.8" width="0.1524" layer="91"/>
 <junction x="193.04" y="45.72"/>
 <wire x1="193.04" y1="50.8" x2="195.58" y2="50.8" width="0.1524" layer="91"/>
-<label x="211.455" y="50.8" size="1.27" layer="102" rot="R180" xref="yes"/>
+<label x="207.645" y="50.8" size="1.27" layer="102" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="DC_OUT" class="0">
@@ -20729,7 +20730,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <junction x="114.3" y="17.78"/>
 </segment>
 </net>
-<net name="PWRGOOD" class="0">
+<net name="!FAULT" class="0">
 <segment>
 <pinref part="OK2" gate="G$1" pin="COL"/>
 <wire x1="22.86" y1="127" x2="25.4" y2="127" width="0.1524" layer="91"/>
