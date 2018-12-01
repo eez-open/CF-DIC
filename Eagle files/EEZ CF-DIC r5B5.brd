@@ -4092,11 +4092,11 @@ design rules under a new name.</description>
 <attribute name="NAME" x="140.2215" y="58.5962" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="144.4959" y="52.5341" size="1.016" layer="27" ratio="10"/>
 </element>
-<element name="C5" library="EEZ_Lib1" package="CY075-032X103" value="CY1Y-470P" x="115.1255" y="77.216" smashed="yes">
+<element name="C5" library="EEZ_Lib1" package="CY075-032X103" value="CY1Y-4N7" x="115.1255" y="77.216" smashed="yes">
 <attribute name="NAME" x="114.1817" y="78.9299" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="111.0615" y="76.454" size="1.016" layer="27" ratio="10"/>
 </element>
-<element name="C4" library="EEZ_Lib1" package="CY075-032X103" value="CY1Y-470P" x="115.1255" y="72.3265" smashed="yes">
+<element name="C4" library="EEZ_Lib1" package="CY075-032X103" value="CY1Y-4N7" x="115.1255" y="72.3265" smashed="yes">
 <attribute name="NAME" x="114.2365" y="74.168" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="111.0615" y="71.5645" size="1.016" layer="27" ratio="10"/>
 </element>
@@ -4246,7 +4246,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="100.2665" y="58.6105" size="1.016" layer="26" ratio="10" rot="MR180"/>
 <attribute name="VALUE" x="97.282" y="58.547" size="1.016" layer="28" ratio="10" rot="MR180"/>
 </element>
-<element name="C17" library="EEZ_Lib1" package="CY075-032X103" value="CY1Y-470P" x="119.507" y="42.926" smashed="yes" rot="R270">
+<element name="C17" library="EEZ_Lib1" package="CY075-032X103" value="CY1Y-4N7" x="119.507" y="42.926" smashed="yes" rot="R270">
 <attribute name="NAME" x="117.602" y="43.1165" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="118.745" y="46.99" size="1.016" layer="27" ratio="10" rot="R270"/>
 </element>

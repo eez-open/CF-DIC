@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.025" unitdist="inch" unit="inch" style="lines" multiple="4" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -15337,8 +15337,8 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <part name="R2" library="rcl" deviceset="R-EU_" device="R1206" value="220K"/>
 <part name="X1" library="EEZ_connectors" deviceset="MINIFIT_6659-3" device="-CRE" value="39-30-3035"/>
 <part name="PE1" library="supply1" deviceset="PE" device=""/>
-<part name="C5" library="EEZ_Lib1" deviceset="C-EU" device="CY" value="CY1Y-470P"/>
-<part name="C4" library="EEZ_Lib1" deviceset="C-EU" device="CY" value="CY1Y-470P"/>
+<part name="C5" library="EEZ_Lib1" deviceset="C-EU" device="CY" value="CY1Y-4N7"/>
+<part name="C4" library="EEZ_Lib1" deviceset="C-EU" device="CY" value="CY1Y-4N7"/>
 <part name="R1" library="rcl" deviceset="R-EU_" device="R1206" value="220K"/>
 <part name="SAR2" library="EEZ_Lib1" deviceset="SAR" device="PCB-2.4MM" value="PCB 2.4mm"/>
 <part name="B1" library="EEZ_Lib1" deviceset="BRIDGE" device="-CREEPAGE" value="GBU4K"/>
@@ -15382,7 +15382,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <part name="ZD1" library="EEZ_Lib1" deviceset="ZENER-DIODE" device="SOD323" value="BZX384-C13"/>
 <part name="R4" library="rcl" deviceset="R-EU_" device="R0805" value="1K8"/>
 <part name="C6" library="rcl" deviceset="C-EU" device="C0603" value="N.C."/>
-<part name="C17" library="EEZ_Lib1" deviceset="C-EU" device="CY" value="CY1Y-470P"/>
+<part name="C17" library="EEZ_Lib1" deviceset="C-EU" device="CY" value="CY1Y-4N7"/>
 <part name="C8" library="rcl" deviceset="C-EU" device="C0805" value="1u"/>
 <part name="OK1" library="EEZ_Lib1" deviceset="TLP291" device="" value="TLP291-GB.SE-T"/>
 <part name="R76" library="rcl" deviceset="R-EU_" device="R0805" value="470R"/>
@@ -15925,12 +15925,12 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <attribute name="VALUE" x="31.75" y="151.892" size="1.778" layer="96" rot="MR180"/>
 </instance>
 <instance part="C5" gate="G$1" x="73.66" y="139.7" smashed="yes" rot="R180">
-<attribute name="NAME" x="75.819" y="140.716" size="1.778" layer="95"/>
-<attribute name="VALUE" x="75.819" y="138.811" size="1.27" layer="96"/>
+<attribute name="NAME" x="75.819" y="141.351" size="1.778" layer="95"/>
+<attribute name="VALUE" x="75.819" y="138.811" size="1.778" layer="96"/>
 </instance>
 <instance part="C4" gate="G$1" x="66.04" y="139.7" smashed="yes" rot="R180">
-<attribute name="NAME" x="63.881" y="140.716" size="1.778" layer="95" rot="MR0"/>
-<attribute name="VALUE" x="63.881" y="138.811" size="1.27" layer="96" rot="MR0"/>
+<attribute name="NAME" x="63.881" y="141.351" size="1.778" layer="95" rot="MR0"/>
+<attribute name="VALUE" x="63.881" y="138.811" size="1.778" layer="96" rot="MR0"/>
 </instance>
 <instance part="R1" gate="G$1" x="30.48" y="162.56" smashed="yes" rot="R270">
 <attribute name="NAME" x="31.75" y="164.2364" size="1.778" layer="95" rot="MR180"/>
