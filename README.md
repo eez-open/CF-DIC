@@ -2,7 +2,7 @@ Current-fed dual inductor converter (CF-DIC) project files
 
 Inspired by article Filho, Barbi (1996), *[A comparison between two current-fed push-pull DC-DC converters-analysis, design and experimentation](https://www.researchgate.net/publication/3673781_A_comparison_between_two_current-fed_push-pull_DC-DC_converters-analysis_design_and_experimentation)* and made with great assistance of Dragoljub Aleksijević (aka *Macola*).
 
-![Block diagram](Images/CF-DIC block diagram.png)
+![Block diagram](Images/CF-DIC_block_diagram.png)
 
 ### Feature list
 
