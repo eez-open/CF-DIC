@@ -15566,7 +15566,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <part name="C42" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
 <part name="D11" library="EEZ_Lib1" deviceset="SCHOTTKY" device="-TO220" value="C3D06065A"/>
 <part name="R48" library="rcl" deviceset="R-EU_" device="R0805" value="1K"/>
-<part name="C46" library="rcl" deviceset="C-EU" device="C0805" value="470p"/>
+<part name="C46" library="rcl" deviceset="C-EU" device="C0805" value="2n2"/>
 <part name="R32" library="rcl" deviceset="R-EU_" device="R0805" value="47K"/>
 <part name="R24" library="rcl" deviceset="R-EU_" device="R2512" value="22R/2-3W"/>
 <part name="C40" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
@@ -16848,11 +16848,12 @@ only when DC_BUS is below ~85 Vdc</text>
 <text x="75.565" y="25.4" size="1.27" layer="103">NTCALUG03A103HC
 (10K NTC)</text>
 <text x="63.5" y="7.62" size="1.27" layer="103" align="top-left">OTP trip set to ~73oC (+4.32 V) for selected NTC (10K/3984K).
-Decrease R53 to 2K7 for ~90oC.</text>
+Decrease R55 to 2K7 for ~90oC.</text>
 <rectangle x1="70.485" y1="12.7" x2="76.2" y2="20.32" layer="97"/>
 <rectangle x1="199.39" y1="84.455" x2="207.645" y2="88.9" layer="97"/>
 <rectangle x1="199.39" y1="63.5" x2="207.645" y2="67.945" layer="97"/>
 <rectangle x1="61.595" y1="61.595" x2="69.85" y2="66.04" layer="97"/>
+<text x="143.51" y="57.15" size="1.27" layer="100">Rct</text>
 </plain>
 <instances>
 <instance part="FRAME2" gate="G$1" x="0" y="0" smashed="yes"/>
