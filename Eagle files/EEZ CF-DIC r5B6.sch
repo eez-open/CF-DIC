@@ -16662,8 +16662,8 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <attribute name="NAME" x="37.465" y="47.2186" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="37.465" y="42.418" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="SUPPLY22" gate="GND" x="106.68" y="73.66" smashed="yes">
-<attribute name="VALUE" x="108.585" y="74.295" size="1.778" layer="96" rot="MR180"/>
+<instance part="SUPPLY22" gate="GND" x="109.22" y="73.66" smashed="yes">
+<attribute name="VALUE" x="107.315" y="74.295" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="R9" gate="G$1" x="86.36" y="104.14" smashed="yes" rot="R270">
 <attribute name="NAME" x="87.63" y="105.8164" size="1.778" layer="95" rot="MR180"/>
@@ -16708,8 +16708,8 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <attribute name="VALUE" x="31.75" y="162.052" size="1.778" layer="96" rot="MR180"/>
 </instance>
 <instance part="SAR2" gate="G$1" x="50.8" y="154.94" smashed="yes" rot="MR270">
-<attribute name="NAME" x="47.625" y="160.02" size="1.778" layer="95" rot="MR180"/>
-<attribute name="VALUE" x="47.625" y="161.925" size="1.27" layer="96" rot="MR180"/>
+<attribute name="NAME" x="53.975" y="157.48" size="1.778" layer="95" rot="MR180"/>
+<attribute name="VALUE" x="53.975" y="154.305" size="1.27" layer="96" rot="MR180"/>
 </instance>
 <instance part="B1" gate="G$1" x="91.44" y="157.48" smashed="yes">
 <attribute name="NAME" x="87.63" y="161.925" size="1.778" layer="95" rot="MR0"/>
@@ -16754,8 +16754,8 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <attribute name="VALUE" x="202.565" y="57.785" size="1.778" layer="96"/>
 </instance>
 <instance part="SAR1" gate="G$1" x="50.8" y="172.72" smashed="yes" rot="MR270">
-<attribute name="NAME" x="48.26" y="177.8" size="1.778" layer="95" rot="MR180"/>
-<attribute name="VALUE" x="48.26" y="179.705" size="1.27" layer="96" rot="MR180"/>
+<attribute name="NAME" x="53.975" y="175.26" size="1.778" layer="95" rot="MR180"/>
+<attribute name="VALUE" x="53.975" y="172.085" size="1.27" layer="96" rot="MR180"/>
 </instance>
 <instance part="SUPPLY10" gate="1" x="205.74" y="96.52" smashed="yes" rot="MR270">
 <attribute name="VALUE" x="206.375" y="95.631" size="1.778" layer="96"/>
@@ -16942,14 +16942,12 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <net name="7VAC" class="0">
 <segment>
 <pinref part="D5" gate="G$1" pin="C"/>
-<wire x1="127" y1="91.44" x2="129.54" y2="91.44" width="0.1524" layer="91"/>
 <pinref part="C17" gate="G$1" pin="2"/>
-<pinref part="TR1" gate="G$1" pin="7V_DOT"/>
 <wire x1="129.54" y1="91.44" x2="134.62" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="106.68" y1="96.52" x2="127" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="127" y1="96.52" x2="127" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="129.54" y1="96.52" x2="129.54" y2="91.44" width="0.1524" layer="91"/>
 <junction x="129.54" y="91.44"/>
+<pinref part="TR1" gate="G$1" pin="7V"/>
+<wire x1="106.68" y1="91.44" x2="129.54" y2="91.44" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="DC_OUT" class="0">
@@ -17096,19 +17094,24 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <net name="GND" class="0">
 <segment>
 <pinref part="C20" gate="G$1" pin="2"/>
-<wire x1="104.14" y1="78.74" x2="106.68" y2="78.74" width="0.1524" layer="91"/>
 <pinref part="SUPPLY22" gate="GND" pin="GND"/>
-<wire x1="106.68" y1="83.82" x2="106.68" y2="78.74" width="0.1524" layer="91"/>
 <pinref part="TR1" gate="G$1" pin="6V"/>
-<wire x1="106.68" y1="76.2" x2="106.68" y2="78.74" width="0.1524" layer="91"/>
-<junction x="106.68" y="78.74"/>
 <wire x1="170.18" y1="78.74" x2="147.32" y2="78.74" width="0.1524" layer="91"/>
 <pinref part="C18" gate="G$1" pin="+"/>
 <wire x1="147.32" y1="81.28" x2="147.32" y2="78.74" width="0.1524" layer="91"/>
 <pinref part="C19" gate="G$1" pin="1"/>
 <wire x1="170.18" y1="81.28" x2="170.18" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="106.68" y1="78.74" x2="147.32" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="104.14" y1="78.74" x2="109.22" y2="78.74" width="0.1524" layer="91"/>
 <junction x="147.32" y="78.74"/>
+<pinref part="TR1" gate="G$1" pin="7V_DOT"/>
+<wire x1="109.22" y1="78.74" x2="147.32" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="96.52" x2="109.22" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="96.52" x2="109.22" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="83.82" x2="106.68" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="83.82" x2="109.22" y2="78.74" width="0.1524" layer="91"/>
+<junction x="109.22" y="83.82"/>
+<junction x="109.22" y="78.74"/>
+<wire x1="109.22" y1="78.74" x2="109.22" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C25" gate="G$1" pin="2"/>
@@ -17453,12 +17456,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <wire x1="114.3" y1="68.58" x2="114.3" y2="73.66" width="0.1524" layer="91"/>
 <junction x="114.3" y="73.66"/>
 <pinref part="TR1" gate="G$1" pin="6V_DOT"/>
-<wire x1="106.68" y1="88.9" x2="109.22" y2="88.9" width="0.1524" layer="91"/>
-<pinref part="TR1" gate="G$1" pin="7V"/>
-<wire x1="109.22" y1="88.9" x2="114.3" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="106.68" y1="91.44" x2="109.22" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="109.22" y1="91.44" x2="109.22" y2="88.9" width="0.1524" layer="91"/>
-<junction x="109.22" y="88.9"/>
+<wire x1="106.68" y1="88.9" x2="114.3" y2="88.9" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="V+" class="0">
@@ -20556,6 +20554,7 @@ Decrease R55 to 2K7 for ~90oC.</text>
 <approved hash="104,2,129.54,149.86,IC2,VDDA,N$3,,,"/>
 <approved hash="104,2,129.54,134.62,IC2,VDDB,N$55,,,"/>
 <approved hash="104,2,129.54,137.16,IC2,GNDB,0V,,,"/>
+<approved hash="106,1,33.02,129.54,ENC_PE,,,,,"/>
 <approved hash="113,2,131.976,90.066,FRAME2,,,,,"/>
 <approved hash="113,3,131.976,90.066,FRAME3,,,,,"/>
 <approved hash="113,1,202.986,67.3269,TP1,,,,,"/>
@@ -20568,7 +20567,7 @@ Decrease R55 to 2K7 for ~90oC.</text>
 <approved hash="113,2,251.652,102.798,TP4,,,,,"/>
 <approved hash="113,3,226.849,151.426,TP6,,,,,"/>
 <approved hash="113,2,251.652,95.178,TP5,,,,,"/>
-<approved hash="113,2,150.851,48.0356,SH2,,,,,"/>
+<approved hash="113,2,150.851,50.5756,SH2,,,,,"/>
 </errors>
 </schematic>
 </drawing>
