@@ -17,10 +17,9 @@ Inspired by article Filho, Barbi (1996), *[A comparison between two current-fed 
 * Synchronous rectifier with low R(gs,on) MOSFET switches
 * Active Duty cycle limiter
 * Over-voltage (OVP), short circuit protection and over-temperature protection (OTP) with latched shutdown and opto-isolated open-collector "Fault" output
-* Four bias power supply outputs: +6.5 V, -8 V and "floating" +12 V / -12 V that can be further regulated with LDO's, etc.
 * Over-current protection (OCP)
-* f(sw,buck)= ~62 kHz, f(sw,pp)= ~31 kHz
 * QR flyback as bias power supply (VIPer35)
+* Four bias power supply outputs: +6.5 V, -8 V and "floating" +12 V / -12 V that can be further regulated with LDO's, etc.
 * Compact size (155 x 90 x45 mm)
 
 ### r5B4 prototype
