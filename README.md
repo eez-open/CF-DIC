@@ -22,10 +22,9 @@ Inspired by article Filho, Barbi (1996), *[A comparison between two current-fed 
 * Four bias power supply outputs: +6.5 V, -8 V and "floating" +12 V / -12 V that can be further regulated with LDO's, etc.
 * Compact size (155 x 90 x45 mm)
 
-### r5B4 prototype
+### r5B6 prototype
 
-![PCB top layer](Images/CF-DIC_r5B4_top_view.jpg)
+![prototype](Images/CF-DIC_r5B6_prototype.jpg)
 
-![PCB top layer](Images/CF-DIC_r5B4_bottom_view.jpg)
 
 
