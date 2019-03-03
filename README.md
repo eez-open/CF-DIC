@@ -8,7 +8,7 @@ Inspired by article Filho, Barbi (1996), *[A comparison between two current-fed 
 
 * Wide range input: 85 – 265 Vac, 120 – 380 Vdc
 * Wide range output: 2.5 – 52.5 Vdc 
-* Max. current 5 A continuously (max. power up to ~260 W)
+* Max. current 3 A continuously, or 5 A with forced-air cooling (max. power up to ~260 W)
 * Output voltage controlled by tracker circuit or optionally with multiturn trimpot if fixed output voltage is required
 * Cascaded PWM Controller LM5041B (sync buck + push-pull stage)
 * Isolated HV power ground and signal ground for improved noise immunity
@@ -20,7 +20,8 @@ Inspired by article Filho, Barbi (1996), *[A comparison between two current-fed 
 * Over-current protection (OCP)
 * QR flyback as bias power supply (VIPer35)
 * Four bias power supply outputs: +6.5 V, -8 V and "floating" +12 V / -12 V that can be further regulated with LDO's, etc.
-* Compact size (155 x 90 x45 mm)
+* Compact size: 155 x 90 x45 mm
+* Weight (with enclosure): 0.49 kg
 
 ### r5B6 prototype
 
