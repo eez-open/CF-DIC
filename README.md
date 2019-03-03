@@ -6,8 +6,8 @@ Inspired by article Filho, Barbi (1996), *[A comparison between two current-fed 
 
 ### Feature list
 
-* Wide AC input 85 – 265 V
-* Wide DC output: 2.5 – 52.5 V
+* Wide range input: 85 – 265 Vac, 120 – 380 Vdc
+* Wide range output: 2.5 – 52.5 Vdc 
 * Max. current 5 A continuously (max. power up to ~260 W)
 * Output voltage controlled by tracker circuit or optionally with multiturn trimpot if fixed output voltage is required
 * Cascaded PWM Controller LM5041B (sync buck + push-pull stage)

@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.025" unitdist="inch" unit="inch" style="lines" multiple="4" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -16407,12 +16407,12 @@ Solder type</description>
 <part name="Q8" library="EEZ_Lib1" deviceset="N-MOSFET" device="DPAK" value="FDD86250-F085"/>
 <part name="R68" library="rcl" deviceset="R-EU_" device="R2512" value="22R/2-3W"/>
 <part name="R77" library="rcl" deviceset="R-EU_" device="R2512" value="22R/2-3W"/>
-<part name="C63" library="rcl" deviceset="C-EU" device="C1206" value="4n7/500V"/>
-<part name="C70" library="rcl" deviceset="C-EU" device="C1206" value="4n7/500V"/>
+<part name="C63" library="rcl" deviceset="C-EU" device="C1210" value="2n2/1kV"/>
+<part name="C70" library="rcl" deviceset="C-EU" device="C1210" value="2n2/1kV"/>
 <part name="R73" library="rcl" deviceset="R-EU_" device="R0805" value="10R"/>
 <part name="C58" library="rcl" deviceset="C-EU" device="C1206" value="1u/100V"/>
 <part name="C66" library="rcl" deviceset="C-EU" device="C1206" value="4u7"/>
-<part name="C57" library="EEZ_Lib1" deviceset="ECAP" device="H35.5A" value="UPW1J152MHD"/>
+<part name="C57" library="EEZ_Lib1" deviceset="ECAP" device="H35.5A" value="UVZ1J222MHD"/>
 <part name="TP1" library="EEZ_Lib1" deviceset="PCB_TEST_TAB" device="SHIELD"/>
 <part name="R18" library="rcl" deviceset="R-EU_" device="R0805" value="1K"/>
 <part name="R22" library="rcl" deviceset="R-EU_" device="R0805" value="1K"/>
@@ -16427,7 +16427,7 @@ Solder type</description>
 <part name="D1" library="EEZ_Lib1" deviceset="SCHOTTKY" device="SMB" value="SS110B"/>
 <part name="C10" library="rcl" deviceset="C-EU" device="C0805" value="1u"/>
 <part name="R79" library="rcl" deviceset="R-EU_" device="R0805" value="470R"/>
-<part name="ZD1" library="EEZ_Lib1" deviceset="ZENER-DIODE" device="SOD323" value="BZX384-C13"/>
+<part name="ZD1" library="EEZ_Lib1" deviceset="ZENER-DIODE" device="SOD123" value="BZT52C13"/>
 <part name="R4" library="rcl" deviceset="R-EU_" device="R0805" value="1K8"/>
 <part name="C4" library="rcl" deviceset="C-EU" device="C0603" value="N.C."/>
 <part name="C20" library="EEZ_Lib1" deviceset="C-EU" device="CY" value="CY1Y-4N7"/>
@@ -16443,14 +16443,14 @@ Solder type</description>
 <part name="C9" library="rcl" deviceset="C-EU" device="C0805" value="3n3"/>
 <part name="R1" library="rcl" deviceset="R-EU_" device="R0805" value="120R"/>
 <part name="C1" library="rcl" deviceset="C-EU" device="C0805" value="3n3"/>
-<part name="C27" library="rcl" deviceset="C-EU" device="C0805" value="47p"/>
+<part name="C27" library="rcl" deviceset="C-EU" device="C0805" value="47p/200V"/>
 <part name="C21" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
 <part name="R17" library="rcl" deviceset="R-EU_" device="R0805" value="16K"/>
 <part name="C17" library="rcl" deviceset="C-EU" device="C0805" value="3n3"/>
 <part name="C22" library="rcl" deviceset="C-EU" device="C0805" value="3n3"/>
 <part name="R12" library="rcl" deviceset="R-EU_" device="R0805" value="120R"/>
 <part name="R15" library="rcl" deviceset="R-EU_" device="R0805" value="120R"/>
-<part name="ZD3" library="EEZ_Lib1" deviceset="ZENER-DIODE" device="SOD323" value="MMSZ5V1T1G"/>
+<part name="ZD3" library="EEZ_Lib1" deviceset="ZENER-DIODE" device="SOD123" value="MMSZ5V1T1G"/>
 <part name="SUPPLY77" library="supply2" deviceset="+12V" device=""/>
 <part name="SUPPLY80" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY81" library="supply2" deviceset="GND" device=""/>
@@ -16490,7 +16490,7 @@ Solder type</description>
 <part name="SUPPLY5" library="supply2" deviceset="GND" device=""/>
 <part name="R87" library="rcl" deviceset="R-EU_" device="R0805" value="86K6"/>
 <part name="C78" library="rcl" deviceset="C-EU" device="C0805" value="470p"/>
-<part name="C75" library="rcl" deviceset="C-EU" device="C0805" value="47p"/>
+<part name="C75" library="rcl" deviceset="C-EU" device="C0805" value="47p/200V"/>
 <part name="R92" library="rcl" deviceset="R-EU_" device="R0805" value="7K5"/>
 <part name="R81" library="rcl" deviceset="R-EU_" device="R0805" value="150K"/>
 <part name="C74" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
@@ -16513,7 +16513,7 @@ Solder type</description>
 <part name="SUPPLY6" library="supply2" deviceset="GND" device=""/>
 <part name="JP5" library="EEZ_Lib1" deviceset="JP3-CUT" device=""/>
 <part name="PE4" library="supply1" deviceset="PE" device=""/>
-<part name="R74" library="rcl" deviceset="R-EU_" device="R0805" value="100K"/>
+<part name="R74" library="rcl" deviceset="R-EU_" device="R0805" value="86K6"/>
 <part name="IC5" library="EEZ_Lib1" deviceset="IR11688" device="" value="IR11688STRPBF"/>
 <part name="C5" library="EEZ_Lib1" deviceset="ECAP" device="PANASONIC_H" value="EEEFK1V470P"/>
 <part name="SUPPLY24" library="supply2" deviceset="GND" device=""/>
@@ -16564,20 +16564,20 @@ Solder type</description>
 <part name="R53" library="rcl" deviceset="R-EU_" device="R0805" value="56K"/>
 <part name="D10" library="EEZ_Lib1" deviceset="SCHOTTKY" device="-SIC_L" value="C3D02065E"/>
 <part name="C31" library="rcl" deviceset="C-EU" device="C0603" value="10n"/>
-<part name="Q6" library="EEZ_Lib1" deviceset="IRFP240" device="" value="IPW60R120P7"/>
-<part name="Q5" library="EEZ_Lib1" deviceset="IRFP240" device="" value="IPW60R120P7"/>
+<part name="Q6" library="EEZ_Lib1" deviceset="IRFP240" device="" value="IRFP4332PBF"/>
+<part name="Q5" library="EEZ_Lib1" deviceset="IRFP240" device="" value="IRFP4332PBF"/>
 <part name="C48" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
 <part name="R51" library="rcl" deviceset="R-EU_" device="R0805" value="15K"/>
 <part name="C46" library="rcl" deviceset="C-EU" device="C0805" value="1u"/>
-<part name="R32" library="rcl" deviceset="R-EU_" device="R1206" value="86K6"/>
+<part name="R32" library="rcl" deviceset="R-EU_" device="R0805" value="86K6"/>
 <part name="R47" library="rcl" deviceset="R-EU_" device="R0805" value="8K2"/>
 <part name="R45" library="rcl" deviceset="R-EU_" device="R0805" value="1K"/>
 <part name="Q2" library="EEZ_Lib1" deviceset="IRFP240" device="" value="C3M0280090D"/>
 <part name="Q3" library="EEZ_Lib1" deviceset="IRFP240" device="" value="C3M0280090D"/>
 <part name="R26" library="rcl" deviceset="R-EU_" device="R0805" value="10R"/>
-<part name="D11" library="diode" deviceset="DIODE-" device="SOD323-W" value="1N5819HW-7-F"/>
+<part name="D11" library="diode" deviceset="DIODE-" device="SOD323-W" value="N.C."/>
 <part name="R36" library="rcl" deviceset="R-EU_" device="R0805" value="10R"/>
-<part name="D14" library="diode" deviceset="DIODE-" device="SOD323-W" value="1N5819HW-7-F"/>
+<part name="D14" library="diode" deviceset="DIODE-" device="SOD323-W" value="N.C."/>
 <part name="C45" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
 <part name="D12" library="EEZ_Lib1" deviceset="SCHOTTKY" device="-TO220" value="C3D03060A"/>
 <part name="R55" library="rcl" deviceset="R-EU_" device="R0805" value="1K"/>
@@ -16623,7 +16623,7 @@ Solder type</description>
 <part name="GND3" library="supply1" deviceset="GNDA" device=""/>
 <part name="OK3" library="EEZ_Lib1" deviceset="TLP291" device="" value="TLP291-GB.SE-T"/>
 <part name="SUPPLY60" library="supply2" deviceset="0V" device=""/>
-<part name="C41" library="rcl" deviceset="C-EU" device="C1210" value="4n7/500V"/>
+<part name="C41" library="rcl" deviceset="C-EU" device="C1210" value="2n2/1kV"/>
 <part name="C35" library="EEZ_Lib1" deviceset="ECAP" device="7.5G_18MM" value="UPH2G151MHD6"/>
 <part name="R44" library="rcl" deviceset="R-EU_" device="R0805" value="10R"/>
 <part name="C34" library="EEZ_Lib1" deviceset="ECAP" device="7.5G_18MM" value="UPH2G151MHD6"/>
@@ -16694,8 +16694,8 @@ Solder type</description>
 <part name="R6" library="rcl" deviceset="R-EU_" device="R0805" value="4K7"/>
 <part name="R7" library="rcl" deviceset="R-EU_" device="R0805" value="4K7"/>
 <part name="JP4" library="jump-0r-smd" deviceset="0R-JUMP" device="A"/>
-<part name="R76" library="rcl" deviceset="R-EU_" device="R0805" value="1K"/>
-<part name="R70" library="rcl" deviceset="R-EU_" device="R0805" value="1K"/>
+<part name="R76" library="rcl" deviceset="R-EU_" device="R0805" value="1K8"/>
+<part name="R70" library="rcl" deviceset="R-EU_" device="R0805" value="1K8"/>
 <part name="C71" library="rcl" deviceset="C-EU" device="C0805" value="47p/200V"/>
 <part name="C59" library="rcl" deviceset="C-EU" device="C0805" value="47p/200V"/>
 <part name="R94" library="rcl" deviceset="R-EU_" device="R0805" value="N.C."/>
@@ -17020,9 +17020,9 @@ Solder type</description>
 <attribute name="NAME" x="201.93" y="68.58" size="1.778" layer="95"/>
 <attribute name="VALUE" x="203.2" y="68.58" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R20" gate="G$1" x="66.04" y="27.94" smashed="yes" rot="MR270">
-<attribute name="NAME" x="64.77" y="28.1686" size="1.778" layer="95" rot="MR0"/>
-<attribute name="VALUE" x="64.77" y="25.908" size="1.778" layer="96" rot="MR0"/>
+<instance part="R20" gate="G$1" x="66.04" y="33.02" smashed="yes" rot="MR270">
+<attribute name="NAME" x="64.77" y="33.2486" size="1.778" layer="95" rot="MR0"/>
+<attribute name="VALUE" x="64.77" y="30.988" size="1.778" layer="96" rot="MR0"/>
 </instance>
 <instance part="R14" gate="G$1" x="66.04" y="83.82" smashed="yes" rot="R270">
 <attribute name="NAME" x="64.77" y="85.4964" size="1.778" layer="95" rot="R180"/>
@@ -17517,7 +17517,7 @@ Solder type</description>
 <wire x1="66.04" y1="17.78" x2="53.34" y2="17.78" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="17.78" x2="48.26" y2="17.78" width="0.1524" layer="91"/>
 <pinref part="R20" gate="G$1" pin="2"/>
-<wire x1="66.04" y1="22.86" x2="66.04" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="27.94" x2="66.04" y2="17.78" width="0.1524" layer="91"/>
 <junction x="66.04" y="17.78"/>
 <pinref part="D9" gate="G$1" pin="A"/>
 <wire x1="48.26" y1="17.78" x2="33.02" y2="17.78" width="0.1524" layer="91"/>
@@ -17696,7 +17696,7 @@ Solder type</description>
 <segment>
 <pinref part="IC1" gate="G$1" pin="BR"/>
 <pinref part="R20" gate="G$1" pin="1"/>
-<wire x1="66.04" y1="33.02" x2="66.04" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="38.1" x2="66.04" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="R14" gate="G$1" pin="2"/>
 <wire x1="66.04" y1="55.88" x2="66.04" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="55.88" x2="66.04" y2="55.88" width="0.1524" layer="91"/>
@@ -18197,7 +18197,7 @@ Decrease R58 to 3K3 for ~84oC or to 2K7 for ~90oC.</text>
 </instance>
 <instance part="D11" gate="G$1" x="154.94" y="157.48" smashed="yes" rot="R180">
 <attribute name="NAME" x="152.654" y="159.2326" size="1.778" layer="95"/>
-<attribute name="VALUE" x="148.082" y="154.5336" size="1.27" layer="96"/>
+<attribute name="VALUE" x="152.527" y="153.8986" size="1.778" layer="96"/>
 </instance>
 <instance part="R36" gate="G$1" x="147.32" y="127" smashed="yes">
 <attribute name="NAME" x="145.415" y="130.4036" size="1.778" layer="95"/>
@@ -18205,7 +18205,7 @@ Decrease R58 to 3K3 for ~84oC or to 2K7 for ~90oC.</text>
 </instance>
 <instance part="D14" gate="G$1" x="152.4" y="121.92" smashed="yes" rot="R180">
 <attribute name="NAME" x="150.114" y="123.6726" size="1.778" layer="95"/>
-<attribute name="VALUE" x="146.177" y="118.9736" size="1.27" layer="96"/>
+<attribute name="VALUE" x="150.622" y="118.3386" size="1.778" layer="96"/>
 </instance>
 <instance part="C45" gate="G$1" x="109.22" y="88.9" smashed="yes" rot="R90">
 <attribute name="NAME" x="111.379" y="89.281" size="1.778" layer="95"/>
@@ -19684,8 +19684,8 @@ Decrease R58 to 3K3 for ~84oC or to 2K7 for ~90oC.</text>
 <attribute name="VALUE" x="39.751" y="135.636" size="1.778" layer="96" rot="MR0"/>
 </instance>
 <instance part="C57" gate="G$1" x="149.86" y="157.48" smashed="yes">
-<attribute name="NAME" x="151.003" y="157.9626" size="1.778" layer="95"/>
-<attribute name="VALUE" x="152.2476" y="157.607" size="1.27" layer="96" rot="R270"/>
+<attribute name="NAME" x="150.368" y="157.9626" size="1.778" layer="95"/>
+<attribute name="VALUE" x="150.368" y="152.8826" size="1.27" layer="96"/>
 </instance>
 <instance part="SUPPLY12" gate="GND" x="149.86" y="139.7" smashed="yes">
 <attribute name="VALUE" x="147.32" y="135.89" size="1.778" layer="96"/>
