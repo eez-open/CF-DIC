@@ -78,7 +78,7 @@
 <layer number="101" name="Pinouts" color="13" fill="1" visible="yes" active="yes"/>
 <layer number="102" name="Signals" color="3" fill="1" visible="yes" active="yes"/>
 <layer number="103" name="extrainfo" color="5" fill="1" visible="yes" active="yes"/>
-<layer number="104" name="comments" color="9" fill="1" visible="no" active="yes"/>
+<layer number="104" name="comments" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="105" name="tPlate" color="7" fill="1" visible="no" active="no"/>
 <layer number="106" name="bPlate" color="7" fill="1" visible="no" active="no"/>
 <layer number="107" name="Crop" color="7" fill="1" visible="no" active="no"/>
@@ -13251,23 +13251,29 @@ This work is licensed under the &lt;i&gt;&lt;a href=https://www.tapr.org/OHL&gt;
 <wire x1="-1.092" y1="2.43" x2="-1.93" y2="2.43" width="0.254" layer="51"/>
 <wire x1="-1.93" y1="2.43" x2="-2.43" y2="1.93" width="0.254" layer="51" curve="90"/>
 </package>
-<package name="IHLP-2020BZ-11">
-<text x="-3.079" y="3.948" size="1.27" layer="25">&gt;NAME</text>
-<text x="-3.206" y="-5.198" size="1.27" layer="27">&gt;VALUE</text>
-<smd name="1" x="0" y="2.5146" dx="3.048" dy="1.524" layer="1"/>
-<smd name="2" x="0" y="-2.5146" dx="3.048" dy="1.524" layer="1"/>
-<wire x1="-2.794" y1="-3.556" x2="2.794" y2="-3.556" width="0.1524" layer="39"/>
-<wire x1="2.794" y1="-3.556" x2="2.794" y2="3.556" width="0.1524" layer="39"/>
-<wire x1="2.794" y1="3.556" x2="-2.794" y2="3.556" width="0.1524" layer="39"/>
-<wire x1="-2.794" y1="3.556" x2="-2.794" y2="-3.556" width="0.1524" layer="39"/>
-<wire x1="2.286" y1="2.921" x2="2.794" y2="2.413" width="0.1524" layer="51" curve="-90"/>
-<wire x1="2.794" y1="2.413" x2="2.794" y2="-2.413" width="0.1524" layer="51"/>
-<wire x1="2.794" y1="-2.413" x2="2.286" y2="-2.921" width="0.1524" layer="51" curve="-90"/>
-<wire x1="-2.286" y1="-2.921" x2="-2.794" y2="-2.413" width="0.1524" layer="51" curve="-90"/>
-<wire x1="-2.794" y1="-2.413" x2="-2.794" y2="2.413" width="0.1524" layer="51"/>
-<wire x1="-2.794" y1="2.413" x2="-2.286" y2="2.921" width="0.1524" layer="51" curve="-90"/>
-<wire x1="-2.286" y1="2.921" x2="2.286" y2="2.921" width="0.1524" layer="51"/>
-<wire x1="2.286" y1="-2.921" x2="-2.286" y2="-2.921" width="0.1524" layer="51"/>
+<package name="COILCRAFT_HPI0630">
+<smd name="1" x="-3" y="0" dx="3.5" dy="2.3" layer="1" rot="R90"/>
+<smd name="2" x="3" y="0" dx="3.5" dy="2.3" layer="1" rot="R90"/>
+<wire x1="-2.8" y1="3.4" x2="2.8" y2="3.4" width="0.1524" layer="51"/>
+<wire x1="2.8" y1="-3.4" x2="-2.8" y2="-3.4" width="0.1524" layer="51"/>
+<wire x1="-3.7" y1="-2.5" x2="-3.7" y2="2.5" width="0.1524" layer="51"/>
+<wire x1="3.7" y1="2.5" x2="3.7" y2="-2.5" width="0.1524" layer="51"/>
+<wire x1="-3.7" y1="2.5" x2="-2.8" y2="3.4" width="0.1524" layer="51" curve="-90"/>
+<wire x1="-2.8" y1="-3.4" x2="-3.7" y2="-2.5" width="0.1524" layer="51" curve="-90"/>
+<wire x1="3.7" y1="-2.5" x2="2.8" y2="-3.4" width="0.1524" layer="51" curve="-90"/>
+<wire x1="2.8" y1="3.4" x2="3.7" y2="2.5" width="0.1524" layer="51" curve="-90"/>
+<wire x1="-2.8" y1="-3.4" x2="-3.7" y2="-2.5" width="0.1524" layer="21" curve="-90"/>
+<wire x1="3.7" y1="-2.5" x2="2.8" y2="-3.4" width="0.1524" layer="21" curve="-90"/>
+<wire x1="2.8" y1="3.4" x2="3.7" y2="2.5" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-3.7" y1="2.5" x2="-2.8" y2="3.4" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-2.8" y1="3.4" x2="2.8" y2="3.4" width="0.1524" layer="21"/>
+<wire x1="3.7" y1="2.5" x2="3.7" y2="2.1" width="0.1524" layer="21"/>
+<wire x1="-3.7" y1="2.5" x2="-3.7" y2="2.1" width="0.1524" layer="21"/>
+<wire x1="-3.7" y1="-2.1" x2="-3.7" y2="-2.5" width="0.1524" layer="21"/>
+<wire x1="3.7" y1="-2.1" x2="3.7" y2="-2.5" width="0.1524" layer="21"/>
+<wire x1="-2.8" y1="-3.4" x2="2.8" y2="-3.4" width="0.1524" layer="21"/>
+<text x="-3.175" y="3.81" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" ratio="10" align="center">&gt;VALUE</text>
 </package>
 <package name="MURATA_5300">
 <smd name="1" x="-1.8542" y="-3.81" dx="1.524" dy="1.27" layer="1" rot="R90"/>
@@ -13699,13 +13705,13 @@ This work is licensed under the &lt;i&gt;&lt;a href=https://www.tapr.org/OHL&gt;
 </device>
 </devices>
 </deviceset>
-<deviceset name="IHLP-2020BZ-11" prefix="L" uservalue="yes">
-<description>Low Profile, High Current IHLP® Inductors</description>
+<deviceset name="COILCRAFT_HPI0630" prefix="L" uservalue="yes">
+<description>High power inductor</description>
 <gates>
 <gate name="G$1" symbol="L" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="IHLP-2020BZ-11">
+<device name="" package="COILCRAFT_HPI0630">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -16401,21 +16407,21 @@ Solder type</description>
 <part name="FRAME2" library="frames" deviceset="DINA4_L" device=""/>
 <part name="FRAME3" library="frames" deviceset="DINA4_L" device=""/>
 <part name="C65" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
-<part name="R75" library="rcl" deviceset="R-EU_" device="R0805" value="10R"/>
-<part name="R72" library="rcl" deviceset="R-EU_" device="R0805" value="10R"/>
+<part name="R74" library="rcl" deviceset="R-EU_" device="R0805" value="10R"/>
+<part name="R71" library="rcl" deviceset="R-EU_" device="R0805" value="10R"/>
 <part name="Q7" library="EEZ_Lib1" deviceset="N-MOSFET" device="DPAK" value="FDD86250-F085"/>
 <part name="Q8" library="EEZ_Lib1" deviceset="N-MOSFET" device="DPAK" value="FDD86250-F085"/>
-<part name="R68" library="rcl" deviceset="R-EU_" device="R2512" value="22R/2-3W"/>
-<part name="R77" library="rcl" deviceset="R-EU_" device="R2512" value="22R/2-3W"/>
+<part name="R67" library="rcl" deviceset="R-EU_" device="R2512" value="22R/2-3W"/>
+<part name="R76" library="rcl" deviceset="R-EU_" device="R2512" value="22R/2-3W"/>
 <part name="C63" library="rcl" deviceset="C-EU" device="C1210" value="2n2/1kV"/>
 <part name="C70" library="rcl" deviceset="C-EU" device="C1210" value="2n2/1kV"/>
-<part name="R73" library="rcl" deviceset="R-EU_" device="R0805" value="10R"/>
+<part name="R72" library="rcl" deviceset="R-EU_" device="R0805" value="10R"/>
 <part name="C58" library="rcl" deviceset="C-EU" device="C1206" value="1u/100V"/>
 <part name="C66" library="rcl" deviceset="C-EU" device="C1206" value="4u7"/>
 <part name="C57" library="EEZ_Lib1" deviceset="ECAP" device="H35.5A" value="UVZ1J222MHD"/>
 <part name="TP1" library="EEZ_Lib1" deviceset="PCB_TEST_TAB" device="SHIELD"/>
-<part name="R18" library="rcl" deviceset="R-EU_" device="R0805" value="1K"/>
-<part name="R22" library="rcl" deviceset="R-EU_" device="R0805" value="1K"/>
+<part name="R17" library="rcl" deviceset="R-EU_" device="R0805" value="1K"/>
+<part name="R21" library="rcl" deviceset="R-EU_" device="R0805" value="1K"/>
 <part name="L6" library="EEZ_inductors_and_transformers" deviceset="DE0403" device="" value="DLG-0403-180"/>
 <part name="D6" library="EEZ_Lib1" deviceset="SCHOTTKY" device="SMB" value="SS110B"/>
 <part name="D2" library="EEZ_Lib1" deviceset="SCHOTTKY" device="SMB" value="SS110B"/>
@@ -16426,18 +16432,18 @@ Solder type</description>
 <part name="C18" library="EEZ_Lib1" deviceset="ECAP" device="PANASONIC_H" value="EEEFK1V470P"/>
 <part name="D1" library="EEZ_Lib1" deviceset="SCHOTTKY" device="SMB" value="SS110B"/>
 <part name="C10" library="rcl" deviceset="C-EU" device="C0805" value="1u"/>
-<part name="R79" library="rcl" deviceset="R-EU_" device="R0805" value="470R"/>
+<part name="R78" library="rcl" deviceset="R-EU_" device="R0805" value="470R"/>
 <part name="ZD1" library="EEZ_Lib1" deviceset="ZENER-DIODE" device="SOD123" value="BZT52C13"/>
 <part name="R4" library="rcl" deviceset="R-EU_" device="R0805" value="1K8"/>
 <part name="C4" library="rcl" deviceset="C-EU" device="C0603" value="N.C."/>
 <part name="C20" library="EEZ_Lib1" deviceset="C-EU" device="CY" value="CY1Y-4N7"/>
 <part name="C6" library="rcl" deviceset="C-EU" device="C0805" value="1u"/>
 <part name="OK1" library="EEZ_Lib1" deviceset="TLP291" device="" value="TLP291-GB.SE-T"/>
-<part name="R80" library="rcl" deviceset="R-EU_" device="R0805" value="470R"/>
+<part name="R79" library="rcl" deviceset="R-EU_" device="R0805" value="470R"/>
 <part name="C25" library="rcl" deviceset="C-EU" device="C1206" value="4u7"/>
 <part name="C19" library="rcl" deviceset="C-EU" device="C1206" value="4u7"/>
 <part name="D4" library="EEZ_Lib1" deviceset="DIODE" device="DO214AA" value="US1K-DIO"/>
-<part name="C14" library="rcl" deviceset="C-EU" device="C1210" value="2n2/1kV"/>
+<part name="C14" library="rcl" deviceset="C-EU" device="C1210" value="1n/1kV"/>
 <part name="C28" library="rcl" deviceset="C-EU" device="C0805" value="2n2"/>
 <part name="R5" library="rcl" deviceset="R-EU_" device="R0805" value="120R"/>
 <part name="C9" library="rcl" deviceset="C-EU" device="C0805" value="3n3"/>
@@ -16445,7 +16451,7 @@ Solder type</description>
 <part name="C1" library="rcl" deviceset="C-EU" device="C0805" value="3n3"/>
 <part name="C27" library="rcl" deviceset="C-EU" device="C0805" value="47p/200V"/>
 <part name="C21" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
-<part name="R17" library="rcl" deviceset="R-EU_" device="R0805" value="16K"/>
+<part name="R16" library="rcl" deviceset="R-EU_" device="R0805" value="30K"/>
 <part name="C17" library="rcl" deviceset="C-EU" device="C0805" value="3n3"/>
 <part name="C22" library="rcl" deviceset="C-EU" device="C0805" value="3n3"/>
 <part name="R12" library="rcl" deviceset="R-EU_" device="R0805" value="120R"/>
@@ -16458,62 +16464,61 @@ Solder type</description>
 <part name="SUPPLY85" library="supply2" deviceset="0V" device=""/>
 <part name="C16" library="EEZ_Lib1" deviceset="ECAP" device="5G_10.5MM" value="UCY2G6R8MPD"/>
 <part name="R19" library="rcl" deviceset="R-EU_" device="R0805" value="4K7"/>
-<part name="R21" library="rcl" deviceset="R-EU_" device="R0805" value="47K"/>
+<part name="R20" library="rcl" deviceset="R-EU_" device="R0805" value="47K"/>
 <part name="IC1" library="EEZ_Lib1" deviceset="VIPER35" device="" value="VIPer35L"/>
 <part name="D9" library="EEZ_Lib1" deviceset="DIODE" device="SOD323R" value="BAS316"/>
 <part name="D8" library="EEZ_Lib1" deviceset="DIODE" device="SOD323R" value="BAS316"/>
 <part name="C26" library="rcl" deviceset="C-EU" device="C0805" value="33n"/>
-<part name="R16" library="rcl" deviceset="R-EU_" device="R0805" value="N.C."/>
 <part name="SUPPLY12" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY22" library="supply2" deviceset="GND" device=""/>
-<part name="R8" library="rcl" deviceset="R-EU_" device="R1206" value="36K"/>
+<part name="R8" library="rcl" deviceset="R-EU_" device="R1206" value="100K"/>
 <part name="ZD2" library="EEZ_Lib1" deviceset="ZENER-DIODE" device="SOD123" value="BZT52C20-DC"/>
 <part name="IC6" library="EEZ_Lib1" deviceset="TL072" device="SOIC8" value="LM258D"/>
-<part name="R78" library="rcl" deviceset="R-EU_" device="R0805" value="10K"/>
-<part name="R82" library="rcl" deviceset="R-EU_" device="R0805" value="10K"/>
+<part name="R77" library="rcl" deviceset="R-EU_" device="R0805" value="10K"/>
+<part name="R81" library="rcl" deviceset="R-EU_" device="R0805" value="10K"/>
 <part name="SUPPLY1" library="supply2" deviceset="GND" device=""/>
-<part name="R83" library="rcl" deviceset="R-EU_" device="R0805" value="1K"/>
-<part name="R90" library="rcl" deviceset="R-EU_" device="R0805" value="1K"/>
+<part name="R82" library="rcl" deviceset="R-EU_" device="R0805" value="1K"/>
+<part name="R89" library="rcl" deviceset="R-EU_" device="R0805" value="1K"/>
 <part name="SUPPLY2" library="supply2" deviceset="GND" device=""/>
 <part name="C77" library="rcl" deviceset="C-EU" device="C0805" value="100p"/>
-<part name="R93" library="rcl" deviceset="R-EU_" device="R0805" value="220R"/>
-<part name="R86" library="rcl" deviceset="R-EU_" device="R0805" value="1K"/>
+<part name="R92" library="rcl" deviceset="R-EU_" device="R0805" value="220R"/>
+<part name="R85" library="rcl" deviceset="R-EU_" device="R0805" value="1K"/>
 <part name="C72" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
 <part name="C76" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
 <part name="SUPPLY78" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY3" library="supply2" deviceset="GND" device=""/>
 <part name="IC7" library="EEZ_Lib1" deviceset="TL103W" device="" value="TL103W"/>
-<part name="R89" library="rcl" deviceset="R-EU_" device="R0805" value="3K3"/>
-<part name="R88" library="rcl" deviceset="R-EU_" device="R0805" value="1K8"/>
+<part name="R88" library="rcl" deviceset="R-EU_" device="R0805" value="3K3"/>
+<part name="R87" library="rcl" deviceset="R-EU_" device="R0805" value="1K8"/>
 <part name="SUPPLY4" library="supply2" deviceset="GND" device=""/>
 <part name="C80" library="rcl" deviceset="C-EU" device="C0805" value="1u"/>
 <part name="SUPPLY5" library="supply2" deviceset="GND" device=""/>
-<part name="R87" library="rcl" deviceset="R-EU_" device="R0805" value="86K6"/>
-<part name="C78" library="rcl" deviceset="C-EU" device="C0805" value="470p"/>
+<part name="R86" library="rcl" deviceset="R-EU_" device="R0805" value="27K"/>
+<part name="C78" library="rcl" deviceset="C-EU" device="C0805" value="1n"/>
 <part name="C75" library="rcl" deviceset="C-EU" device="C0805" value="47p/200V"/>
-<part name="R92" library="rcl" deviceset="R-EU_" device="R0805" value="7K5"/>
-<part name="R81" library="rcl" deviceset="R-EU_" device="R0805" value="150K"/>
+<part name="R91" library="rcl" deviceset="R-EU_" device="R0805" value="7K5"/>
+<part name="R80" library="rcl" deviceset="R-EU_" device="R0805" value="150K"/>
 <part name="C74" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
 <part name="C79" library="EEZ_Lib1" deviceset="ECAP" device="1206" value="N.C."/>
-<part name="R91" library="rcl" deviceset="R-EU_" device="R0805" value="5K6"/>
+<part name="R90" library="rcl" deviceset="R-EU_" device="R0805" value="5K6"/>
 <part name="SUPPLY7" library="supply2" deviceset="V-" device=""/>
 <part name="P+21" library="supply2" deviceset="V+" device=""/>
-<part name="R20" library="rcl" deviceset="R-EU_" device="R0805" value="1K8"/>
+<part name="R18" library="rcl" deviceset="R-EU_" device="R0805" value="1K8"/>
 <part name="R14" library="rcl" deviceset="R-EU_" device="R1206" value="100K"/>
 <part name="SUPPLY14" library="supply2" deviceset="GND" device=""/>
-<part name="R67" library="rcl" deviceset="R-EU_" device="R0805" value="120R"/>
-<part name="L9" library="EEZ_inductors_and_transformers" deviceset="IHLP-2020BZ-11" device="" value="IHLP2020CZER3R3M11"/>
+<part name="R66" library="rcl" deviceset="R-EU_" device="R0805" value="120R"/>
+<part name="L9" library="EEZ_inductors_and_transformers" deviceset="COILCRAFT_HPI0630" device="" value="3u3/5A"/>
 <part name="C61" library="rcl" deviceset="C-EU" device="C1206" value="1u/100V"/>
 <part name="R9" library="rcl" deviceset="R-EU_" device="R1206" value="100K"/>
 <part name="TR2" library="EEZ_inductors_and_transformers" deviceset="MURATA_5300" device="" value="53100C"/>
 <part name="D21" library="EEZ_Lib1" deviceset="DIODE" device="SOD323R" value="BAS316"/>
-<part name="R25" library="rcl" deviceset="R-EU_" device="R0805" value="10K"/>
-<part name="R56" library="rcl" deviceset="R-EU_" device="R0805" value="6R2"/>
+<part name="R24" library="rcl" deviceset="R-EU_" device="R0805" value="10K"/>
+<part name="R55" library="rcl" deviceset="R-EU_" device="R0805" value="6R2"/>
 <part name="SH3" library="EEZ_Lib1" deviceset="SHORT" device="NOHOLE"/>
 <part name="SUPPLY6" library="supply2" deviceset="GND" device=""/>
 <part name="JP5" library="EEZ_Lib1" deviceset="JP3-CUT" device=""/>
 <part name="PE4" library="supply1" deviceset="PE" device=""/>
-<part name="R74" library="rcl" deviceset="R-EU_" device="R0805" value="86K6"/>
+<part name="R73" library="rcl" deviceset="R-EU_" device="R0805" value="86K6"/>
 <part name="IC5" library="EEZ_Lib1" deviceset="IR11688" device="" value="IR11688STRPBF"/>
 <part name="C5" library="EEZ_Lib1" deviceset="ECAP" device="PANASONIC_H" value="EEEFK1V470P"/>
 <part name="SUPPLY24" library="supply2" deviceset="GND" device=""/>
@@ -16527,21 +16532,21 @@ Solder type</description>
 <part name="C62" library="rcl" deviceset="C-EU" device="C1206" value="100n/100V"/>
 <part name="SUPPLY15" library="supply2" deviceset="GND" device=""/>
 <part name="C23" library="EEZ_Lib1" deviceset="ECAP" device="5G_10.5MM" value="470u"/>
-<part name="R69" library="rcl" deviceset="R-EU_" device="R1210" value="N.C."/>
+<part name="R68" library="rcl" deviceset="R-EU_" device="R1210" value="N.C."/>
 <part name="C64" library="rcl" deviceset="C-EU" device="C1206" value="N.C."/>
 <part name="C5A" library="EEZ_Lib1" deviceset="C-EU" device="CY" value="N.C."/>
 <part name="C4A" library="EEZ_Lib1" deviceset="C-EU" device="CY-ROTATED" value="N.C."/>
 <part name="C52" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
-<part name="R59" library="rcl" deviceset="R-EU_" device="R0805" value="4K7"/>
-<part name="R63" library="rcl" deviceset="R-EU_" device="R0805" value="30K"/>
-<part name="R64" library="rcl" deviceset="R-EU_" device="R0805" value="10K"/>
+<part name="R58" library="rcl" deviceset="R-EU_" device="R0805" value="4K7"/>
+<part name="R62" library="rcl" deviceset="R-EU_" device="R0805" value="30K"/>
+<part name="R63" library="rcl" deviceset="R-EU_" device="R0805" value="10K"/>
 <part name="Q4" library="EEZ_Lib1" deviceset="NYC0102BLT1G" device=""/>
-<part name="R52" library="rcl" deviceset="R-EU_" device="R0805" value="4K7"/>
+<part name="R51" library="rcl" deviceset="R-EU_" device="R0805" value="4K7"/>
 <part name="D18" library="EEZ_Lib1" deviceset="DIODE" device="SOD323R" value="BAS316"/>
 <part name="D17" library="EEZ_Lib1" deviceset="DIODE" device="SOD323R" value="BAS316"/>
-<part name="R42" library="rcl" deviceset="R-EU_" device="R0805" value="1K"/>
+<part name="R41" library="rcl" deviceset="R-EU_" device="R0805" value="1K"/>
 <part name="SUPPLY70" library="supply2" deviceset="+12V" device=""/>
-<part name="R62" library="rcl" deviceset="R-EU_" device="R0805" value="1K"/>
+<part name="R61" library="rcl" deviceset="R-EU_" device="R0805" value="1K"/>
 <part name="X3" library="EEZ_Lib1" deviceset="B2B-ZR" device=""/>
 <part name="SUPPLY23" library="supply2" deviceset="+12V" device=""/>
 <part name="IC4" library="EEZ_Lib1" deviceset="TL072" device="SOIC8" value="LM258D"/>
@@ -16555,63 +16560,63 @@ Solder type</description>
 <part name="C69" library="rcl" deviceset="C-EU" device="C1206" value="4n7/200V"/>
 <part name="PE3" library="supply1" deviceset="PE" device=""/>
 <part name="SUPPLY16" library="supply2" deviceset="GND" device=""/>
-<part name="R60" library="rcl" deviceset="R-EU_" device="R0805" value="5K6"/>
-<part name="R65" library="rcl" deviceset="R-EU_" device="R0805" value="1K"/>
-<part name="R61" library="rcl" deviceset="R-EU_" device="R0805" value="86K6"/>
+<part name="R59" library="rcl" deviceset="R-EU_" device="R0805" value="5K6"/>
+<part name="R64" library="rcl" deviceset="R-EU_" device="R0805" value="1K"/>
+<part name="R60" library="rcl" deviceset="R-EU_" device="R0805" value="86K6"/>
 <part name="C56" library="rcl" deviceset="C-EU" device="C0805" value="1u"/>
 <part name="IC3" library="EEZ_Lib1" deviceset="LM5041" device="" value="LM5041B"/>
 <part name="C37" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
-<part name="R53" library="rcl" deviceset="R-EU_" device="R0805" value="56K"/>
+<part name="R52" library="rcl" deviceset="R-EU_" device="R0805" value="68K"/>
 <part name="D10" library="EEZ_Lib1" deviceset="SCHOTTKY" device="-SIC_L" value="C3D02065E"/>
 <part name="C31" library="rcl" deviceset="C-EU" device="C0603" value="10n"/>
 <part name="Q6" library="EEZ_Lib1" deviceset="IRFP240" device="" value="IRFP4332PBF"/>
 <part name="Q5" library="EEZ_Lib1" deviceset="IRFP240" device="" value="IRFP4332PBF"/>
 <part name="C48" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
-<part name="R51" library="rcl" deviceset="R-EU_" device="R0805" value="15K"/>
+<part name="R50" library="rcl" deviceset="R-EU_" device="R0805" value="15K"/>
 <part name="C46" library="rcl" deviceset="C-EU" device="C0805" value="1u"/>
-<part name="R32" library="rcl" deviceset="R-EU_" device="R0805" value="86K6"/>
-<part name="R47" library="rcl" deviceset="R-EU_" device="R0805" value="8K2"/>
-<part name="R45" library="rcl" deviceset="R-EU_" device="R0805" value="1K"/>
+<part name="R31" library="rcl" deviceset="R-EU_" device="R0805" value="86K6"/>
+<part name="R46" library="rcl" deviceset="R-EU_" device="R0805" value="8K2"/>
+<part name="R44" library="rcl" deviceset="R-EU_" device="R0805" value="1K"/>
 <part name="Q2" library="EEZ_Lib1" deviceset="IRFP240" device="" value="C3M0280090D"/>
 <part name="Q3" library="EEZ_Lib1" deviceset="IRFP240" device="" value="C3M0280090D"/>
-<part name="R26" library="rcl" deviceset="R-EU_" device="R0805" value="10R"/>
+<part name="R25" library="rcl" deviceset="R-EU_" device="R0805" value="10R"/>
 <part name="D11" library="diode" deviceset="DIODE-" device="SOD323-W" value="N.C."/>
-<part name="R36" library="rcl" deviceset="R-EU_" device="R0805" value="10R"/>
+<part name="R35" library="rcl" deviceset="R-EU_" device="R0805" value="10R"/>
 <part name="D14" library="diode" deviceset="DIODE-" device="SOD323-W" value="N.C."/>
 <part name="C45" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
 <part name="D12" library="EEZ_Lib1" deviceset="SCHOTTKY" device="-TO220" value="C3D03060A"/>
-<part name="R55" library="rcl" deviceset="R-EU_" device="R0805" value="1K"/>
+<part name="R54" library="rcl" deviceset="R-EU_" device="R0805" value="1K"/>
 <part name="C49" library="rcl" deviceset="C-EU" device="C0805" value="2n2"/>
-<part name="R39" library="rcl" deviceset="R-EU_" device="R0805" value="47K"/>
-<part name="R31" library="rcl" deviceset="R-EU_" device="R2512" value="22R/2-3W"/>
+<part name="R38" library="rcl" deviceset="R-EU_" device="R0805" value="47K"/>
+<part name="R30" library="rcl" deviceset="R-EU_" device="R2512" value="22R/2-3W"/>
 <part name="C43" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
 <part name="D22" library="diode" deviceset="DIODE-" device="SOD323-W" value="N.C."/>
-<part name="R50" library="rcl" deviceset="R-EU_" device="R0805" value="10R"/>
+<part name="R49" library="rcl" deviceset="R-EU_" device="R0805" value="10R"/>
 <part name="D20" library="diode" deviceset="DIODE-" device="SOD323-W" value="N.C."/>
-<part name="R54" library="rcl" deviceset="R-EU_" device="R0805" value="10R"/>
-<part name="R30" library="rcl" deviceset="R-EU_" device="R0805" value="100R"/>
+<part name="R53" library="rcl" deviceset="R-EU_" device="R0805" value="10R"/>
 <part name="R29" library="rcl" deviceset="R-EU_" device="R0805" value="100R"/>
-<part name="R23" library="rcl" deviceset="R-EU_" device="R1206" value="100K"/>
+<part name="R28" library="rcl" deviceset="R-EU_" device="R0805" value="100R"/>
+<part name="R22" library="rcl" deviceset="R-EU_" device="R1206" value="100K"/>
 <part name="C44" library="rcl" deviceset="C-EU" device="C0805" value="1u"/>
 <part name="D16" library="EEZ_Lib1" deviceset="SCHOTTKY" device="-SIC_L" value="C3D02065E"/>
 <part name="D19" library="EEZ_Lib1" deviceset="SCHOTTKY" device="-SIC_L" value="C3D02065E"/>
-<part name="R43" library="rcl" deviceset="R-EU_" device="R2512" value="N.C."/>
-<part name="R24" library="rcl" deviceset="R-EU_" device="R0805" value="10R"/>
+<part name="R42" library="rcl" deviceset="R-EU_" device="R2512" value="N.C."/>
+<part name="R23" library="rcl" deviceset="R-EU_" device="R0805" value="10R"/>
 <part name="SH1" library="EEZ_Lib1" deviceset="SHORT" device="NOHOLE"/>
 <part name="IC2" library="EEZ_Lib1" deviceset="SI8233" device="" value="SI8233BB-D-IS1"/>
-<part name="R34" library="rcl" deviceset="R-EU_" device="R0805" value="30K"/>
-<part name="R35" library="rcl" deviceset="R-EU_" device="R0805" value="1R"/>
+<part name="R33" library="rcl" deviceset="R-EU_" device="R0805" value="30K"/>
+<part name="R34" library="rcl" deviceset="R-EU_" device="R0805" value="1R"/>
 <part name="C32" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
 <part name="C33" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
-<part name="R46" library="rcl" deviceset="R-EU_" device="R0805" value="10R"/>
+<part name="R45" library="rcl" deviceset="R-EU_" device="R0805" value="10R"/>
 <part name="C38" library="rcl" deviceset="C-EU" device="C0603" value="10n"/>
 <part name="C39" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
 <part name="C40" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
-<part name="R37" library="rcl" deviceset="R-EU_" device="R0805" value="10R"/>
+<part name="R36" library="rcl" deviceset="R-EU_" device="R0805" value="10R"/>
 <part name="D13" library="diode" deviceset="DIODE-" device="SOD323-W" value="1N5819HW-7-F"/>
 <part name="C30" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
 <part name="C29" library="rcl" deviceset="C-EU" device="C0805" value="1u"/>
-<part name="R40" library="rcl" deviceset="R-EU_" device="R0805" value="1R"/>
+<part name="R39" library="rcl" deviceset="R-EU_" device="R0805" value="1R"/>
 <part name="SUPPLY13" library="supply2" deviceset="+14V" device=""/>
 <part name="L7" library="EEZ_inductors_and_transformers" deviceset="MURATA_6000B" device="" value="60B684C"/>
 <part name="L8" library="EEZ_inductors_and_transformers" deviceset="MURATA_6000B" device="" value="60B684C"/>
@@ -16625,16 +16630,16 @@ Solder type</description>
 <part name="SUPPLY60" library="supply2" deviceset="0V" device=""/>
 <part name="C41" library="rcl" deviceset="C-EU" device="C1210" value="2n2/1kV"/>
 <part name="C35" library="EEZ_Lib1" deviceset="ECAP" device="7.5G_18MM" value="UPH2G151MHD6"/>
-<part name="R44" library="rcl" deviceset="R-EU_" device="R0805" value="10R"/>
+<part name="R43" library="rcl" deviceset="R-EU_" device="R0805" value="10R"/>
 <part name="C34" library="EEZ_Lib1" deviceset="ECAP" device="7.5G_18MM" value="UPH2G151MHD6"/>
 <part name="ZD4" library="EEZ_Lib1" deviceset="ZENER-DIODE" device="SOD123" value="BZT52C6V2"/>
 <part name="TP2" library="EEZ_Lib1" deviceset="JUMPER-2PIN" device="-2MM"/>
+<part name="R47" library="rcl" deviceset="R-EU_" device="R0805" value="86K6"/>
 <part name="R48" library="rcl" deviceset="R-EU_" device="R0805" value="86K6"/>
-<part name="R49" library="rcl" deviceset="R-EU_" device="R0805" value="86K6"/>
-<part name="R57" library="rcl" deviceset="R-EU_" device="R0805" value="1K"/>
+<part name="R56" library="rcl" deviceset="R-EU_" device="R0805" value="1K"/>
 <part name="D15" library="EEZ_Lib1" deviceset="DIODE" device="DO214AA" value="US1K-DIO"/>
-<part name="R41" library="rcl" deviceset="R-EU_" device="R2512" value="22R/2-3W"/>
-<part name="R33" library="rcl" deviceset="R-EU_" device="R2512" value="22R/2-3W"/>
+<part name="R40" library="rcl" deviceset="R-EU_" device="R2512" value="22R/2-3W"/>
+<part name="R32" library="rcl" deviceset="R-EU_" device="R2512" value="22R/2-3W"/>
 <part name="C81" library="rcl" deviceset="C-EU" device="C0805" value="N.C."/>
 <part name="SUPPLY17" library="supply2" deviceset="GND" device=""/>
 <part name="D26" library="EEZ_Lib1" deviceset="DIODE" device="SOD323R" value="BAS316"/>
@@ -16642,47 +16647,47 @@ Solder type</description>
 <part name="JP1" library="EEZ_Lib1" deviceset="JP2-NOCUT" device=""/>
 <part name="JP7" library="EEZ_Lib1" deviceset="JP2-NOCUT" device=""/>
 <part name="JP8" library="EEZ_Lib1" deviceset="JP2-NOCUT" device=""/>
-<part name="R84" library="rcl" deviceset="R-EU_" device="R0805" value="30K"/>
-<part name="C73" library="rcl" deviceset="C-EU" device="C0805" value="1n"/>
-<part name="R85" library="rcl" deviceset="R-EU_" device="R0805" value="1K8"/>
+<part name="R83" library="rcl" deviceset="R-EU_" device="R0805" value="4K7"/>
+<part name="C73" library="rcl" deviceset="C-EU" device="C0805" value="2n2"/>
+<part name="R84" library="rcl" deviceset="R-EU_" device="R0805" value="1K8"/>
 <part name="D23" library="EEZ_Lib1" deviceset="DIODE" device="SOD323R" value="BAS316"/>
 <part name="D25" library="EEZ_Lib1" deviceset="DIODE" device="SOD323R" value="BAS316"/>
 <part name="C50" library="rcl" deviceset="C-EU" device="C0805" value="100p"/>
-<part name="R58" library="rcl" deviceset="R-EU_" device="R0805" value="1K"/>
+<part name="R57" library="rcl" deviceset="R-EU_" device="R0805" value="1K"/>
 <part name="TP3" library="EEZ_connectors" deviceset="TEST-PIN" device="1.2"/>
 <part name="TP4" library="EEZ_connectors" deviceset="TEST-PIN" device="1.2"/>
 <part name="SUPPLY25" library="supply2" deviceset="0V" device=""/>
 <part name="TP5" library="EEZ_connectors" deviceset="TEST_POINT" device="-2"/>
 <part name="LED1" library="EEZ_Lib1" deviceset="LED_L-934EB" device="/1Y1ID-RV" value="L-934EB/1Y1ID-RV"/>
 <part name="X2" library="EEZ_connectors" deviceset="SPOX_22-05-7095" device="" value="22-05-7095"/>
-<part name="R71" library="rcl" deviceset="R-EU_" device="R2512" value="N.C."/>
+<part name="R70" library="rcl" deviceset="R-EU_" device="R2512" value="N.C."/>
 <part name="C51" library="rcl" deviceset="C-EU" device="C0603" value="10n"/>
 <part name="C60" library="EEZ_Lib1" deviceset="ECAP" device="SMD8.3MM/HA0" value="HHXC630ARA330MHA0G"/>
 <part name="C47" library="rcl" deviceset="C-EU" device="C0603" value="10n"/>
-<part name="R27" library="rcl" deviceset="R-EU_" device="R0805" value="N.C."/>
-<part name="R38" library="rcl" deviceset="R-EU_" device="R0805" value="N.C."/>
+<part name="R26" library="rcl" deviceset="R-EU_" device="R0805" value="N.C."/>
+<part name="R37" library="rcl" deviceset="R-EU_" device="R0805" value="N.C."/>
 <part name="SUPPLY26" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY27" library="supply2" deviceset="+12V" device=""/>
 <part name="C54" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
 <part name="C55" library="rcl" deviceset="C-EU" device="C0603" value="N.C."/>
 <part name="D24" library="EEZ_Lib1" deviceset="DIODE" device="SOD323R" value="BAS316"/>
 <part name="C53" library="rcl" deviceset="C-EU" device="C0805" value="1u"/>
-<part name="R66" library="rcl" deviceset="R-EU_" device="R0805" value="1K"/>
+<part name="R65" library="rcl" deviceset="R-EU_" device="R0805" value="1K"/>
 <part name="L3" library="EEZ_Lib1" deviceset="FERYSTER_DSZ6" device="" value="RLB0812-471KL"/>
 <part name="JP3" library="EEZ_Lib1" deviceset="JP2-NOCUT" device=""/>
 <part name="PE2" library="supply1" deviceset="PE" device=""/>
 <part name="C67" library="rcl" deviceset="C-EU" device="C1206" value="4n7/200V"/>
 <part name="SH2" library="EEZ_Lib1" deviceset="SHORT" device="NOHOLE"/>
-<part name="R28" library="rcl" deviceset="R-EU_" device="R1206" value="100K"/>
+<part name="R27" library="rcl" deviceset="R-EU_" device="R1206" value="100K"/>
 <part name="R13" library="rcl" deviceset="R-EU_" device="R1206" value="100K"/>
 <part name="Q10" library="transistor" deviceset="*-PNP-" device="SOT23-BEC" technology="BC857C" value="BC856C"/>
 <part name="Q9" library="transistor" deviceset="*-PNP-" device="SOT23-BEC" technology="BC857C" value="BC856C"/>
-<part name="R98" library="rcl" deviceset="R-EU_" device="R0805" value="180K"/>
+<part name="R97" library="rcl" deviceset="R-EU_" device="R0805" value="180K"/>
+<part name="R95" library="rcl" deviceset="R-EU_" device="R0805" value="10K"/>
 <part name="R96" library="rcl" deviceset="R-EU_" device="R0805" value="10K"/>
-<part name="R97" library="rcl" deviceset="R-EU_" device="R0805" value="10K"/>
-<part name="R99" library="rcl" deviceset="R-EU_" device="R0805" value="39K"/>
-<part name="R101" library="rcl" deviceset="R-EU_" device="R0805" value="39K"/>
-<part name="R100" library="rcl" deviceset="R-EU_" device="R0805" value="18K"/>
+<part name="R98" library="rcl" deviceset="R-EU_" device="R0805" value="39K"/>
+<part name="R100" library="rcl" deviceset="R-EU_" device="R0805" value="39K"/>
+<part name="R99" library="rcl" deviceset="R-EU_" device="R0805" value="18K"/>
 <part name="D3" library="EEZ_Lib1" deviceset="SCHOTTKY" device="SMB" value="SS110B"/>
 <part name="L4" library="EEZ_inductors_and_transformers" deviceset="DE0403" device="" value="DLG-0403-180"/>
 <part name="C12" library="EEZ_Lib1" deviceset="ECAP" device="PANASONIC_H" value="EEEFK1V470P"/>
@@ -16694,16 +16699,16 @@ Solder type</description>
 <part name="R6" library="rcl" deviceset="R-EU_" device="R0805" value="4K7"/>
 <part name="R7" library="rcl" deviceset="R-EU_" device="R0805" value="4K7"/>
 <part name="JP4" library="jump-0r-smd" deviceset="0R-JUMP" device="A"/>
-<part name="R76" library="rcl" deviceset="R-EU_" device="R0805" value="1K8"/>
-<part name="R70" library="rcl" deviceset="R-EU_" device="R0805" value="1K8"/>
+<part name="R75" library="rcl" deviceset="R-EU_" device="R0805" value="1K"/>
+<part name="R69" library="rcl" deviceset="R-EU_" device="R0805" value="1K"/>
 <part name="C71" library="rcl" deviceset="C-EU" device="C0805" value="47p/200V"/>
 <part name="C59" library="rcl" deviceset="C-EU" device="C0805" value="47p/200V"/>
-<part name="R94" library="rcl" deviceset="R-EU_" device="R0805" value="N.C."/>
+<part name="R93" library="rcl" deviceset="R-EU_" device="R0805" value="N.C."/>
 <part name="TP6" library="EEZ_Lib1" deviceset="JUMPER-2PIN" device="-2MM"/>
-<part name="R95" library="rcl" deviceset="R-EU_" device="R0805" value="N.C."/>
+<part name="R94" library="rcl" deviceset="R-EU_" device="R0805" value="N.C."/>
 <part name="SUPPLY11" library="supply2" deviceset="GND" device=""/>
-<part name="D7" library="EEZ_Lib1" deviceset="SCHOTTKY" device="SMA_DO-214AC" value="SS100B"/>
-<part name="R11" library="rcl" deviceset="R-EU_" device="R1206" value="36K"/>
+<part name="D7" library="EEZ_Lib1" deviceset="SCHOTTKY" device="SMA_DO-214AC" value="SS110B"/>
+<part name="R11" library="rcl" deviceset="R-EU_" device="R1206" value="100K"/>
 <part name="JP6" library="EEZ_Lib1" deviceset="JP3-CUT" device=""/>
 </parts>
 <sheets>
@@ -16716,13 +16721,11 @@ Solder type</description>
 <text x="48.895" y="88.265" size="1.27" layer="100">Star ground</text>
 <text x="46.99" y="23.495" size="1.27" layer="100" rot="MR0">Rlim</text>
 <text x="38.735" y="33.02" size="1.27" layer="100">Rovp</text>
-<text x="40.005" y="43.18" size="1.27" layer="100" rot="MR0">Rff</text>
 <text x="5.715" y="154.305" size="1.27" layer="100">AC in (115/230 V)</text>
 <wire x1="2.54" y1="121.92" x2="111.76" y2="121.92" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="111.76" y1="121.92" x2="111.76" y2="175.26" width="0.1524" layer="97" style="shortdash"/>
 <text x="6.35" y="118.745" size="1.778" layer="97">QR Flyback</text>
 <text x="6.35" y="174.625" size="1.778" layer="97">AC input</text>
-<rectangle x1="29.845" y1="42.545" x2="40.64" y2="47.625" layer="97"/>
 <text x="81.28" y="20.32" size="1.27" layer="100" rot="MR0">Cfb</text>
 <text x="78.105" y="29.21" size="1.27" layer="100">Cfb1</text>
 <text x="68.58" y="19.05" size="1.27" layer="100">Rfb1</text>
@@ -16770,11 +16773,11 @@ Solder type</description>
 <text x="240.665" y="126.365" size="1.4224" layer="101" rot="R180">V- 9</text>
 </plain>
 <instances>
-<instance part="R18" gate="G$1" x="134.62" y="35.56" smashed="yes" rot="R270">
+<instance part="R17" gate="G$1" x="134.62" y="35.56" smashed="yes" rot="R270">
 <attribute name="NAME" x="133.35" y="37.8714" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="133.35" y="35.687" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="R22" gate="G$1" x="139.7" y="20.32" smashed="yes">
+<instance part="R21" gate="G$1" x="139.7" y="20.32" smashed="yes">
 <attribute name="NAME" x="137.16" y="21.8186" size="1.778" layer="95"/>
 <attribute name="VALUE" x="137.795" y="17.018" size="1.778" layer="96"/>
 </instance>
@@ -16886,7 +16889,7 @@ Solder type</description>
 <attribute name="NAME" x="82.931" y="70.866" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="82.931" y="67.056" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="R17" gate="G$1" x="40.64" y="38.1" smashed="yes" rot="MR0">
+<instance part="R16" gate="G$1" x="40.64" y="38.1" smashed="yes" rot="MR0">
 <attribute name="NAME" x="42.545" y="39.5986" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="42.545" y="34.798" size="1.778" layer="96" rot="MR0"/>
 </instance>
@@ -16936,7 +16939,7 @@ Solder type</description>
 <attribute name="NAME" x="46.99" y="29.6164" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="46.99" y="27.432" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="R21" gate="G$1" x="73.66" y="22.86" smashed="yes" rot="R270">
+<instance part="R20" gate="G$1" x="73.66" y="22.86" smashed="yes" rot="R270">
 <attribute name="NAME" x="72.39" y="23.0886" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="72.39" y="20.828" size="1.778" layer="96" rot="MR0"/>
 </instance>
@@ -16955,10 +16958,6 @@ Solder type</description>
 <instance part="C26" gate="G$1" x="76.2" y="33.02" smashed="yes" rot="R90">
 <attribute name="NAME" x="78.359" y="33.401" size="1.778" layer="95"/>
 <attribute name="VALUE" x="78.359" y="32.639" size="1.778" layer="96" rot="MR180"/>
-</instance>
-<instance part="R16" gate="G$1" x="35.56" y="45.72" smashed="yes" rot="MR0">
-<attribute name="NAME" x="37.465" y="47.2186" size="1.778" layer="95" rot="MR0"/>
-<attribute name="VALUE" x="37.465" y="42.418" size="1.778" layer="96" rot="MR0"/>
 </instance>
 <instance part="SUPPLY22" gate="GND" x="109.22" y="73.66" smashed="yes">
 <attribute name="VALUE" x="107.315" y="74.295" size="1.778" layer="96" rot="R180"/>
@@ -17020,7 +17019,7 @@ Solder type</description>
 <attribute name="NAME" x="201.93" y="68.58" size="1.778" layer="95"/>
 <attribute name="VALUE" x="203.2" y="68.58" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R20" gate="G$1" x="66.04" y="33.02" smashed="yes" rot="MR270">
+<instance part="R18" gate="G$1" x="66.04" y="33.02" smashed="yes" rot="MR270">
 <attribute name="NAME" x="64.77" y="33.2486" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="64.77" y="30.988" size="1.778" layer="96" rot="MR0"/>
 </instance>
@@ -17281,7 +17280,7 @@ Solder type</description>
 </net>
 <net name="N$135" class="0">
 <segment>
-<pinref part="R18" gate="G$1" pin="2"/>
+<pinref part="R17" gate="G$1" pin="2"/>
 <wire x1="119.38" y1="25.4" x2="134.62" y2="25.4" width="0.1524" layer="91"/>
 <pinref part="OK1" gate="G$1" pin="A"/>
 <wire x1="134.62" y1="25.4" x2="134.62" y2="30.48" width="0.1524" layer="91"/>
@@ -17289,7 +17288,7 @@ Solder type</description>
 </net>
 <net name="+6V_REC" class="0">
 <segment>
-<pinref part="R18" gate="G$1" pin="1"/>
+<pinref part="R17" gate="G$1" pin="1"/>
 <pinref part="L6" gate="G$1" pin="1"/>
 <pinref part="D6" gate="G$1" pin="C"/>
 <wire x1="127" y1="73.66" x2="132.08" y2="73.66" width="0.1524" layer="91"/>
@@ -17360,17 +17359,14 @@ Solder type</description>
 <pinref part="C27" gate="G$1" pin="1"/>
 <wire x1="53.34" y1="38.1" x2="53.34" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="38.1" x2="48.26" y2="38.1" width="0.1524" layer="91"/>
-<pinref part="R17" gate="G$1" pin="1"/>
+<pinref part="R16" gate="G$1" pin="1"/>
 <pinref part="R19" gate="G$1" pin="2"/>
 <wire x1="48.26" y1="33.02" x2="48.26" y2="38.1" width="0.1524" layer="91"/>
 <junction x="48.26" y="38.1"/>
 <wire x1="48.26" y1="38.1" x2="53.34" y2="38.1" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="G$1" pin="ZCD"/>
-<pinref part="R16" gate="G$1" pin="1"/>
-<wire x1="40.64" y1="45.72" x2="48.26" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="48.26" y1="45.72" x2="48.26" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="45.72" x2="48.26" y2="45.72" width="0.1524" layer="91"/>
-<junction x="48.26" y="45.72"/>
 </segment>
 </net>
 <net name="N$144" class="0">
@@ -17510,13 +17506,13 @@ Solder type</description>
 <wire x1="99.06" y1="17.78" x2="99.06" y2="20.32" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="20.32" x2="101.6" y2="20.32" width="0.1524" layer="91"/>
 <wire x1="83.82" y1="17.78" x2="73.66" y2="17.78" width="0.1524" layer="91"/>
-<pinref part="R21" gate="G$1" pin="2"/>
+<pinref part="R20" gate="G$1" pin="2"/>
 <junction x="73.66" y="17.78"/>
 <wire x1="73.66" y1="17.78" x2="66.04" y2="17.78" width="0.1524" layer="91"/>
 <junction x="53.34" y="17.78"/>
 <wire x1="66.04" y1="17.78" x2="53.34" y2="17.78" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="17.78" x2="48.26" y2="17.78" width="0.1524" layer="91"/>
-<pinref part="R20" gate="G$1" pin="2"/>
+<pinref part="R18" gate="G$1" pin="2"/>
 <wire x1="66.04" y1="27.94" x2="66.04" y2="17.78" width="0.1524" layer="91"/>
 <junction x="66.04" y="17.78"/>
 <pinref part="D9" gate="G$1" pin="A"/>
@@ -17537,7 +17533,7 @@ Solder type</description>
 </net>
 <net name="FB2" class="0">
 <segment>
-<pinref part="R22" gate="G$1" pin="1"/>
+<pinref part="R21" gate="G$1" pin="1"/>
 <pinref part="OK1" gate="G$1" pin="C"/>
 <pinref part="ZD3" gate="G$1" pin="C"/>
 <wire x1="124.46" y1="20.32" x2="134.62" y2="20.32" width="0.1524" layer="91"/>
@@ -17549,7 +17545,7 @@ Solder type</description>
 <net name="N$152" class="0">
 <segment>
 <pinref part="C26" gate="G$1" pin="1"/>
-<pinref part="R21" gate="G$1" pin="1"/>
+<pinref part="R20" gate="G$1" pin="1"/>
 <wire x1="73.66" y1="33.02" x2="73.66" y2="27.94" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -17573,14 +17569,10 @@ Solder type</description>
 <wire x1="25.4" y1="38.1" x2="22.86" y2="38.1" width="0.1524" layer="91"/>
 <pinref part="D8" gate="G$1" pin="A"/>
 <label x="20.32" y="38.1" size="1.27" layer="102" rot="MR0" xref="yes"/>
-<pinref part="R16" gate="G$1" pin="2"/>
 <wire x1="22.86" y1="38.1" x2="20.32" y2="38.1" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="45.72" x2="22.86" y2="45.72" width="0.1524" layer="91"/>
-<wire x1="22.86" y1="45.72" x2="22.86" y2="38.1" width="0.1524" layer="91"/>
 <junction x="22.86" y="38.1"/>
 <wire x1="33.02" y1="66.04" x2="22.86" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="22.86" y1="66.04" x2="22.86" y2="45.72" width="0.1524" layer="91"/>
-<junction x="22.86" y="45.72"/>
+<wire x1="22.86" y1="66.04" x2="22.86" y2="38.1" width="0.1524" layer="91"/>
 <pinref part="D7" gate="G$1" pin="A"/>
 </segment>
 </net>
@@ -17590,7 +17582,7 @@ Solder type</description>
 <wire x1="30.48" y1="38.1" x2="33.02" y2="38.1" width="0.1524" layer="91"/>
 <pinref part="D9" gate="G$1" pin="C"/>
 <wire x1="33.02" y1="38.1" x2="33.02" y2="30.48" width="0.1524" layer="91"/>
-<pinref part="R17" gate="G$1" pin="2"/>
+<pinref part="R16" gate="G$1" pin="2"/>
 <wire x1="33.02" y1="38.1" x2="35.56" y2="38.1" width="0.1524" layer="91"/>
 <junction x="33.02" y="38.1"/>
 </segment>
@@ -17695,7 +17687,7 @@ Solder type</description>
 <net name="N$20" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="BR"/>
-<pinref part="R20" gate="G$1" pin="1"/>
+<pinref part="R18" gate="G$1" pin="1"/>
 <wire x1="66.04" y1="38.1" x2="66.04" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="R14" gate="G$1" pin="2"/>
 <wire x1="66.04" y1="55.88" x2="66.04" y2="78.74" width="0.1524" layer="91"/>
@@ -17773,7 +17765,7 @@ Solder type</description>
 <wire x1="147.32" y1="68.58" x2="149.86" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="149.86" y1="68.58" x2="154.94" y2="73.66" width="0.1524" layer="91"/>
 <junction x="154.94" y="73.66"/>
-<pinref part="R22" gate="G$1" pin="2"/>
+<pinref part="R21" gate="G$1" pin="2"/>
 <wire x1="144.78" y1="20.32" x2="147.32" y2="20.32" width="0.1524" layer="91"/>
 <wire x1="147.32" y1="20.32" x2="147.32" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="198.12" y1="73.66" x2="154.94" y2="73.66" width="0.1524" layer="91"/>
@@ -18036,11 +18028,11 @@ Decrease R58 to 3K3 for ~84oC or to 2K7 for ~90oC.</text>
 <attribute name="NAME" x="145.669" y="70.3326" size="1.778" layer="95"/>
 <attribute name="VALUE" x="143.637" y="66.4464" size="1.778" layer="96" rot="MR180"/>
 </instance>
-<instance part="R25" gate="G$1" x="203.2" y="165.1" smashed="yes" rot="MR270">
+<instance part="R24" gate="G$1" x="203.2" y="165.1" smashed="yes" rot="MR270">
 <attribute name="NAME" x="204.47" y="166.7764" size="1.778" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="204.47" y="164.592" size="1.778" layer="96" rot="MR180"/>
 </instance>
-<instance part="R56" gate="G$1" x="142.24" y="60.96" smashed="yes" rot="MR270">
+<instance part="R55" gate="G$1" x="142.24" y="60.96" smashed="yes" rot="MR270">
 <attribute name="NAME" x="143.51" y="62.6364" size="1.778" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="143.51" y="60.452" size="1.778" layer="96" rot="MR180"/>
 </instance>
@@ -18048,15 +18040,15 @@ Decrease R58 to 3K3 for ~84oC or to 2K7 for ~90oC.</text>
 <attribute name="NAME" x="46.101" y="35.179" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="46.101" y="32.639" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="R59" gate="G$1" x="66.04" y="30.48" smashed="yes" rot="R90">
+<instance part="R58" gate="G$1" x="66.04" y="30.48" smashed="yes" rot="R90">
 <attribute name="NAME" x="64.77" y="30.7086" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="64.77" y="28.448" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="R63" gate="G$1" x="66.04" y="15.24" smashed="yes" rot="R270">
+<instance part="R62" gate="G$1" x="66.04" y="15.24" smashed="yes" rot="R270">
 <attribute name="NAME" x="64.77" y="15.4686" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="64.77" y="13.208" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="R64" gate="G$1" x="78.74" y="15.24" smashed="yes" rot="R270">
+<instance part="R63" gate="G$1" x="78.74" y="15.24" smashed="yes" rot="R270">
 <attribute name="NAME" x="80.01" y="17.5514" size="1.778" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="80.01" y="15.367" size="1.778" layer="96" rot="MR180"/>
 </instance>
@@ -18064,7 +18056,7 @@ Decrease R58 to 3K3 for ~84oC or to 2K7 for ~90oC.</text>
 <attribute name="NAME" x="22.225" y="90.805" size="1.778" layer="95"/>
 <attribute name="VALUE" x="22.225" y="88.9" size="1.27" layer="96"/>
 </instance>
-<instance part="R52" gate="G$1" x="15.24" y="73.66" smashed="yes" rot="MR270">
+<instance part="R51" gate="G$1" x="15.24" y="73.66" smashed="yes" rot="MR270">
 <attribute name="NAME" x="13.97" y="73.8886" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="13.97" y="71.628" size="1.778" layer="96" rot="MR0"/>
 </instance>
@@ -18076,14 +18068,14 @@ Decrease R58 to 3K3 for ~84oC or to 2K7 for ~90oC.</text>
 <attribute name="NAME" x="10.414" y="100.8126" size="1.778" layer="95"/>
 <attribute name="VALUE" x="8.382" y="95.4786" size="1.778" layer="96"/>
 </instance>
-<instance part="R42" gate="G$1" x="7.62" y="109.22" smashed="yes" rot="R270">
+<instance part="R41" gate="G$1" x="7.62" y="109.22" smashed="yes" rot="R270">
 <attribute name="NAME" x="8.89" y="109.4486" size="1.778" layer="95"/>
 <attribute name="VALUE" x="8.89" y="107.188" size="1.778" layer="96"/>
 </instance>
 <instance part="SUPPLY70" gate="+12V" x="7.62" y="132.08" smashed="yes">
 <attribute name="VALUE" x="4.445" y="135.255" size="1.778" layer="96"/>
 </instance>
-<instance part="R62" gate="G$1" x="15.24" y="17.78" smashed="yes" rot="R270">
+<instance part="R61" gate="G$1" x="15.24" y="17.78" smashed="yes" rot="R270">
 <attribute name="NAME" x="16.51" y="20.0914" size="1.778" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="16.51" y="17.907" size="1.778" layer="96" rot="MR180"/>
 </instance>
@@ -18115,15 +18107,15 @@ Decrease R58 to 3K3 for ~84oC or to 2K7 for ~90oC.</text>
 <instance part="SUPPLY19" gate="GND" x="27.94" y="111.76" smashed="yes">
 <attribute name="VALUE" x="24.765" y="107.95" size="1.778" layer="96"/>
 </instance>
-<instance part="R60" gate="G$1" x="116.84" y="30.48" smashed="yes" rot="MR90">
+<instance part="R59" gate="G$1" x="116.84" y="30.48" smashed="yes" rot="MR90">
 <attribute name="NAME" x="115.57" y="30.7086" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="115.57" y="28.448" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="R65" gate="G$1" x="116.84" y="15.24" smashed="yes" rot="R270">
+<instance part="R64" gate="G$1" x="116.84" y="15.24" smashed="yes" rot="R270">
 <attribute name="NAME" x="115.57" y="15.4686" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="115.57" y="13.208" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="R61" gate="G$1" x="147.32" y="22.86" smashed="yes" rot="MR0">
+<instance part="R60" gate="G$1" x="147.32" y="22.86" smashed="yes" rot="MR0">
 <attribute name="NAME" x="144.78" y="24.3586" size="1.778" layer="95"/>
 <attribute name="VALUE" x="144.78" y="19.558" size="1.778" layer="96"/>
 </instance>
@@ -18139,7 +18131,7 @@ Decrease R58 to 3K3 for ~84oC or to 2K7 for ~90oC.</text>
 <attribute name="NAME" x="88.519" y="143.129" size="1.778" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="88.519" y="141.224" size="1.778" layer="96" rot="MR180"/>
 </instance>
-<instance part="R53" gate="G$1" x="63.5" y="73.66" smashed="yes" rot="R180">
+<instance part="R52" gate="G$1" x="63.5" y="73.66" smashed="yes" rot="R180">
 <attribute name="NAME" x="61.595" y="75.1586" size="1.778" layer="95"/>
 <attribute name="VALUE" x="60.96" y="70.358" size="1.778" layer="96"/>
 </instance>
@@ -18163,7 +18155,7 @@ Decrease R58 to 3K3 for ~84oC or to 2K7 for ~90oC.</text>
 <attribute name="NAME" x="55.499" y="68.961" size="1.778" layer="95"/>
 <attribute name="VALUE" x="55.499" y="66.421" size="1.778" layer="96"/>
 </instance>
-<instance part="R51" gate="G$1" x="55.88" y="78.74" smashed="yes" rot="R180">
+<instance part="R50" gate="G$1" x="55.88" y="78.74" smashed="yes" rot="R180">
 <attribute name="NAME" x="53.975" y="80.2386" size="1.778" layer="95"/>
 <attribute name="VALUE" x="53.975" y="75.438" size="1.778" layer="96"/>
 </instance>
@@ -18171,15 +18163,15 @@ Decrease R58 to 3K3 for ~84oC or to 2K7 for ~90oC.</text>
 <attribute name="NAME" x="65.659" y="84.201" size="1.778" layer="95"/>
 <attribute name="VALUE" x="65.659" y="81.661" size="1.778" layer="96"/>
 </instance>
-<instance part="R32" gate="G$1" x="45.72" y="142.24" smashed="yes" rot="R270">
+<instance part="R31" gate="G$1" x="45.72" y="142.24" smashed="yes" rot="R270">
 <attribute name="NAME" x="44.45" y="144.5514" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="44.45" y="142.367" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="R47" gate="G$1" x="50.8" y="93.98" smashed="yes" rot="R270">
+<instance part="R46" gate="G$1" x="50.8" y="93.98" smashed="yes" rot="R270">
 <attribute name="NAME" x="52.07" y="94.8436" size="1.778" layer="95"/>
 <attribute name="VALUE" x="52.07" y="92.583" size="1.778" layer="96"/>
 </instance>
-<instance part="R45" gate="G$1" x="58.42" y="99.06" smashed="yes" rot="R180">
+<instance part="R44" gate="G$1" x="58.42" y="99.06" smashed="yes" rot="R180">
 <attribute name="NAME" x="55.88" y="100.5586" size="1.778" layer="95"/>
 <attribute name="VALUE" x="56.515" y="95.758" size="1.778" layer="96"/>
 </instance>
@@ -18191,7 +18183,7 @@ Decrease R58 to 3K3 for ~84oC or to 2K7 for ~90oC.</text>
 <attribute name="NAME" x="163.195" y="130.175" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="163.195" y="127.635" size="1.27" layer="96" rot="MR0"/>
 </instance>
-<instance part="R26" gate="G$1" x="149.86" y="162.56" smashed="yes" rot="R180">
+<instance part="R25" gate="G$1" x="149.86" y="162.56" smashed="yes" rot="R180">
 <attribute name="NAME" x="147.955" y="165.9636" size="1.778" layer="95"/>
 <attribute name="VALUE" x="147.955" y="163.703" size="1.778" layer="96"/>
 </instance>
@@ -18199,7 +18191,7 @@ Decrease R58 to 3K3 for ~84oC or to 2K7 for ~90oC.</text>
 <attribute name="NAME" x="152.654" y="159.2326" size="1.778" layer="95"/>
 <attribute name="VALUE" x="152.527" y="153.8986" size="1.778" layer="96"/>
 </instance>
-<instance part="R36" gate="G$1" x="147.32" y="127" smashed="yes">
+<instance part="R35" gate="G$1" x="147.32" y="127" smashed="yes">
 <attribute name="NAME" x="145.415" y="130.4036" size="1.778" layer="95"/>
 <attribute name="VALUE" x="145.415" y="128.143" size="1.778" layer="96"/>
 </instance>
@@ -18215,7 +18207,7 @@ Decrease R58 to 3K3 for ~84oC or to 2K7 for ~90oC.</text>
 <attribute name="NAME" x="172.466" y="141.605" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="169.926" y="140.716" size="1.27" layer="96" rot="R270"/>
 </instance>
-<instance part="R55" gate="G$1" x="134.62" y="68.58" smashed="yes" rot="R180">
+<instance part="R54" gate="G$1" x="134.62" y="68.58" smashed="yes" rot="R180">
 <attribute name="NAME" x="132.715" y="70.0786" size="1.778" layer="95"/>
 <attribute name="VALUE" x="133.35" y="65.278" size="1.778" layer="96"/>
 </instance>
@@ -18223,11 +18215,11 @@ Decrease R58 to 3K3 for ~84oC or to 2K7 for ~90oC.</text>
 <attribute name="NAME" x="124.841" y="64.516" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="124.841" y="62.611" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="R39" gate="G$1" x="160.02" y="121.92" smashed="yes">
+<instance part="R38" gate="G$1" x="160.02" y="121.92" smashed="yes">
 <attribute name="NAME" x="157.48" y="123.4186" size="1.778" layer="95"/>
 <attribute name="VALUE" x="158.75" y="118.618" size="1.778" layer="96"/>
 </instance>
-<instance part="R31" gate="G$1" x="226.06" y="147.32" smashed="yes" rot="R90">
+<instance part="R30" gate="G$1" x="226.06" y="147.32" smashed="yes" rot="R90">
 <attribute name="NAME" x="224.79" y="147.5486" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="224.79" y="145.288" size="1.778" layer="96" rot="MR0"/>
 </instance>
@@ -18239,7 +18231,7 @@ Decrease R58 to 3K3 for ~84oC or to 2K7 for ~90oC.</text>
 <attribute name="NAME" x="201.422" y="62.7126" size="1.778" layer="95"/>
 <attribute name="VALUE" x="201.422" y="60.5536" size="1.778" layer="96"/>
 </instance>
-<instance part="R50" gate="G$1" x="203.2" y="81.28" smashed="yes" rot="R180">
+<instance part="R49" gate="G$1" x="203.2" y="81.28" smashed="yes" rot="R180">
 <attribute name="NAME" x="201.295" y="82.7786" size="1.778" layer="95"/>
 <attribute name="VALUE" x="201.295" y="77.978" size="1.778" layer="96"/>
 </instance>
@@ -18247,19 +18239,19 @@ Decrease R58 to 3K3 for ~84oC or to 2K7 for ~90oC.</text>
 <attribute name="NAME" x="201.422" y="90.0176" size="1.778" layer="95"/>
 <attribute name="VALUE" x="201.422" y="87.8586" size="1.778" layer="96"/>
 </instance>
-<instance part="R54" gate="G$1" x="203.2" y="71.12" smashed="yes" rot="R180">
+<instance part="R53" gate="G$1" x="203.2" y="71.12" smashed="yes" rot="R180">
 <attribute name="NAME" x="200.66" y="72.6186" size="1.778" layer="95"/>
 <attribute name="VALUE" x="201.295" y="67.818" size="1.778" layer="96"/>
 </instance>
-<instance part="R30" gate="G$1" x="88.9" y="149.86" smashed="yes" rot="R180">
+<instance part="R29" gate="G$1" x="88.9" y="149.86" smashed="yes" rot="R180">
 <attribute name="NAME" x="86.36" y="146.9136" size="1.778" layer="95"/>
 <attribute name="VALUE" x="92.075" y="150.368" size="1.778" layer="96"/>
 </instance>
-<instance part="R29" gate="G$1" x="88.9" y="152.4" smashed="yes" rot="R180">
+<instance part="R28" gate="G$1" x="88.9" y="152.4" smashed="yes" rot="R180">
 <attribute name="NAME" x="86.36" y="155.3464" size="1.778" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="92.075" y="152.908" size="1.778" layer="96"/>
 </instance>
-<instance part="R23" gate="G$1" x="45.72" y="167.64" smashed="yes" rot="MR270">
+<instance part="R22" gate="G$1" x="45.72" y="167.64" smashed="yes" rot="MR270">
 <attribute name="NAME" x="46.99" y="169.3164" size="1.778" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="46.99" y="167.132" size="1.778" layer="96" rot="MR180"/>
 </instance>
@@ -18275,11 +18267,11 @@ Decrease R58 to 3K3 for ~84oC or to 2K7 for ~90oC.</text>
 <attribute name="NAME" x="211.709" y="100.965" size="1.778" layer="95"/>
 <attribute name="VALUE" x="207.264" y="95.631" size="1.778" layer="96"/>
 </instance>
-<instance part="R43" gate="G$1" x="200.66" y="104.14" smashed="yes" rot="R180">
+<instance part="R42" gate="G$1" x="200.66" y="104.14" smashed="yes" rot="R180">
 <attribute name="NAME" x="198.12" y="105.6386" size="1.778" layer="95"/>
 <attribute name="VALUE" x="198.12" y="100.838" size="1.778" layer="96"/>
 </instance>
-<instance part="R24" gate="G$1" x="114.3" y="167.64" smashed="yes" rot="R180">
+<instance part="R23" gate="G$1" x="114.3" y="167.64" smashed="yes" rot="R180">
 <attribute name="NAME" x="112.395" y="169.1386" size="1.778" layer="95"/>
 <attribute name="VALUE" x="111.76" y="164.338" size="1.778" layer="96"/>
 </instance>
@@ -18290,11 +18282,11 @@ Decrease R58 to 3K3 for ~84oC or to 2K7 for ~90oC.</text>
 <attribute name="NAME" x="112.1156" y="155.8036" size="1.778" layer="95" ratio="6" rot="SR0"/>
 <attribute name="VALUE" x="105.4608" y="127.2286" size="1.778" layer="96" ratio="6" rot="SR0"/>
 </instance>
-<instance part="R34" gate="G$1" x="91.44" y="132.08" smashed="yes">
+<instance part="R33" gate="G$1" x="91.44" y="132.08" smashed="yes">
 <attribute name="NAME" x="88.9" y="133.5786" size="1.778" layer="95"/>
 <attribute name="VALUE" x="88.9" y="128.778" size="1.778" layer="96"/>
 </instance>
-<instance part="R35" gate="G$1" x="63.5" y="129.54" smashed="yes">
+<instance part="R34" gate="G$1" x="63.5" y="129.54" smashed="yes">
 <attribute name="NAME" x="61.595" y="126.5936" size="1.778" layer="95"/>
 <attribute name="VALUE" x="62.23" y="124.6886" size="1.778" layer="96"/>
 </instance>
@@ -18306,7 +18298,7 @@ Decrease R58 to 3K3 for ~84oC or to 2K7 for ~90oC.</text>
 <attribute name="NAME" x="152.146" y="148.844" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="152.146" y="145.034" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="R46" gate="G$1" x="96.52" y="99.06" smashed="yes" rot="R180">
+<instance part="R45" gate="G$1" x="96.52" y="99.06" smashed="yes" rot="R180">
 <attribute name="NAME" x="94.615" y="100.5586" size="1.778" layer="95"/>
 <attribute name="VALUE" x="94.615" y="95.758" size="1.778" layer="96"/>
 </instance>
@@ -18322,7 +18314,7 @@ Decrease R58 to 3K3 for ~84oC or to 2K7 for ~90oC.</text>
 <attribute name="NAME" x="157.226" y="133.096" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="157.226" y="136.906" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="R37" gate="G$1" x="114.3" y="121.92" smashed="yes" rot="R180">
+<instance part="R36" gate="G$1" x="114.3" y="121.92" smashed="yes" rot="R180">
 <attribute name="NAME" x="112.395" y="123.4186" size="1.778" layer="95"/>
 <attribute name="VALUE" x="111.76" y="118.618" size="1.778" layer="96"/>
 </instance>
@@ -18338,7 +18330,7 @@ Decrease R58 to 3K3 for ~84oC or to 2K7 for ~90oC.</text>
 <attribute name="NAME" x="74.041" y="164.211" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="74.041" y="162.306" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="R40" gate="G$1" x="147.32" y="111.76" smashed="yes">
+<instance part="R39" gate="G$1" x="147.32" y="111.76" smashed="yes">
 <attribute name="NAME" x="144.78" y="113.2586" size="1.778" layer="95"/>
 <attribute name="VALUE" x="149.86" y="111.9886" size="1.778" layer="96"/>
 </instance>
@@ -18385,7 +18377,7 @@ Decrease R58 to 3K3 for ~84oC or to 2K7 for ~90oC.</text>
 <attribute name="NAME" x="184.023" y="142.7226" size="1.778" layer="95"/>
 <attribute name="VALUE" x="183.3626" y="139.192" size="1.27" layer="96" rot="R270"/>
 </instance>
-<instance part="R44" gate="G$1" x="73.66" y="101.6" smashed="yes" rot="R90">
+<instance part="R43" gate="G$1" x="73.66" y="101.6" smashed="yes" rot="R90">
 <attribute name="NAME" x="72.39" y="103.9114" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="72.39" y="101.3714" size="1.778" layer="96" rot="R180"/>
 </instance>
@@ -18401,15 +18393,15 @@ Decrease R58 to 3K3 for ~84oC or to 2K7 for ~90oC.</text>
 <attribute name="NAME" x="52.07" y="146.685" size="1.778" layer="95"/>
 <attribute name="VALUE" x="52.705" y="138.43" size="1.778" layer="96"/>
 </instance>
-<instance part="R48" gate="G$1" x="137.16" y="93.98" smashed="yes">
+<instance part="R47" gate="G$1" x="137.16" y="93.98" smashed="yes">
 <attribute name="NAME" x="135.255" y="95.4786" size="1.778" layer="95"/>
 <attribute name="VALUE" x="135.255" y="90.678" size="1.778" layer="96"/>
 </instance>
-<instance part="R49" gate="G$1" x="149.86" y="93.98" smashed="yes">
+<instance part="R48" gate="G$1" x="149.86" y="93.98" smashed="yes">
 <attribute name="NAME" x="147.955" y="95.4786" size="1.778" layer="95"/>
 <attribute name="VALUE" x="147.32" y="90.678" size="1.778" layer="96"/>
 </instance>
-<instance part="R57" gate="G$1" x="111.76" y="55.88" smashed="yes" rot="MR270">
+<instance part="R56" gate="G$1" x="111.76" y="55.88" smashed="yes" rot="MR270">
 <attribute name="NAME" x="113.03" y="57.5564" size="1.778" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="113.03" y="55.372" size="1.778" layer="96" rot="MR180"/>
 </instance>
@@ -18417,11 +18409,11 @@ Decrease R58 to 3K3 for ~84oC or to 2K7 for ~90oC.</text>
 <attribute name="NAME" x="194.945" y="119.2276" size="1.778" layer="95"/>
 <attribute name="VALUE" x="194.945" y="116.4336" size="1.778" layer="96"/>
 </instance>
-<instance part="R41" gate="G$1" x="200.66" y="111.76" smashed="yes" rot="R180">
+<instance part="R40" gate="G$1" x="200.66" y="111.76" smashed="yes" rot="R180">
 <attribute name="NAME" x="198.12" y="113.2586" size="1.778" layer="95"/>
 <attribute name="VALUE" x="198.12" y="108.458" size="1.778" layer="96"/>
 </instance>
-<instance part="R33" gate="G$1" x="226.06" y="137.16" smashed="yes" rot="R90">
+<instance part="R32" gate="G$1" x="226.06" y="137.16" smashed="yes" rot="R90">
 <attribute name="NAME" x="224.79" y="137.3886" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="224.79" y="135.128" size="1.778" layer="96" rot="MR0"/>
 </instance>
@@ -18437,7 +18429,7 @@ Decrease R58 to 3K3 for ~84oC or to 2K7 for ~90oC.</text>
 <attribute name="NAME" x="56.261" y="58.801" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="56.261" y="56.261" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="R58" gate="G$1" x="134.62" y="55.88" smashed="yes" rot="R180">
+<instance part="R57" gate="G$1" x="134.62" y="55.88" smashed="yes" rot="R180">
 <attribute name="NAME" x="132.715" y="57.3786" size="1.778" layer="95"/>
 <attribute name="VALUE" x="133.35" y="52.578" size="1.778" layer="96"/>
 </instance>
@@ -18458,11 +18450,11 @@ Decrease R58 to 3K3 for ~84oC or to 2K7 for ~90oC.</text>
 <attribute name="NAME" x="22.479" y="81.661" size="1.778" layer="95"/>
 <attribute name="VALUE" x="22.479" y="79.121" size="1.778" layer="96"/>
 </instance>
-<instance part="R27" gate="G$1" x="144.78" y="157.48" smashed="yes" rot="R180">
+<instance part="R26" gate="G$1" x="144.78" y="157.48" smashed="yes" rot="R180">
 <attribute name="NAME" x="142.875" y="158.9786" size="1.778" layer="95"/>
 <attribute name="VALUE" x="142.24" y="154.178" size="1.778" layer="96"/>
 </instance>
-<instance part="R38" gate="G$1" x="144.78" y="121.92" smashed="yes">
+<instance part="R37" gate="G$1" x="144.78" y="121.92" smashed="yes">
 <attribute name="NAME" x="142.24" y="123.4186" size="1.778" layer="95"/>
 <attribute name="VALUE" x="140.97" y="118.618" size="1.778" layer="96"/>
 </instance>
@@ -18485,14 +18477,14 @@ Decrease R58 to 3K3 for ~84oC or to 2K7 for ~90oC.</text>
 <attribute name="NAME" x="145.161" y="32.639" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="145.161" y="30.099" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="R66" gate="G$1" x="132.08" y="15.24" smashed="yes" rot="MR270">
+<instance part="R65" gate="G$1" x="132.08" y="15.24" smashed="yes" rot="MR270">
 <attribute name="NAME" x="133.35" y="15.4686" size="1.778" layer="95"/>
 <attribute name="VALUE" x="133.35" y="13.208" size="1.778" layer="96"/>
 </instance>
 <instance part="SH2" gate="SH" x="149.86" y="50.8" smashed="yes" rot="R180">
 <attribute name="NAME" x="151.4475" y="50.165" size="1.27" layer="95" rot="R180"/>
 </instance>
-<instance part="R28" gate="G$1" x="45.72" y="154.94" smashed="yes" rot="MR270">
+<instance part="R27" gate="G$1" x="45.72" y="154.94" smashed="yes" rot="MR270">
 <attribute name="NAME" x="46.99" y="156.6164" size="1.778" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="46.99" y="154.432" size="1.778" layer="96" rot="MR180"/>
 </instance>
@@ -18515,17 +18507,17 @@ Decrease R58 to 3K3 for ~84oC or to 2K7 for ~90oC.</text>
 <wire x1="7.62" y1="124.46" x2="7.62" y2="129.54" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="R37" gate="G$1" pin="2"/>
+<pinref part="R36" gate="G$1" pin="2"/>
 <wire x1="106.68" y1="121.92" x2="109.22" y2="121.92" width="0.1524" layer="91"/>
 <pinref part="SUPPLY13" gate="G$1" pin="+14V"/>
 </segment>
 <segment>
-<pinref part="R46" gate="G$1" pin="2"/>
+<pinref part="R45" gate="G$1" pin="2"/>
 <wire x1="91.44" y1="99.06" x2="88.9" y2="99.06" width="0.1524" layer="91"/>
 <pinref part="SUPPLY9" gate="+12V" pin="+12V"/>
 </segment>
 <segment>
-<pinref part="R24" gate="G$1" pin="2"/>
+<pinref part="R23" gate="G$1" pin="2"/>
 <wire x1="109.22" y1="167.64" x2="81.28" y2="167.64" width="0.1524" layer="91"/>
 <wire x1="81.28" y1="167.64" x2="76.2" y2="167.64" width="0.1524" layer="91"/>
 <wire x1="76.2" y1="167.64" x2="68.58" y2="167.64" width="0.1524" layer="91"/>
@@ -18573,7 +18565,7 @@ Decrease R58 to 3K3 for ~84oC or to 2K7 for ~90oC.</text>
 <junction x="76.2" y="160.02"/>
 <wire x1="76.2" y1="109.22" x2="160.02" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="160.02" y1="109.22" x2="167.64" y2="116.84" width="0.1524" layer="91"/>
-<pinref part="R40" gate="G$1" pin="2"/>
+<pinref part="R39" gate="G$1" pin="2"/>
 <wire x1="152.4" y1="111.76" x2="160.02" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="160.02" y1="111.76" x2="167.64" y2="116.84" width="0.1524" layer="91"/>
 <pinref part="IC2" gate="G$1" pin="GNDB"/>
@@ -18588,7 +18580,7 @@ Decrease R58 to 3K3 for ~84oC or to 2K7 for ~90oC.</text>
 <junction x="134.62" y="139.7"/>
 <wire x1="134.62" y1="139.7" x2="134.62" y2="116.84" width="0.1524" layer="91"/>
 <pinref part="Q3" gate="G$1" pin="S"/>
-<pinref part="R39" gate="G$1" pin="2"/>
+<pinref part="R38" gate="G$1" pin="2"/>
 <wire x1="165.1" y1="121.92" x2="167.64" y2="124.46" width="0.1524" layer="91"/>
 <pinref part="D12" gate="G$1" pin="A"/>
 <wire x1="172.72" y1="137.16" x2="172.72" y2="127" width="0.1524" layer="91"/>
@@ -18624,7 +18616,7 @@ Decrease R58 to 3K3 for ~84oC or to 2K7 for ~90oC.</text>
 <pinref part="C35" gate="G$1" pin="-"/>
 <wire x1="182.88" y1="134.62" x2="182.88" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="182.88" y1="127" x2="172.72" y2="127" width="0.1524" layer="91"/>
-<pinref part="R40" gate="G$1" pin="1"/>
+<pinref part="R39" gate="G$1" pin="1"/>
 <wire x1="142.24" y1="111.76" x2="132.08" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="182.88" y1="134.62" x2="177.8" y2="134.62" width="0.1524" layer="91"/>
 <pinref part="C34" gate="G$1" pin="-"/>
@@ -18645,11 +18637,11 @@ Decrease R58 to 3K3 for ~84oC or to 2K7 for ~90oC.</text>
 </net>
 <net name="+5VREF" class="0">
 <segment>
-<pinref part="R59" gate="G$1" pin="2"/>
+<pinref part="R58" gate="G$1" pin="2"/>
 <wire x1="78.74" y1="35.56" x2="66.04" y2="35.56" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="30.48" x2="78.74" y2="35.56" width="0.1524" layer="91"/>
 <junction x="78.74" y="35.56"/>
-<pinref part="R60" gate="G$1" pin="2"/>
+<pinref part="R59" gate="G$1" pin="2"/>
 <pinref part="X3" gate="-2" pin="1"/>
 <wire x1="81.28" y1="30.48" x2="78.74" y2="30.48" width="0.1524" layer="91"/>
 <label x="147.32" y="35.56" size="1.27" layer="102" xref="yes"/>
@@ -18658,7 +18650,7 @@ Decrease R58 to 3K3 for ~84oC or to 2K7 for ~90oC.</text>
 <junction x="116.84" y="35.56"/>
 </segment>
 <segment>
-<pinref part="R44" gate="G$1" pin="1"/>
+<pinref part="R43" gate="G$1" pin="1"/>
 <pinref part="IC3" gate="A" pin="REF"/>
 <wire x1="73.66" y1="68.58" x2="76.2" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="68.58" x2="73.66" y2="96.52" width="0.1524" layer="91"/>
@@ -18676,7 +18668,7 @@ Decrease R58 to 3K3 for ~84oC or to 2K7 for ~90oC.</text>
 <net name="CT_OUT+" class="0">
 <segment>
 <label x="215.9" y="170.815" size="1.27" layer="102" rot="MR0"/>
-<pinref part="R25" gate="G$1" pin="1"/>
+<pinref part="R24" gate="G$1" pin="1"/>
 <wire x1="198.12" y1="162.56" x2="198.12" y2="170.18" width="0.1524" layer="91"/>
 <wire x1="198.12" y1="170.18" x2="203.2" y2="170.18" width="0.1524" layer="91"/>
 <pinref part="TR2" gate="G$1" pin="S"/>
@@ -18692,8 +18684,8 @@ Decrease R58 to 3K3 for ~84oC or to 2K7 for ~90oC.</text>
 </net>
 <net name="N$26" class="0">
 <segment>
-<pinref part="R59" gate="G$1" pin="1"/>
-<pinref part="R63" gate="G$1" pin="1"/>
+<pinref part="R58" gate="G$1" pin="1"/>
+<pinref part="R62" gate="G$1" pin="1"/>
 <wire x1="66.04" y1="25.4" x2="60.96" y2="25.4" width="0.1524" layer="91"/>
 <junction x="66.04" y="25.4"/>
 <wire x1="66.04" y1="25.4" x2="66.04" y2="20.32" width="0.1524" layer="91"/>
@@ -18703,7 +18695,7 @@ Decrease R58 to 3K3 for ~84oC or to 2K7 for ~90oC.</text>
 <net name="N$100" class="0">
 <segment>
 <pinref part="Q4" gate="G$1" pin="G"/>
-<pinref part="R52" gate="G$1" pin="1"/>
+<pinref part="R51" gate="G$1" pin="1"/>
 <wire x1="17.78" y1="88.9" x2="15.24" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="15.24" y1="88.9" x2="15.24" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="15.24" y1="81.28" x2="15.24" y2="78.74" width="0.1524" layer="91"/>
@@ -18727,7 +18719,7 @@ Decrease R58 to 3K3 for ~84oC or to 2K7 for ~90oC.</text>
 <segment>
 <pinref part="D17" gate="G$1" pin="A"/>
 <wire x1="10.16" y1="99.06" x2="7.62" y2="99.06" width="0.1524" layer="91"/>
-<pinref part="R42" gate="G$1" pin="2"/>
+<pinref part="R41" gate="G$1" pin="2"/>
 <wire x1="7.62" y1="104.14" x2="7.62" y2="99.06" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -18743,7 +18735,7 @@ Decrease R58 to 3K3 for ~84oC or to 2K7 for ~90oC.</text>
 <net name="N$42" class="0">
 <segment>
 <pinref part="IC4" gate="B" pin="+IN"/>
-<pinref part="R64" gate="G$1" pin="1"/>
+<pinref part="R63" gate="G$1" pin="1"/>
 <wire x1="60.96" y1="20.32" x2="63.5" y2="20.32" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="22.86" x2="73.66" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="22.86" x2="63.5" y2="22.86" width="0.1524" layer="91"/>
@@ -18775,20 +18767,20 @@ Decrease R58 to 3K3 for ~84oC or to 2K7 for ~90oC.</text>
 </net>
 <net name="N$32" class="0">
 <segment>
-<pinref part="R42" gate="G$1" pin="1"/>
+<pinref part="R41" gate="G$1" pin="1"/>
 <pinref part="OK2" gate="G$1" pin="C"/>
 <wire x1="7.62" y1="114.3" x2="7.62" y2="119.38" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="FB" class="0">
 <segment>
-<pinref part="R61" gate="G$1" pin="1"/>
+<pinref part="R60" gate="G$1" pin="1"/>
 <wire x1="152.4" y1="22.86" x2="154.94" y2="22.86" width="0.1524" layer="91"/>
 <label x="154.94" y="22.86" size="1.27" layer="102" xref="yes"/>
 </segment>
 <segment>
-<pinref part="R57" gate="G$1" pin="1"/>
-<pinref part="R48" gate="G$1" pin="1"/>
+<pinref part="R56" gate="G$1" pin="1"/>
+<pinref part="R47" gate="G$1" pin="1"/>
 <wire x1="111.76" y1="63.5" x2="111.76" y2="60.96" width="0.1524" layer="91"/>
 <junction x="111.76" y="63.5"/>
 <junction x="111.76" y="63.5"/>
@@ -18809,8 +18801,8 @@ Decrease R58 to 3K3 for ~84oC or to 2K7 for ~90oC.</text>
 </net>
 <net name="N$7" class="0">
 <segment>
-<pinref part="R60" gate="G$1" pin="1"/>
-<pinref part="R65" gate="G$1" pin="1"/>
+<pinref part="R59" gate="G$1" pin="1"/>
+<pinref part="R64" gate="G$1" pin="1"/>
 <wire x1="116.84" y1="25.4" x2="116.84" y2="20.32" width="0.1524" layer="91"/>
 <pinref part="IC4" gate="A" pin="-IN"/>
 <wire x1="111.76" y1="25.4" x2="116.84" y2="25.4" width="0.1524" layer="91"/>
@@ -18825,7 +18817,7 @@ Decrease R58 to 3K3 for ~84oC or to 2K7 for ~90oC.</text>
 </net>
 <net name="N$34" class="0">
 <segment>
-<pinref part="R61" gate="G$1" pin="2"/>
+<pinref part="R60" gate="G$1" pin="2"/>
 <wire x1="142.24" y1="22.86" x2="139.7" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="139.7" y1="22.86" x2="114.3" y2="22.86" width="0.1524" layer="91"/>
 <pinref part="IC4" gate="A" pin="+IN"/>
@@ -18840,7 +18832,7 @@ Decrease R58 to 3K3 for ~84oC or to 2K7 for ~90oC.</text>
 <segment>
 <label x="180.34" y="175.895" size="1.27" layer="102" rot="MR0"/>
 <wire x1="45.72" y1="175.26" x2="193.04" y2="175.26" width="0.1524" layer="91"/>
-<pinref part="R23" gate="G$1" pin="1"/>
+<pinref part="R22" gate="G$1" pin="1"/>
 <wire x1="45.72" y1="175.26" x2="45.72" y2="172.72" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="175.26" x2="22.86" y2="175.26" width="0.1524" layer="91"/>
 <junction x="45.72" y="175.26"/>
@@ -18871,16 +18863,16 @@ Decrease R58 to 3K3 for ~84oC or to 2K7 for ~90oC.</text>
 <pinref part="IC3" gate="A" pin="AGND"/>
 <wire x1="73.66" y1="50.8" x2="73.66" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="58.42" x2="76.2" y2="58.42" width="0.1524" layer="91"/>
-<pinref part="R53" gate="G$1" pin="2"/>
+<pinref part="R52" gate="G$1" pin="2"/>
 <wire x1="58.42" y1="73.66" x2="48.26" y2="73.66" width="0.1524" layer="91"/>
 <pinref part="C48" gate="G$1" pin="1"/>
-<pinref part="R51" gate="G$1" pin="2"/>
+<pinref part="R50" gate="G$1" pin="2"/>
 <wire x1="50.8" y1="78.74" x2="48.26" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="48.26" y1="78.74" x2="48.26" y2="73.66" width="0.1524" layer="91"/>
 <junction x="48.26" y="73.66"/>
 <pinref part="C46" gate="G$1" pin="1"/>
 <junction x="48.26" y="78.74"/>
-<pinref part="R47" gate="G$1" pin="2"/>
+<pinref part="R46" gate="G$1" pin="2"/>
 <pinref part="C49" gate="G$1" pin="1"/>
 <wire x1="48.26" y1="83.82" x2="48.26" y2="78.74" width="0.1524" layer="91"/>
 <label x="113.03" y="51.435" size="1.27" layer="102"/>
@@ -18909,7 +18901,7 @@ Decrease R58 to 3K3 for ~84oC or to 2K7 for ~90oC.</text>
 <wire x1="99.06" y1="134.62" x2="96.52" y2="134.62" width="0.1524" layer="91"/>
 <junction x="86.36" y="137.16"/>
 <wire x1="86.36" y1="137.16" x2="86.36" y2="132.08" width="0.1524" layer="91"/>
-<pinref part="R34" gate="G$1" pin="1"/>
+<pinref part="R33" gate="G$1" pin="1"/>
 <wire x1="86.36" y1="137.16" x2="83.82" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="83.82" y1="132.08" x2="35.56" y2="132.08" width="0.1524" layer="91"/>
 <junction x="86.36" y="137.16"/>
@@ -18919,9 +18911,9 @@ Decrease R58 to 3K3 for ~84oC or to 2K7 for ~90oC.</text>
 <wire x1="96.52" y1="134.62" x2="96.52" y2="137.16" width="0.1524" layer="91"/>
 <junction x="96.52" y="137.16"/>
 <wire x1="86.36" y1="137.16" x2="83.82" y2="129.54" width="0.1524" layer="91"/>
-<pinref part="R35" gate="G$1" pin="2"/>
+<pinref part="R34" gate="G$1" pin="2"/>
 <wire x1="68.58" y1="129.54" x2="83.82" y2="129.54" width="0.1524" layer="91"/>
-<pinref part="R35" gate="G$1" pin="1"/>
+<pinref part="R34" gate="G$1" pin="1"/>
 <wire x1="58.42" y1="129.54" x2="38.1" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="38.1" y1="129.54" x2="38.1" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="38.1" y1="48.26" x2="71.12" y2="48.26" width="0.1524" layer="91"/>
@@ -18929,14 +18921,14 @@ Decrease R58 to 3K3 for ~84oC or to 2K7 for ~90oC.</text>
 <junction x="48.26" y="83.82"/>
 <pinref part="Q4" gate="G$1" pin="C"/>
 <wire x1="20.32" y1="86.36" x2="20.32" y2="88.9" width="0.1524" layer="91"/>
-<pinref part="R57" gate="G$1" pin="2"/>
+<pinref part="R56" gate="G$1" pin="2"/>
 <junction x="111.76" y="50.8"/>
-<pinref part="R65" gate="G$1" pin="2"/>
+<pinref part="R64" gate="G$1" pin="2"/>
 <junction x="116.84" y="10.16"/>
 <pinref part="C56" gate="G$1" pin="1"/>
-<pinref part="R64" gate="G$1" pin="2"/>
-<wire x1="66.04" y1="10.16" x2="73.66" y2="10.16" width="0.1524" layer="91"/>
 <pinref part="R63" gate="G$1" pin="2"/>
+<wire x1="66.04" y1="10.16" x2="73.66" y2="10.16" width="0.1524" layer="91"/>
+<pinref part="R62" gate="G$1" pin="2"/>
 <junction x="66.04" y="10.16"/>
 <pinref part="IC4" gate="P" pin="V-"/>
 <wire x1="73.66" y1="10.16" x2="78.74" y2="10.16" width="0.1524" layer="91"/>
@@ -18966,12 +18958,12 @@ Decrease R58 to 3K3 for ~84oC or to 2K7 for ~90oC.</text>
 <wire x1="48.26" y1="68.58" x2="48.26" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="68.58" x2="48.26" y2="68.58" width="0.1524" layer="91"/>
 <junction x="48.26" y="68.58"/>
-<pinref part="R58" gate="G$1" pin="2"/>
+<pinref part="R57" gate="G$1" pin="2"/>
 <pinref part="C51" gate="G$1" pin="2"/>
 <wire x1="119.38" y1="53.34" x2="119.38" y2="50.8" width="0.1524" layer="91"/>
 <junction x="119.38" y="50.8"/>
 <wire x1="53.34" y1="10.16" x2="38.1" y2="10.16" width="0.1524" layer="91"/>
-<pinref part="R62" gate="G$1" pin="2"/>
+<pinref part="R61" gate="G$1" pin="2"/>
 <wire x1="38.1" y1="10.16" x2="15.24" y2="10.16" width="0.1524" layer="91"/>
 <wire x1="15.24" y1="10.16" x2="15.24" y2="12.7" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="81.28" x2="27.94" y2="81.28" width="0.1524" layer="91"/>
@@ -18984,7 +18976,7 @@ Decrease R58 to 3K3 for ~84oC or to 2K7 for ~90oC.</text>
 <junction x="73.66" y="10.16"/>
 <pinref part="C54" gate="G$1" pin="2"/>
 <wire x1="139.7" y1="10.16" x2="132.08" y2="10.16" width="0.1524" layer="91"/>
-<pinref part="R66" gate="G$1" pin="2"/>
+<pinref part="R65" gate="G$1" pin="2"/>
 <junction x="132.08" y="10.16"/>
 <wire x1="116.84" y1="10.16" x2="121.92" y2="10.16" width="0.1524" layer="91"/>
 <wire x1="121.92" y1="10.16" x2="132.08" y2="10.16" width="0.1524" layer="91"/>
@@ -19024,7 +19016,7 @@ Decrease R58 to 3K3 for ~84oC or to 2K7 for ~90oC.</text>
 <wire x1="180.34" y1="76.2" x2="180.34" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="180.34" y1="81.28" x2="195.58" y2="81.28" width="0.1524" layer="91"/>
 <label x="186.69" y="81.915" size="1.27" layer="102"/>
-<pinref part="R50" gate="G$1" pin="2"/>
+<pinref part="R49" gate="G$1" pin="2"/>
 <wire x1="195.58" y1="81.28" x2="198.12" y2="81.28" width="0.1524" layer="91"/>
 <pinref part="D20" gate="G$1" pin="A"/>
 <wire x1="200.66" y1="86.36" x2="195.58" y2="86.36" width="0.1524" layer="91"/>
@@ -19039,7 +19031,7 @@ Decrease R58 to 3K3 for ~84oC or to 2K7 for ~90oC.</text>
 <wire x1="180.34" y1="73.66" x2="180.34" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="180.34" y1="71.12" x2="195.58" y2="71.12" width="0.1524" layer="91"/>
 <label x="186.69" y="71.755" size="1.27" layer="102"/>
-<pinref part="R54" gate="G$1" pin="2"/>
+<pinref part="R53" gate="G$1" pin="2"/>
 <wire x1="195.58" y1="71.12" x2="198.12" y2="71.12" width="0.1524" layer="91"/>
 <pinref part="D22" gate="G$1" pin="A"/>
 <wire x1="200.66" y1="66.04" x2="195.58" y2="66.04" width="0.1524" layer="91"/>
@@ -19088,7 +19080,7 @@ Decrease R58 to 3K3 for ~84oC or to 2K7 for ~90oC.</text>
 </net>
 <net name="N$13" class="0">
 <segment>
-<pinref part="R50" gate="G$1" pin="1"/>
+<pinref part="R49" gate="G$1" pin="1"/>
 <pinref part="D20" gate="G$1" pin="C"/>
 <wire x1="205.74" y1="86.36" x2="210.82" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="208.28" y1="81.28" x2="210.82" y2="81.28" width="0.1524" layer="91"/>
@@ -19100,7 +19092,7 @@ Decrease R58 to 3K3 for ~84oC or to 2K7 for ~90oC.</text>
 </net>
 <net name="N$14" class="0">
 <segment>
-<pinref part="R54" gate="G$1" pin="1"/>
+<pinref part="R53" gate="G$1" pin="1"/>
 <wire x1="210.82" y1="71.12" x2="208.28" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="210.82" y1="66.04" x2="210.82" y2="71.12" width="0.1524" layer="91"/>
 <pinref part="D22" gate="G$1" pin="C"/>
@@ -19112,7 +19104,7 @@ Decrease R58 to 3K3 for ~84oC or to 2K7 for ~90oC.</text>
 </net>
 <net name="L_PUSH" class="0">
 <segment>
-<pinref part="R31" gate="G$1" pin="2"/>
+<pinref part="R30" gate="G$1" pin="2"/>
 <pinref part="L7" gate="G$1" pin="P$1"/>
 <wire x1="236.22" y1="142.24" x2="233.68" y2="142.24" width="0.1524" layer="91"/>
 <wire x1="233.68" y1="142.24" x2="233.68" y2="152.4" width="0.1524" layer="91"/>
@@ -19133,7 +19125,7 @@ Decrease R58 to 3K3 for ~84oC or to 2K7 for ~90oC.</text>
 <net name="N$19" class="0">
 <segment>
 <pinref part="IC3" gate="A" pin="RT/SYNC"/>
-<pinref part="R53" gate="G$1" pin="1"/>
+<pinref part="R52" gate="G$1" pin="1"/>
 <wire x1="68.58" y1="73.66" x2="76.2" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -19146,12 +19138,12 @@ Decrease R58 to 3K3 for ~84oC or to 2K7 for ~90oC.</text>
 <wire x1="73.66" y1="144.78" x2="86.36" y2="144.78" width="0.1524" layer="91"/>
 <junction x="86.36" y="144.78"/>
 <label x="92.075" y="145.415" size="1.27" layer="102"/>
-<pinref part="R44" gate="G$1" pin="2"/>
+<pinref part="R43" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$22" class="0">
 <segment>
-<pinref part="R51" gate="G$1" pin="1"/>
+<pinref part="R50" gate="G$1" pin="1"/>
 <pinref part="IC3" gate="A" pin="TIME"/>
 <wire x1="60.96" y1="78.74" x2="76.2" y2="78.74" width="0.1524" layer="91"/>
 </segment>
@@ -19166,7 +19158,7 @@ Decrease R58 to 3K3 for ~84oC or to 2K7 for ~90oC.</text>
 <net name="N$25" class="0">
 <segment>
 <pinref part="IC3" gate="A" pin="UVLO"/>
-<pinref part="R45" gate="G$1" pin="1"/>
+<pinref part="R44" gate="G$1" pin="1"/>
 <wire x1="63.5" y1="99.06" x2="66.04" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="66.04" y1="99.06" x2="71.12" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="99.06" x2="71.12" y2="86.36" width="0.1524" layer="91"/>
@@ -19178,7 +19170,7 @@ Decrease R58 to 3K3 for ~84oC or to 2K7 for ~90oC.</text>
 </net>
 <net name="N$21" class="0">
 <segment>
-<pinref part="R26" gate="G$1" pin="1"/>
+<pinref part="R25" gate="G$1" pin="1"/>
 <pinref part="D11" gate="G$1" pin="A"/>
 <pinref part="Q2" gate="G$1" pin="G"/>
 <wire x1="160.02" y1="157.48" x2="157.48" y2="157.48" width="0.1524" layer="91"/>
@@ -19192,7 +19184,7 @@ Decrease R58 to 3K3 for ~84oC or to 2K7 for ~90oC.</text>
 <net name="HI_OUT" class="0">
 <segment>
 <wire x1="139.7" y1="157.48" x2="132.08" y2="157.48" width="0.1524" layer="91"/>
-<pinref part="R26" gate="G$1" pin="2"/>
+<pinref part="R25" gate="G$1" pin="2"/>
 <wire x1="139.7" y1="157.48" x2="139.7" y2="162.56" width="0.1524" layer="91"/>
 <wire x1="139.7" y1="162.56" x2="144.78" y2="162.56" width="0.1524" layer="91"/>
 <junction x="139.7" y="157.48"/>
@@ -19200,12 +19192,12 @@ Decrease R58 to 3K3 for ~84oC or to 2K7 for ~90oC.</text>
 <wire x1="129.54" y1="152.4" x2="132.08" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="132.08" y1="152.4" x2="132.08" y2="157.48" width="0.1524" layer="91"/>
 <label x="132.08" y="158.115" size="1.27" layer="102"/>
-<pinref part="R27" gate="G$1" pin="2"/>
+<pinref part="R26" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="LO_OUT" class="0">
 <segment>
-<pinref part="R36" gate="G$1" pin="1"/>
+<pinref part="R35" gate="G$1" pin="1"/>
 <wire x1="129.54" y1="132.08" x2="129.54" y2="127" width="0.1524" layer="91"/>
 <wire x1="129.54" y1="127" x2="139.7" y2="127" width="0.1524" layer="91"/>
 <pinref part="IC2" gate="G$1" pin="VOB"/>
@@ -19213,16 +19205,16 @@ Decrease R58 to 3K3 for ~84oC or to 2K7 for ~90oC.</text>
 <wire x1="139.7" y1="127" x2="142.24" y2="127" width="0.1524" layer="91"/>
 <wire x1="139.7" y1="121.92" x2="139.7" y2="127" width="0.1524" layer="91"/>
 <junction x="139.7" y="127"/>
-<pinref part="R38" gate="G$1" pin="1"/>
+<pinref part="R37" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$29" class="0">
 <segment>
 <pinref part="D14" gate="G$1" pin="A"/>
-<pinref part="R36" gate="G$1" pin="2"/>
+<pinref part="R35" gate="G$1" pin="2"/>
 <pinref part="Q3" gate="G$1" pin="G"/>
 <wire x1="154.94" y1="127" x2="162.56" y2="127" width="0.1524" layer="91"/>
-<pinref part="R39" gate="G$1" pin="1"/>
+<pinref part="R38" gate="G$1" pin="1"/>
 <wire x1="152.4" y1="127" x2="154.94" y2="127" width="0.1524" layer="91"/>
 <junction x="154.94" y="127"/>
 <wire x1="154.94" y1="127" x2="154.94" y2="121.92" width="0.1524" layer="91"/>
@@ -19232,7 +19224,7 @@ Decrease R58 to 3K3 for ~84oC or to 2K7 for ~90oC.</text>
 <net name="N$37" class="0">
 <segment>
 <pinref part="C49" gate="G$1" pin="2"/>
-<pinref part="R55" gate="G$1" pin="2"/>
+<pinref part="R54" gate="G$1" pin="2"/>
 <pinref part="IC3" gate="A" pin="CS"/>
 <wire x1="127" y1="68.58" x2="106.68" y2="68.58" width="0.1524" layer="91"/>
 <junction x="127" y="68.58"/>
@@ -19292,19 +19284,19 @@ Decrease R58 to 3K3 for ~84oC or to 2K7 for ~90oC.</text>
 </net>
 <net name="N$2" class="0">
 <segment>
-<pinref part="R32" gate="G$1" pin="1"/>
+<pinref part="R31" gate="G$1" pin="1"/>
 <wire x1="45.72" y1="149.86" x2="45.72" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="147.32" x2="48.26" y2="147.32" width="0.1524" layer="91"/>
 <junction x="45.72" y="147.32"/>
 <wire x1="48.26" y1="147.32" x2="48.26" y2="144.78" width="0.1524" layer="91"/>
 <pinref part="TP2" gate="G$1" pin="1"/>
 <wire x1="48.26" y1="144.78" x2="50.8" y2="144.78" width="0.1524" layer="91"/>
-<pinref part="R28" gate="G$1" pin="2"/>
+<pinref part="R27" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="HD" class="0">
 <segment>
-<pinref part="R29" gate="G$1" pin="2"/>
+<pinref part="R28" gate="G$1" pin="2"/>
 <wire x1="83.82" y1="152.4" x2="78.74" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="152.4" x2="78.74" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="104.14" x2="119.38" y2="104.14" width="0.1524" layer="91"/>
@@ -19319,7 +19311,7 @@ Decrease R58 to 3K3 for ~84oC or to 2K7 for ~90oC.</text>
 <pinref part="IC3" gate="A" pin="LD"/>
 <wire x1="106.68" y1="81.28" x2="121.92" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="121.92" y1="81.28" x2="121.92" y2="106.68" width="0.1524" layer="91"/>
-<pinref part="R30" gate="G$1" pin="2"/>
+<pinref part="R29" gate="G$1" pin="2"/>
 <wire x1="121.92" y1="106.68" x2="81.28" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="81.28" y1="106.68" x2="81.28" y2="149.86" width="0.1524" layer="91"/>
 <wire x1="81.28" y1="149.86" x2="83.82" y2="149.86" width="0.1524" layer="91"/>
@@ -19330,7 +19322,7 @@ Decrease R58 to 3K3 for ~84oC or to 2K7 for ~90oC.</text>
 <segment>
 <pinref part="D16" gate="G$1" pin="C"/>
 <pinref part="D19" gate="G$1" pin="C"/>
-<pinref part="R43" gate="G$1" pin="1"/>
+<pinref part="R42" gate="G$1" pin="1"/>
 <wire x1="205.74" y1="99.06" x2="208.28" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="208.28" y1="99.06" x2="210.82" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="223.52" y1="104.14" x2="208.28" y2="104.14" width="0.1524" layer="91"/>
@@ -19339,9 +19331,9 @@ Decrease R58 to 3K3 for ~84oC or to 2K7 for ~90oC.</text>
 <wire x1="195.58" y1="99.06" x2="205.74" y2="99.06" width="0.1524" layer="91"/>
 <junction x="205.74" y="99.06"/>
 <wire x1="205.74" y1="99.06" x2="205.74" y2="93.98" width="0.1524" layer="91"/>
-<pinref part="R49" gate="G$1" pin="2"/>
+<pinref part="R48" gate="G$1" pin="2"/>
 <wire x1="205.74" y1="93.98" x2="154.94" y2="93.98" width="0.1524" layer="91"/>
-<pinref part="R41" gate="G$1" pin="1"/>
+<pinref part="R40" gate="G$1" pin="1"/>
 <wire x1="205.74" y1="111.76" x2="208.28" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="208.28" y1="111.76" x2="208.28" y2="104.14" width="0.1524" layer="91"/>
 <junction x="208.28" y="104.14"/>
@@ -19351,7 +19343,7 @@ Decrease R58 to 3K3 for ~84oC or to 2K7 for ~90oC.</text>
 </net>
 <net name="N$31" class="0">
 <segment>
-<pinref part="R24" gate="G$1" pin="1"/>
+<pinref part="R23" gate="G$1" pin="1"/>
 <pinref part="D10" gate="G$1" pin="A"/>
 <wire x1="119.38" y1="167.64" x2="121.92" y2="167.64" width="0.1524" layer="91"/>
 </segment>
@@ -19359,21 +19351,21 @@ Decrease R58 to 3K3 for ~84oC or to 2K7 for ~90oC.</text>
 <net name="N$36" class="0">
 <segment>
 <pinref part="IC2" gate="G$1" pin="VIA"/>
-<pinref part="R29" gate="G$1" pin="1"/>
+<pinref part="R28" gate="G$1" pin="1"/>
 <wire x1="93.98" y1="152.4" x2="99.06" y2="152.4" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$40" class="0">
 <segment>
 <pinref part="IC2" gate="G$1" pin="VIB"/>
-<pinref part="R30" gate="G$1" pin="1"/>
+<pinref part="R29" gate="G$1" pin="1"/>
 <wire x1="93.98" y1="149.86" x2="99.06" y2="149.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$48" class="0">
 <segment>
 <pinref part="IC2" gate="G$1" pin="DT"/>
-<pinref part="R34" gate="G$1" pin="2"/>
+<pinref part="R33" gate="G$1" pin="2"/>
 <wire x1="96.52" y1="132.08" x2="99.06" y2="132.08" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -19388,7 +19380,7 @@ Decrease R58 to 3K3 for ~84oC or to 2K7 for ~90oC.</text>
 <wire x1="106.68" y1="93.98" x2="76.2" y2="93.98" width="0.1524" layer="91"/>
 <pinref part="C44" gate="G$1" pin="1"/>
 <junction x="106.68" y="93.98"/>
-<pinref part="R46" gate="G$1" pin="1"/>
+<pinref part="R45" gate="G$1" pin="1"/>
 <wire x1="101.6" y1="99.06" x2="106.68" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="106.68" y1="99.06" x2="106.68" y2="93.98" width="0.1524" layer="91"/>
 <junction x="106.68" y="93.98"/>
@@ -19415,7 +19407,7 @@ Decrease R58 to 3K3 for ~84oC or to 2K7 for ~90oC.</text>
 </net>
 <net name="N$63" class="0">
 <segment>
-<pinref part="R37" gate="G$1" pin="1"/>
+<pinref part="R36" gate="G$1" pin="1"/>
 <pinref part="D13" gate="G$1" pin="A"/>
 <wire x1="121.92" y1="121.92" x2="119.38" y2="121.92" width="0.1524" layer="91"/>
 </segment>
@@ -19436,16 +19428,16 @@ Decrease R58 to 3K3 for ~84oC or to 2K7 for ~90oC.</text>
 </net>
 <net name="N$30" class="0">
 <segment>
-<pinref part="R49" gate="G$1" pin="1"/>
-<pinref part="R48" gate="G$1" pin="2"/>
+<pinref part="R48" gate="G$1" pin="1"/>
+<pinref part="R47" gate="G$1" pin="2"/>
 <wire x1="144.78" y1="93.98" x2="142.24" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$35" class="0">
 <segment>
 <pinref part="D15" gate="G$1" pin="A"/>
-<pinref part="R43" gate="G$1" pin="2"/>
-<pinref part="R41" gate="G$1" pin="2"/>
+<pinref part="R42" gate="G$1" pin="2"/>
+<pinref part="R40" gate="G$1" pin="2"/>
 <wire x1="195.58" y1="111.76" x2="193.04" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="193.04" y1="111.76" x2="193.04" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="195.58" y1="104.14" x2="193.04" y2="104.14" width="0.1524" layer="91"/>
@@ -19455,14 +19447,14 @@ Decrease R58 to 3K3 for ~84oC or to 2K7 for ~90oC.</text>
 </net>
 <net name="N$5" class="0">
 <segment>
-<pinref part="R31" gate="G$1" pin="1"/>
-<pinref part="R33" gate="G$1" pin="2"/>
+<pinref part="R30" gate="G$1" pin="1"/>
+<pinref part="R32" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$17" class="0">
 <segment>
 <pinref part="C41" gate="G$1" pin="1"/>
-<pinref part="R33" gate="G$1" pin="1"/>
+<pinref part="R32" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$15" class="0">
@@ -19475,7 +19467,7 @@ Decrease R58 to 3K3 for ~84oC or to 2K7 for ~90oC.</text>
 </net>
 <net name="N$51" class="0">
 <segment>
-<pinref part="R52" gate="G$1" pin="2"/>
+<pinref part="R51" gate="G$1" pin="2"/>
 <wire x1="15.24" y1="68.58" x2="15.24" y2="38.1" width="0.1524" layer="91"/>
 <pinref part="D23" gate="G$1" pin="C"/>
 <wire x1="25.4" y1="38.1" x2="15.24" y2="38.1" width="0.1524" layer="91"/>
@@ -19483,7 +19475,7 @@ Decrease R58 to 3K3 for ~84oC or to 2K7 for ~90oC.</text>
 <wire x1="15.24" y1="38.1" x2="15.24" y2="22.86" width="0.1524" layer="91"/>
 <pinref part="D25" gate="G$1" pin="C"/>
 <wire x1="25.4" y1="22.86" x2="15.24" y2="22.86" width="0.1524" layer="91"/>
-<pinref part="R62" gate="G$1" pin="1"/>
+<pinref part="R61" gate="G$1" pin="1"/>
 <junction x="15.24" y="22.86"/>
 </segment>
 </net>
@@ -19497,14 +19489,14 @@ Decrease R58 to 3K3 for ~84oC or to 2K7 for ~90oC.</text>
 <net name="CT_OUT-" class="0">
 <segment>
 <wire x1="139.7" y1="55.88" x2="142.24" y2="55.88" width="0.1524" layer="91"/>
-<pinref part="R58" gate="G$1" pin="1"/>
+<pinref part="R57" gate="G$1" pin="1"/>
 <label x="152.4" y="55.88" size="1.27" layer="102" xref="yes"/>
-<pinref part="R56" gate="G$1" pin="2"/>
+<pinref part="R55" gate="G$1" pin="2"/>
 <wire x1="142.24" y1="55.88" x2="152.4" y2="55.88" width="0.1524" layer="91"/>
 <junction x="142.24" y="55.88"/>
 </segment>
 <segment>
-<pinref part="R25" gate="G$1" pin="2"/>
+<pinref part="R24" gate="G$1" pin="2"/>
 <wire x1="215.9" y1="160.02" x2="203.2" y2="160.02" width="0.1524" layer="91"/>
 <label x="215.9" y="160.655" size="1.27" layer="102" rot="MR0"/>
 <wire x1="203.2" y1="160.02" x2="175.26" y2="160.02" width="0.1524" layer="91"/>
@@ -19516,11 +19508,11 @@ Decrease R58 to 3K3 for ~84oC or to 2K7 for ~90oC.</text>
 <net name="N$56" class="0">
 <segment>
 <pinref part="D21" gate="G$1" pin="C"/>
-<pinref part="R55" gate="G$1" pin="1"/>
+<pinref part="R54" gate="G$1" pin="1"/>
 <wire x1="139.7" y1="68.58" x2="142.24" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="142.24" y1="68.58" x2="144.78" y2="68.58" width="0.1524" layer="91"/>
 <junction x="142.24" y="68.58"/>
-<pinref part="R56" gate="G$1" pin="1"/>
+<pinref part="R55" gate="G$1" pin="1"/>
 <wire x1="142.24" y1="66.04" x2="142.24" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -19528,20 +19520,20 @@ Decrease R58 to 3K3 for ~84oC or to 2K7 for ~90oC.</text>
 <segment>
 <pinref part="D11" gate="G$1" pin="C"/>
 <wire x1="152.4" y1="157.48" x2="149.86" y2="157.48" width="0.1524" layer="91"/>
-<pinref part="R27" gate="G$1" pin="1"/>
+<pinref part="R26" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$52" class="0">
 <segment>
 <pinref part="D14" gate="G$1" pin="C"/>
-<pinref part="R38" gate="G$1" pin="2"/>
+<pinref part="R37" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$59" class="0">
 <segment>
 <pinref part="C53" gate="G$1" pin="2"/>
 <wire x1="142.24" y1="30.48" x2="132.08" y2="30.48" width="0.1524" layer="91"/>
-<pinref part="R66" gate="G$1" pin="1"/>
+<pinref part="R65" gate="G$1" pin="1"/>
 <wire x1="132.08" y1="30.48" x2="132.08" y2="25.4" width="0.1524" layer="91"/>
 <pinref part="D24" gate="G$1" pin="A"/>
 <wire x1="132.08" y1="25.4" x2="132.08" y2="20.32" width="0.1524" layer="91"/>
@@ -19551,16 +19543,16 @@ Decrease R58 to 3K3 for ~84oC or to 2K7 for ~90oC.</text>
 </net>
 <net name="N$6" class="0">
 <segment>
-<pinref part="R23" gate="G$1" pin="2"/>
+<pinref part="R22" gate="G$1" pin="2"/>
 <wire x1="45.72" y1="162.56" x2="45.72" y2="160.02" width="0.1524" layer="91"/>
-<pinref part="R28" gate="G$1" pin="1"/>
+<pinref part="R27" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="UVLO" class="0">
 <segment>
-<pinref part="R47" gate="G$1" pin="1"/>
-<pinref part="R32" gate="G$1" pin="2"/>
-<pinref part="R45" gate="G$1" pin="2"/>
+<pinref part="R46" gate="G$1" pin="1"/>
+<pinref part="R31" gate="G$1" pin="2"/>
+<pinref part="R44" gate="G$1" pin="2"/>
 <wire x1="53.34" y1="99.06" x2="50.8" y2="99.06" width="0.1524" layer="91"/>
 <junction x="50.8" y="99.06"/>
 <pinref part="TP2" gate="G$1" pin="2"/>
@@ -19571,11 +19563,14 @@ Decrease R58 to 3K3 for ~84oC or to 2K7 for ~90oC.</text>
 <pinref part="D18" gate="G$1" pin="A"/>
 <wire x1="50.8" y1="99.06" x2="45.72" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="99.06" x2="30.48" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="45.72" y1="137.16" x2="45.72" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="137.16" x2="45.72" y2="106.68" width="0.1524" layer="91"/>
 <junction x="45.72" y="99.06"/>
 <pinref part="C43" gate="G$1" pin="1"/>
+<wire x1="45.72" y1="106.68" x2="45.72" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="96.52" x2="45.72" y2="99.06" width="0.1524" layer="91"/>
-<label x="46.355" y="99.695" size="1.27" layer="102"/>
+<wire x1="45.72" y1="106.68" x2="48.26" y2="106.68" width="0.1524" layer="91"/>
+<junction x="45.72" y="106.68"/>
+<label x="59.69" y="106.68" size="1.27" layer="102" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>
@@ -19619,14 +19614,9 @@ Decrease R58 to 3K3 for ~84oC or to 2K7 for ~90oC.</text>
 <text x="31.115" y="18.415" size="1.27" layer="100">Rshift</text>
 <text x="31.115" y="28.575" size="1.27" layer="100">Rslope</text>
 <text x="5.08" y="160.02" size="1.27" layer="100">Join GND traces to the IC5 VS input as shown on the schematic.</text>
-<text x="142.24" y="63.5" size="1.27" layer="104">10K</text>
-<text x="131.445" y="77.47" size="1.27" layer="104">100R</text>
-<text x="147.32" y="88.265" size="1.27" layer="104">200K</text>
-<text x="146.05" y="78.105" size="1.27" layer="104">2K2</text>
-<text x="97.155" y="77.47" size="1.27" layer="104">150K</text>
-<text x="66.04" y="67.31" size="1.27" layer="104">2K7</text>
-<text x="127" y="61.595" size="1.27" layer="104">2K7</text>
 <rectangle x1="134.62" y1="33.02" x2="147.955" y2="62.23" layer="97"/>
+<text x="173.99" y="158.115" size="1.27" layer="96">e.g. HPI0630-3R3 or
+IHLP2020CZER3R3M11</text>
 </plain>
 <instances>
 <instance part="FRAME3" gate="G$1" x="0" y="0" smashed="yes"/>
@@ -19639,11 +19629,11 @@ Decrease R58 to 3K3 for ~84oC or to 2K7 for ~90oC.</text>
 <attribute name="NAME" x="30.861" y="138.176" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="30.861" y="136.271" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="R75" gate="G$1" x="101.6" y="127" smashed="yes" rot="MR0">
+<instance part="R74" gate="G$1" x="101.6" y="127" smashed="yes" rot="MR0">
 <attribute name="NAME" x="99.06" y="129.9464" size="1.778" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="99.06" y="125.857" size="1.778" layer="96" rot="MR180"/>
 </instance>
-<instance part="R72" gate="G$1" x="101.6" y="152.4" smashed="yes" rot="R180">
+<instance part="R71" gate="G$1" x="101.6" y="152.4" smashed="yes" rot="R180">
 <attribute name="NAME" x="99.695" y="153.8986" size="1.778" layer="95"/>
 <attribute name="VALUE" x="99.695" y="151.257" size="1.778" layer="96" rot="MR180"/>
 </instance>
@@ -19655,11 +19645,11 @@ Decrease R58 to 3K3 for ~84oC or to 2K7 for ~90oC.</text>
 <attribute name="NAME" x="109.22" y="123.825" size="1.778" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="102.87" y="121.285" size="1.27" layer="96" rot="MR180"/>
 </instance>
-<instance part="R68" gate="G$1" x="124.46" y="160.02" smashed="yes" rot="R270">
+<instance part="R67" gate="G$1" x="124.46" y="160.02" smashed="yes" rot="R270">
 <attribute name="NAME" x="125.73" y="160.2486" size="1.778" layer="95"/>
 <attribute name="VALUE" x="125.73" y="158.623" size="1.27" layer="96"/>
 </instance>
-<instance part="R77" gate="G$1" x="124.46" y="121.92" smashed="yes" rot="MR90">
+<instance part="R76" gate="G$1" x="124.46" y="121.92" smashed="yes" rot="MR90">
 <attribute name="NAME" x="125.73" y="123.5964" size="1.778" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="125.73" y="121.412" size="1.27" layer="96" rot="MR180"/>
 </instance>
@@ -19671,7 +19661,7 @@ Decrease R58 to 3K3 for ~84oC or to 2K7 for ~90oC.</text>
 <attribute name="NAME" x="126.619" y="134.874" size="1.778" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="126.619" y="132.969" size="1.778" layer="96" rot="MR180"/>
 </instance>
-<instance part="R73" gate="G$1" x="25.4" y="144.78" smashed="yes">
+<instance part="R72" gate="G$1" x="25.4" y="144.78" smashed="yes">
 <attribute name="NAME" x="22.86" y="148.1836" size="1.778" layer="95"/>
 <attribute name="VALUE" x="22.86" y="145.923" size="1.778" layer="96"/>
 </instance>
@@ -19693,22 +19683,22 @@ Decrease R58 to 3K3 for ~84oC or to 2K7 for ~90oC.</text>
 <instance part="IC6" gate="P" x="45.72" y="86.36" smashed="yes">
 <attribute name="NAME" x="46.355" y="83.82" size="1.778" layer="95"/>
 </instance>
-<instance part="R78" gate="G$1" x="213.36" y="93.98" smashed="yes" rot="MR180">
+<instance part="R77" gate="G$1" x="213.36" y="93.98" smashed="yes" rot="MR180">
 <attribute name="NAME" x="210.82" y="96.9264" size="1.778" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="210.82" y="92.837" size="1.778" layer="96" rot="MR180"/>
 </instance>
-<instance part="R82" gate="G$1" x="233.68" y="86.36" smashed="yes" rot="MR180">
+<instance part="R81" gate="G$1" x="233.68" y="86.36" smashed="yes" rot="MR180">
 <attribute name="NAME" x="231.14" y="89.3064" size="1.778" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="231.14" y="85.217" size="1.778" layer="96" rot="MR180"/>
 </instance>
 <instance part="SUPPLY1" gate="GND" x="226.06" y="76.2" smashed="yes">
 <attribute name="VALUE" x="227.965" y="74.93" size="1.778" layer="96"/>
 </instance>
-<instance part="R83" gate="G$1" x="198.12" y="83.82" smashed="yes" rot="MR180">
+<instance part="R82" gate="G$1" x="198.12" y="83.82" smashed="yes" rot="MR180">
 <attribute name="NAME" x="195.58" y="86.7664" size="1.778" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="196.215" y="82.677" size="1.778" layer="96" rot="MR180"/>
 </instance>
-<instance part="R90" gate="G$1" x="198.12" y="71.12" smashed="yes" rot="MR180">
+<instance part="R89" gate="G$1" x="198.12" y="71.12" smashed="yes" rot="MR180">
 <attribute name="NAME" x="195.58" y="74.0664" size="1.778" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="196.215" y="69.977" size="1.778" layer="96" rot="MR180"/>
 </instance>
@@ -19719,11 +19709,11 @@ Decrease R58 to 3K3 for ~84oC or to 2K7 for ~90oC.</text>
 <attribute name="NAME" x="177.419" y="76.581" size="1.778" layer="95"/>
 <attribute name="VALUE" x="177.419" y="74.041" size="1.778" layer="96"/>
 </instance>
-<instance part="R93" gate="G$1" x="160.02" y="66.04" smashed="yes" rot="MR180">
+<instance part="R92" gate="G$1" x="160.02" y="66.04" smashed="yes" rot="MR180">
 <attribute name="NAME" x="157.48" y="67.5386" size="1.778" layer="95"/>
 <attribute name="VALUE" x="157.48" y="64.897" size="1.778" layer="96" rot="MR180"/>
 </instance>
-<instance part="R86" gate="G$1" x="165.1" y="81.28" smashed="yes" rot="MR180">
+<instance part="R85" gate="G$1" x="165.1" y="81.28" smashed="yes" rot="MR180">
 <attribute name="NAME" x="162.56" y="84.2264" size="1.778" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="163.195" y="80.137" size="1.778" layer="96" rot="MR180"/>
 </instance>
@@ -19745,11 +19735,11 @@ Decrease R58 to 3K3 for ~84oC or to 2K7 for ~90oC.</text>
 <attribute name="NAME" x="90.805" y="66.675" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="90.805" y="58.42" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="R89" gate="G$1" x="71.12" y="71.12" smashed="yes" rot="MR90">
+<instance part="R88" gate="G$1" x="71.12" y="71.12" smashed="yes" rot="MR90">
 <attribute name="NAME" x="69.85" y="71.3486" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="69.85" y="69.088" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="R88" gate="G$1" x="116.84" y="73.66" smashed="yes" rot="MR90">
+<instance part="R87" gate="G$1" x="116.84" y="73.66" smashed="yes" rot="MR90">
 <attribute name="NAME" x="115.57" y="73.8886" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="115.57" y="71.628" size="1.778" layer="96" rot="MR0"/>
 </instance>
@@ -19763,7 +19753,7 @@ Decrease R58 to 3K3 for ~84oC or to 2K7 for ~90oC.</text>
 <instance part="SUPPLY5" gate="GND" x="116.84" y="48.26" smashed="yes">
 <attribute name="VALUE" x="114.935" y="46.99" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="R87" gate="G$1" x="99.06" y="73.66" smashed="yes" rot="R180">
+<instance part="R86" gate="G$1" x="99.06" y="73.66" smashed="yes" rot="R180">
 <attribute name="NAME" x="96.52" y="75.1586" size="1.778" layer="95"/>
 <attribute name="VALUE" x="96.52" y="70.358" size="1.778" layer="96"/>
 </instance>
@@ -19775,11 +19765,11 @@ Decrease R58 to 3K3 for ~84oC or to 2K7 for ~90oC.</text>
 <attribute name="NAME" x="83.439" y="81.661" size="1.778" layer="95"/>
 <attribute name="VALUE" x="83.439" y="79.121" size="1.778" layer="96"/>
 </instance>
-<instance part="R92" gate="G$1" x="144.78" y="66.04" smashed="yes" rot="R180">
+<instance part="R91" gate="G$1" x="144.78" y="66.04" smashed="yes" rot="R180">
 <attribute name="NAME" x="142.24" y="70.0786" size="1.778" layer="95"/>
 <attribute name="VALUE" x="142.24" y="67.818" size="1.778" layer="96"/>
 </instance>
-<instance part="R81" gate="G$1" x="144.78" y="91.44" smashed="yes" rot="R90">
+<instance part="R80" gate="G$1" x="144.78" y="91.44" smashed="yes" rot="R90">
 <attribute name="NAME" x="146.05" y="92.3036" size="1.778" layer="95"/>
 <attribute name="VALUE" x="146.05" y="90.043" size="1.778" layer="96"/>
 </instance>
@@ -19791,7 +19781,7 @@ Decrease R58 to 3K3 for ~84oC or to 2K7 for ~90oC.</text>
 <attribute name="NAME" x="154.178" y="60.1726" size="1.778" layer="95"/>
 <attribute name="VALUE" x="154.178" y="58.2676" size="1.778" layer="96"/>
 </instance>
-<instance part="R91" gate="G$1" x="129.54" y="66.04" smashed="yes" rot="MR180">
+<instance part="R90" gate="G$1" x="129.54" y="66.04" smashed="yes" rot="MR180">
 <attribute name="NAME" x="127" y="68.9864" size="1.778" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="127" y="64.897" size="1.778" layer="96" rot="MR180"/>
 </instance>
@@ -19808,13 +19798,13 @@ Decrease R58 to 3K3 for ~84oC or to 2K7 for ~90oC.</text>
 <attribute name="NAME" x="170.815" y="61.595" size="1.778" layer="95"/>
 <attribute name="VALUE" x="170.815" y="59.055" size="1.778" layer="96"/>
 </instance>
-<instance part="R67" gate="G$1" x="180.34" y="172.72" smashed="yes">
+<instance part="R66" gate="G$1" x="180.34" y="172.72" smashed="yes">
 <attribute name="NAME" x="178.435" y="174.2186" size="1.778" layer="95"/>
 <attribute name="VALUE" x="177.165" y="169.418" size="1.778" layer="96"/>
 </instance>
 <instance part="L9" gate="G$1" x="180.34" y="165.1" smashed="yes">
-<attribute name="NAME" x="179.705" y="166.4716" size="1.778" layer="95"/>
-<attribute name="VALUE" x="169.545" y="162.179" size="1.27" layer="96"/>
+<attribute name="NAME" x="179.07" y="166.4716" size="1.778" layer="95"/>
+<attribute name="VALUE" x="177.165" y="162.179" size="1.778" layer="96"/>
 </instance>
 <instance part="C61" gate="G$1" x="195.58" y="154.94" smashed="yes">
 <attribute name="NAME" x="195.834" y="154.686" size="1.778" layer="95"/>
@@ -19823,7 +19813,7 @@ Decrease R58 to 3K3 for ~84oC or to 2K7 for ~90oC.</text>
 <instance part="SH3" gate="SH" x="144.78" y="172.72" smashed="yes">
 <attribute name="NAME" x="142.5575" y="173.99" size="1.778" layer="95"/>
 </instance>
-<instance part="R74" gate="G$1" x="48.26" y="137.16" smashed="yes" rot="MR270">
+<instance part="R73" gate="G$1" x="48.26" y="137.16" smashed="yes" rot="MR270">
 <attribute name="NAME" x="46.99" y="137.3886" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="46.99" y="135.128" size="1.778" layer="96" rot="MR0"/>
 </instance>
@@ -19853,7 +19843,7 @@ Decrease R58 to 3K3 for ~84oC or to 2K7 for ~90oC.</text>
 <attribute name="NAME" x="203.454" y="154.686" size="1.778" layer="95"/>
 <attribute name="VALUE" x="203.454" y="151.511" size="1.27" layer="96"/>
 </instance>
-<instance part="R69" gate="G$1" x="213.36" y="160.02" smashed="yes" rot="R90">
+<instance part="R68" gate="G$1" x="213.36" y="160.02" smashed="yes" rot="R90">
 <attribute name="NAME" x="212.09" y="161.6964" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="212.09" y="159.512" size="1.778" layer="96" rot="R180"/>
 </instance>
@@ -19896,7 +19886,7 @@ Decrease R58 to 3K3 for ~84oC or to 2K7 for ~90oC.</text>
 <instance part="JP8" gate="G$1" x="45.72" y="73.66" smashed="yes" rot="MR270">
 <attribute name="NAME" x="46.99" y="71.755" size="1.778" layer="95"/>
 </instance>
-<instance part="R79" gate="G$1" x="20.32" y="91.44" smashed="yes" rot="MR270">
+<instance part="R78" gate="G$1" x="20.32" y="91.44" smashed="yes" rot="MR270">
 <attribute name="NAME" x="19.05" y="91.6686" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="19.05" y="89.408" size="1.778" layer="96" rot="MR0"/>
 </instance>
@@ -19904,14 +19894,14 @@ Decrease R58 to 3K3 for ~84oC or to 2K7 for ~90oC.</text>
 <attribute name="NAME" x="17.526" y="71.9074" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="19.558" y="66.4464" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="R80" gate="G$1" x="33.02" y="91.44" smashed="yes" rot="MR270">
+<instance part="R79" gate="G$1" x="33.02" y="91.44" smashed="yes" rot="MR270">
 <attribute name="NAME" x="31.75" y="91.6686" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="31.75" y="89.408" size="1.778" layer="96" rot="MR0"/>
 </instance>
 <instance part="SUPPLY16" gate="GND" x="33.02" y="71.12" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="32.385" y="69.215" size="1.778" layer="96" rot="MR180"/>
 </instance>
-<instance part="R84" gate="G$1" x="137.16" y="81.28" smashed="yes" rot="MR90">
+<instance part="R83" gate="G$1" x="137.16" y="81.28" smashed="yes" rot="MR90">
 <attribute name="NAME" x="135.89" y="81.5086" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="135.89" y="79.248" size="1.778" layer="96" rot="MR0"/>
 </instance>
@@ -19919,7 +19909,7 @@ Decrease R58 to 3K3 for ~84oC or to 2K7 for ~90oC.</text>
 <attribute name="NAME" x="135.001" y="93.091" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="135.001" y="90.551" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="R85" gate="G$1" x="144.78" y="81.28" smashed="yes" rot="R90">
+<instance part="R84" gate="G$1" x="144.78" y="81.28" smashed="yes" rot="R90">
 <attribute name="NAME" x="146.05" y="82.1436" size="1.778" layer="95"/>
 <attribute name="VALUE" x="146.05" y="79.883" size="1.778" layer="96"/>
 </instance>
@@ -19942,7 +19932,7 @@ Decrease R58 to 3K3 for ~84oC or to 2K7 for ~90oC.</text>
 <attribute name="NAME" x="255.27" y="164.211" size="1.778" layer="95"/>
 <attribute name="VALUE" x="257.81" y="162.433" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="R71" gate="G$1" x="223.52" y="154.94" smashed="yes" rot="R90">
+<instance part="R70" gate="G$1" x="223.52" y="154.94" smashed="yes" rot="R90">
 <attribute name="NAME" x="222.25" y="156.6164" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="222.25" y="154.432" size="1.778" layer="96" rot="R180"/>
 </instance>
@@ -19971,27 +19961,27 @@ Decrease R58 to 3K3 for ~84oC or to 2K7 for ~90oC.</text>
 <attribute name="NAME" x="51.435" y="35.56" size="1.778" layer="95"/>
 <attribute name="VALUE" x="48.895" y="33.02" size="1.778" layer="96"/>
 </instance>
-<instance part="R98" gate="G$1" x="27.94" y="17.78" smashed="yes" rot="MR180">
+<instance part="R97" gate="G$1" x="27.94" y="17.78" smashed="yes" rot="MR180">
 <attribute name="NAME" x="26.035" y="19.2786" size="1.778" layer="95"/>
 <attribute name="VALUE" x="25.4" y="14.478" size="1.778" layer="96"/>
 </instance>
-<instance part="R96" gate="G$1" x="27.94" y="27.94" smashed="yes">
+<instance part="R95" gate="G$1" x="27.94" y="27.94" smashed="yes">
 <attribute name="NAME" x="26.035" y="29.4386" size="1.778" layer="95"/>
 <attribute name="VALUE" x="26.035" y="24.638" size="1.778" layer="96"/>
 </instance>
-<instance part="R97" gate="G$1" x="55.88" y="27.94" smashed="yes" rot="MR180">
+<instance part="R96" gate="G$1" x="55.88" y="27.94" smashed="yes" rot="MR180">
 <attribute name="NAME" x="53.975" y="29.4386" size="1.778" layer="95"/>
 <attribute name="VALUE" x="53.975" y="26.797" size="1.778" layer="96" rot="MR180"/>
 </instance>
-<instance part="R99" gate="G$1" x="48.26" y="17.78" smashed="yes" rot="MR180">
+<instance part="R98" gate="G$1" x="48.26" y="17.78" smashed="yes" rot="MR180">
 <attribute name="NAME" x="45.72" y="21.1836" size="1.778" layer="95"/>
 <attribute name="VALUE" x="45.72" y="18.923" size="1.778" layer="96"/>
 </instance>
-<instance part="R101" gate="G$1" x="45.72" y="12.7" smashed="yes" rot="MR0">
+<instance part="R100" gate="G$1" x="45.72" y="12.7" smashed="yes" rot="MR0">
 <attribute name="NAME" x="43.815" y="14.1986" size="1.778" layer="95"/>
 <attribute name="VALUE" x="43.815" y="11.557" size="1.778" layer="96" rot="MR180"/>
 </instance>
-<instance part="R100" gate="G$1" x="60.96" y="17.78" smashed="yes" rot="MR180">
+<instance part="R99" gate="G$1" x="60.96" y="17.78" smashed="yes" rot="MR180">
 <attribute name="NAME" x="59.055" y="19.2786" size="1.778" layer="95"/>
 <attribute name="VALUE" x="59.055" y="14.478" size="1.778" layer="96"/>
 </instance>
@@ -20001,11 +19991,11 @@ Decrease R58 to 3K3 for ~84oC or to 2K7 for ~90oC.</text>
 <instance part="X2" gate="-6" x="10.16" y="68.58" smashed="yes">
 <attribute name="NAME" x="10.16" y="69.596" size="1.778" layer="95" rot="MR0"/>
 </instance>
-<instance part="R76" gate="G$1" x="91.44" y="124.46" smashed="yes" rot="R90">
+<instance part="R75" gate="G$1" x="91.44" y="124.46" smashed="yes" rot="R90">
 <attribute name="NAME" x="92.71" y="124.6886" size="1.778" layer="95"/>
 <attribute name="VALUE" x="92.71" y="122.428" size="1.778" layer="96"/>
 </instance>
-<instance part="R70" gate="G$1" x="91.44" y="154.94" smashed="yes" rot="R90">
+<instance part="R69" gate="G$1" x="91.44" y="154.94" smashed="yes" rot="R90">
 <attribute name="NAME" x="92.71" y="155.1686" size="1.778" layer="95"/>
 <attribute name="VALUE" x="92.71" y="152.908" size="1.778" layer="96"/>
 </instance>
@@ -20017,7 +20007,7 @@ Decrease R58 to 3K3 for ~84oC or to 2K7 for ~90oC.</text>
 <attribute name="NAME" x="83.566" y="154.686" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="83.566" y="150.876" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="R94" gate="G$1" x="137.16" y="58.42" smashed="yes" rot="R90">
+<instance part="R93" gate="G$1" x="137.16" y="58.42" smashed="yes" rot="R90">
 <attribute name="NAME" x="138.43" y="59.2836" size="1.778" layer="95"/>
 <attribute name="VALUE" x="138.43" y="57.023" size="1.778" layer="96"/>
 </instance>
@@ -20025,7 +20015,7 @@ Decrease R58 to 3K3 for ~84oC or to 2K7 for ~90oC.</text>
 <attribute name="NAME" x="143.51" y="40.005" size="1.778" layer="95"/>
 <attribute name="VALUE" x="144.145" y="31.75" size="1.778" layer="96"/>
 </instance>
-<instance part="R95" gate="G$1" x="137.16" y="45.72" smashed="yes" rot="R90">
+<instance part="R94" gate="G$1" x="137.16" y="45.72" smashed="yes" rot="R90">
 <attribute name="NAME" x="138.43" y="46.5836" size="1.778" layer="95"/>
 <attribute name="VALUE" x="138.43" y="44.323" size="1.778" layer="96"/>
 </instance>
@@ -20041,7 +20031,7 @@ Decrease R58 to 3K3 for ~84oC or to 2K7 for ~90oC.</text>
 <nets>
 <net name="GATE2" class="0">
 <segment>
-<pinref part="R75" gate="G$1" pin="2"/>
+<pinref part="R74" gate="G$1" pin="2"/>
 <wire x1="93.98" y1="127" x2="93.98" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="96.52" y1="127" x2="93.98" y2="127" width="0.1524" layer="91"/>
 <pinref part="IC5" gate="G$1" pin="GATE2"/>
@@ -20050,7 +20040,7 @@ Decrease R58 to 3K3 for ~84oC or to 2K7 for ~90oC.</text>
 </net>
 <net name="GATE1" class="0">
 <segment>
-<pinref part="R72" gate="G$1" pin="2"/>
+<pinref part="R71" gate="G$1" pin="2"/>
 <pinref part="IC5" gate="G$1" pin="GATE1"/>
 <wire x1="76.2" y1="144.78" x2="93.98" y2="144.78" width="0.1524" layer="91"/>
 <wire x1="96.52" y1="152.4" x2="93.98" y2="152.4" width="0.1524" layer="91"/>
@@ -20060,13 +20050,13 @@ Decrease R58 to 3K3 for ~84oC or to 2K7 for ~90oC.</text>
 <net name="N$66" class="0">
 <segment>
 <pinref part="C70" gate="G$1" pin="1"/>
-<pinref part="R77" gate="G$1" pin="2"/>
+<pinref part="R76" gate="G$1" pin="2"/>
 <wire x1="124.46" y1="129.54" x2="124.46" y2="127" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$67" class="0">
 <segment>
-<pinref part="R68" gate="G$1" pin="2"/>
+<pinref part="R67" gate="G$1" pin="2"/>
 <pinref part="C63" gate="G$1" pin="1"/>
 <wire x1="124.46" y1="154.94" x2="124.46" y2="152.4" width="0.1524" layer="91"/>
 </segment>
@@ -20074,7 +20064,7 @@ Decrease R58 to 3K3 for ~84oC or to 2K7 for ~90oC.</text>
 <net name="SYNC_VCC" class="0">
 <segment>
 <pinref part="C65" gate="G$1" pin="1"/>
-<pinref part="R73" gate="G$1" pin="2"/>
+<pinref part="R72" gate="G$1" pin="2"/>
 <pinref part="C66" gate="G$1" pin="1"/>
 <pinref part="IC5" gate="G$1" pin="VCC"/>
 <wire x1="40.64" y1="144.78" x2="50.8" y2="144.78" width="0.1524" layer="91"/>
@@ -20136,7 +20126,7 @@ Decrease R58 to 3K3 for ~84oC or to 2K7 for ~90oC.</text>
 <pinref part="TP5" gate="G$1" pin="GND"/>
 <junction x="223.52" y="144.78"/>
 <pinref part="X4" gate="-2" pin="1"/>
-<pinref part="R71" gate="G$1" pin="1"/>
+<pinref part="R70" gate="G$1" pin="1"/>
 <pinref part="C60" gate="G$1" pin="-"/>
 <wire x1="195.58" y1="149.86" x2="195.58" y2="144.78" width="0.1524" layer="91"/>
 <junction x="195.58" y="144.78"/>
@@ -20150,7 +20140,7 @@ Decrease R58 to 3K3 for ~84oC or to 2K7 for ~90oC.</text>
 <wire x1="76.2" y1="127" x2="50.8" y2="127" width="0.1524" layer="91"/>
 <pinref part="IC5" gate="G$1" pin="GND"/>
 <wire x1="48.26" y1="132.08" x2="50.8" y2="132.08" width="0.1524" layer="91"/>
-<pinref part="R74" gate="G$1" pin="2"/>
+<pinref part="R73" gate="G$1" pin="2"/>
 <junction x="48.26" y="132.08"/>
 <pinref part="C65" gate="G$1" pin="2"/>
 <wire x1="33.02" y1="132.08" x2="40.64" y2="132.08" width="0.1524" layer="91"/>
@@ -20277,7 +20267,7 @@ Decrease R58 to 3K3 for ~84oC or to 2K7 for ~90oC.</text>
 <wire x1="248.92" y1="165.1" x2="238.76" y2="165.1" width="0.1524" layer="91"/>
 <wire x1="238.76" y1="165.1" x2="233.68" y2="165.1" width="0.1524" layer="91"/>
 <wire x1="233.68" y1="165.1" x2="228.6" y2="165.1" width="0.1524" layer="91"/>
-<pinref part="R67" gate="G$1" pin="2"/>
+<pinref part="R66" gate="G$1" pin="2"/>
 <wire x1="228.6" y1="165.1" x2="223.52" y2="165.1" width="0.1524" layer="91"/>
 <wire x1="223.52" y1="165.1" x2="213.36" y2="165.1" width="0.1524" layer="91"/>
 <wire x1="185.42" y1="172.72" x2="187.96" y2="172.72" width="0.1524" layer="91"/>
@@ -20293,7 +20283,7 @@ Decrease R58 to 3K3 for ~84oC or to 2K7 for ~90oC.</text>
 <pinref part="C62" gate="G$1" pin="1"/>
 <wire x1="203.2" y1="157.48" x2="203.2" y2="165.1" width="0.1524" layer="91"/>
 <wire x1="187.96" y1="165.1" x2="195.58" y2="165.1" width="0.1524" layer="91"/>
-<pinref part="R69" gate="G$1" pin="2"/>
+<pinref part="R68" gate="G$1" pin="2"/>
 <junction x="213.36" y="165.1"/>
 <pinref part="C68" gate="G$1" pin="1"/>
 <wire x1="195.58" y1="165.1" x2="203.2" y2="165.1" width="0.1524" layer="91"/>
@@ -20303,9 +20293,9 @@ Decrease R58 to 3K3 for ~84oC or to 2K7 for ~90oC.</text>
 <pinref part="TP5" gate="G$1" pin="TIP"/>
 <wire x1="241.3" y1="154.94" x2="238.76" y2="154.94" width="0.1524" layer="91"/>
 <pinref part="X4" gate="-1" pin="1"/>
-<pinref part="R71" gate="G$1" pin="2"/>
+<pinref part="R70" gate="G$1" pin="2"/>
 <pinref part="C60" gate="G$1" pin="+"/>
-<pinref part="R81" gate="G$1" pin="2"/>
+<pinref part="R80" gate="G$1" pin="2"/>
 <wire x1="144.78" y1="101.6" x2="144.78" y2="96.52" width="0.1524" layer="91"/>
 <junction x="195.58" y="165.1"/>
 <junction x="203.2" y="165.1"/>
@@ -20340,7 +20330,7 @@ Decrease R58 to 3K3 for ~84oC or to 2K7 for ~90oC.</text>
 <pinref part="L9" gate="G$1" pin="1"/>
 <wire x1="175.26" y1="165.1" x2="172.72" y2="165.1" width="0.1524" layer="91"/>
 <wire x1="172.72" y1="165.1" x2="172.72" y2="172.72" width="0.1524" layer="91"/>
-<pinref part="R67" gate="G$1" pin="1"/>
+<pinref part="R66" gate="G$1" pin="1"/>
 <wire x1="172.72" y1="172.72" x2="175.26" y2="172.72" width="0.1524" layer="91"/>
 <junction x="172.72" y="165.1"/>
 <pinref part="SH3" gate="SH" pin="GND_B"/>
@@ -20351,14 +20341,14 @@ Decrease R58 to 3K3 for ~84oC or to 2K7 for ~90oC.</text>
 </net>
 <net name="NFB_OFFSET" class="0">
 <segment>
-<pinref part="R93" gate="G$1" pin="1"/>
+<pinref part="R92" gate="G$1" pin="1"/>
 <wire x1="154.94" y1="66.04" x2="152.4" y2="66.04" width="0.1524" layer="91"/>
-<pinref part="R86" gate="G$1" pin="1"/>
+<pinref part="R85" gate="G$1" pin="1"/>
 <wire x1="160.02" y1="81.28" x2="152.4" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="152.4" y1="81.28" x2="152.4" y2="66.04" width="0.1524" layer="91"/>
 <junction x="152.4" y="66.04"/>
 <wire x1="152.4" y1="63.5" x2="152.4" y2="66.04" width="0.1524" layer="91"/>
-<pinref part="R92" gate="G$1" pin="1"/>
+<pinref part="R91" gate="G$1" pin="1"/>
 <wire x1="152.4" y1="66.04" x2="149.86" y2="66.04" width="0.1524" layer="91"/>
 <pinref part="C79" gate="G$1" pin="+"/>
 </segment>
@@ -20370,7 +20360,7 @@ Decrease R58 to 3K3 for ~84oC or to 2K7 for ~90oC.</text>
 <wire x1="226.06" y1="71.12" x2="205.74" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="205.74" y1="71.12" x2="205.74" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="205.74" y1="63.5" x2="208.28" y2="63.5" width="0.1524" layer="91"/>
-<pinref part="R90" gate="G$1" pin="2"/>
+<pinref part="R89" gate="G$1" pin="2"/>
 <wire x1="203.2" y1="71.12" x2="205.74" y2="71.12" width="0.1524" layer="91"/>
 <junction x="205.74" y="71.12"/>
 <pinref part="IC7" gate="-2" pin="-IN"/>
@@ -20379,9 +20369,9 @@ Decrease R58 to 3K3 for ~84oC or to 2K7 for ~90oC.</text>
 </net>
 <net name="N$132" class="0">
 <segment>
-<pinref part="R82" gate="G$1" pin="1"/>
+<pinref part="R81" gate="G$1" pin="1"/>
 <wire x1="228.6" y1="86.36" x2="226.06" y2="86.36" width="0.1524" layer="91"/>
-<pinref part="R78" gate="G$1" pin="2"/>
+<pinref part="R77" gate="G$1" pin="2"/>
 <wire x1="226.06" y1="86.36" x2="223.52" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="218.44" y1="93.98" x2="226.06" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="226.06" y1="93.98" x2="226.06" y2="86.36" width="0.1524" layer="91"/>
@@ -20391,11 +20381,11 @@ Decrease R58 to 3K3 for ~84oC or to 2K7 for ~90oC.</text>
 </net>
 <net name="N$53" class="0">
 <segment>
-<pinref part="R78" gate="G$1" pin="1"/>
+<pinref part="R77" gate="G$1" pin="1"/>
 <wire x1="208.28" y1="93.98" x2="205.74" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="205.74" y1="93.98" x2="205.74" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="205.74" y1="83.82" x2="208.28" y2="83.82" width="0.1524" layer="91"/>
-<pinref part="R83" gate="G$1" pin="2"/>
+<pinref part="R82" gate="G$1" pin="2"/>
 <wire x1="203.2" y1="83.82" x2="205.74" y2="83.82" width="0.1524" layer="91"/>
 <junction x="205.74" y="83.82"/>
 <pinref part="IC6" gate="B" pin="OUT"/>
@@ -20407,7 +20397,7 @@ Decrease R58 to 3K3 for ~84oC or to 2K7 for ~90oC.</text>
 <wire x1="172.72" y1="76.2" x2="167.64" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="167.64" y1="76.2" x2="167.64" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="167.64" y1="66.04" x2="170.18" y2="66.04" width="0.1524" layer="91"/>
-<pinref part="R93" gate="G$1" pin="2"/>
+<pinref part="R92" gate="G$1" pin="2"/>
 <wire x1="165.1" y1="66.04" x2="167.64" y2="66.04" width="0.1524" layer="91"/>
 <junction x="167.64" y="66.04"/>
 <pinref part="IC6" gate="A" pin="OUT"/>
@@ -20416,13 +20406,13 @@ Decrease R58 to 3K3 for ~84oC or to 2K7 for ~90oC.</text>
 <net name="+2.5VREF" class="0">
 <segment>
 <pinref part="IC7" gate="-1" pin="+IN1"/>
-<pinref part="R88" gate="G$1" pin="1"/>
+<pinref part="R87" gate="G$1" pin="1"/>
 <wire x1="101.6" y1="60.96" x2="116.84" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="60.96" x2="116.84" y2="68.58" width="0.1524" layer="91"/>
 <pinref part="C80" gate="G$1" pin="1"/>
 <junction x="116.84" y="60.96"/>
 <wire x1="116.84" y1="60.96" x2="121.92" y2="60.96" width="0.1524" layer="91"/>
-<pinref part="R82" gate="G$1" pin="2"/>
+<pinref part="R81" gate="G$1" pin="2"/>
 <wire x1="238.76" y1="86.36" x2="241.3" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="241.3" y1="86.36" x2="241.3" y2="81.28" width="0.1524" layer="91"/>
 <junction x="241.3" y="86.36"/>
@@ -20436,7 +20426,7 @@ Decrease R58 to 3K3 for ~84oC or to 2K7 for ~90oC.</text>
 </net>
 <net name="OK_A" class="0">
 <segment>
-<pinref part="R89" gate="G$1" pin="1"/>
+<pinref part="R88" gate="G$1" pin="1"/>
 <pinref part="OK3" gate="G$1" pin="A"/>
 <wire x1="71.12" y1="55.88" x2="68.58" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="55.88" x2="71.12" y2="66.04" width="0.1524" layer="91"/>
@@ -20445,7 +20435,7 @@ Decrease R58 to 3K3 for ~84oC or to 2K7 for ~90oC.</text>
 <net name="N$9" class="0">
 <segment>
 <pinref part="C78" gate="G$1" pin="2"/>
-<pinref part="R87" gate="G$1" pin="2"/>
+<pinref part="R86" gate="G$1" pin="2"/>
 <wire x1="86.36" y1="73.66" x2="93.98" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -20457,20 +20447,20 @@ Decrease R58 to 3K3 for ~84oC or to 2K7 for ~90oC.</text>
 <pinref part="IC7" gate="-1" pin="-IN1"/>
 <wire x1="104.14" y1="73.66" x2="104.14" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="104.14" y1="66.04" x2="99.06" y2="66.04" width="0.1524" layer="91"/>
-<pinref part="R87" gate="G$1" pin="1"/>
+<pinref part="R86" gate="G$1" pin="1"/>
 <junction x="104.14" y="73.66"/>
-<pinref part="R91" gate="G$1" pin="1"/>
+<pinref part="R90" gate="G$1" pin="1"/>
 <wire x1="124.46" y1="66.04" x2="104.14" y2="66.04" width="0.1524" layer="91"/>
 <junction x="104.14" y="66.04"/>
 </segment>
 </net>
 <net name="N$64" class="0">
 <segment>
-<pinref part="R86" gate="G$1" pin="2"/>
-<pinref part="R90" gate="G$1" pin="1"/>
+<pinref part="R85" gate="G$1" pin="2"/>
+<pinref part="R89" gate="G$1" pin="1"/>
 <wire x1="193.04" y1="71.12" x2="190.5" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="190.5" y1="71.12" x2="190.5" y2="83.82" width="0.1524" layer="91"/>
-<pinref part="R83" gate="G$1" pin="1"/>
+<pinref part="R82" gate="G$1" pin="1"/>
 <wire x1="187.96" y1="68.58" x2="185.42" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="190.5" y1="83.82" x2="193.04" y2="83.82" width="0.1524" layer="91"/>
 <pinref part="C77" gate="G$1" pin="2"/>
@@ -20498,11 +20488,11 @@ Decrease R58 to 3K3 for ~84oC or to 2K7 for ~90oC.</text>
 <pinref part="JP7" gate="G$1" pin="1"/>
 <pinref part="P+21" gate="1" pin="V+"/>
 <wire x1="7.62" y1="101.6" x2="10.16" y2="101.6" width="0.1524" layer="91"/>
-<pinref part="R80" gate="G$1" pin="1"/>
+<pinref part="R79" gate="G$1" pin="1"/>
 <wire x1="10.16" y1="101.6" x2="12.7" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="96.52" x2="33.02" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="20.32" y1="99.06" x2="33.02" y2="99.06" width="0.1524" layer="91"/>
-<pinref part="R79" gate="G$1" pin="1"/>
+<pinref part="R78" gate="G$1" pin="1"/>
 <wire x1="20.32" y1="96.52" x2="20.32" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="20.32" y1="99.06" x2="10.16" y2="99.06" width="0.1524" layer="91"/>
 <junction x="20.32" y="99.06"/>
@@ -20513,7 +20503,7 @@ Decrease R58 to 3K3 for ~84oC or to 2K7 for ~90oC.</text>
 <net name="N$18" class="0">
 <segment>
 <pinref part="IC5" gate="G$1" pin="MOT"/>
-<pinref part="R74" gate="G$1" pin="1"/>
+<pinref part="R73" gate="G$1" pin="1"/>
 <wire x1="50.8" y1="142.24" x2="48.26" y2="142.24" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -20564,10 +20554,10 @@ Decrease R58 to 3K3 for ~84oC or to 2K7 for ~90oC.</text>
 <segment>
 <label x="38.735" y="114.3" size="1.27" layer="102" rot="R180" xref="yes"/>
 <wire x1="38.735" y1="114.3" x2="116.84" y2="114.3" width="0.1524" layer="91"/>
-<pinref part="R77" gate="G$1" pin="1"/>
+<pinref part="R76" gate="G$1" pin="1"/>
 <pinref part="Q8" gate="G$1" pin="D"/>
 <junction x="116.84" y="119.38"/>
-<pinref part="R76" gate="G$1" pin="1"/>
+<pinref part="R75" gate="G$1" pin="1"/>
 <wire x1="114.3" y1="116.84" x2="116.84" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="114.3" x2="116.84" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="116.84" x2="116.84" y2="119.38" width="0.1524" layer="91"/>
@@ -20580,7 +20570,7 @@ Decrease R58 to 3K3 for ~84oC or to 2K7 for ~90oC.</text>
 <net name="N$8" class="0">
 <segment>
 <pinref part="C64" gate="G$1" pin="2"/>
-<pinref part="R69" gate="G$1" pin="1"/>
+<pinref part="R68" gate="G$1" pin="1"/>
 <wire x1="213.36" y1="152.4" x2="213.36" y2="154.94" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -20616,13 +20606,13 @@ Decrease R58 to 3K3 for ~84oC or to 2K7 for ~90oC.</text>
 <wire x1="48.26" y1="50.8" x2="5.08" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="48.26" y1="50.8" x2="48.26" y2="40.64" width="0.1524" layer="91"/>
 <junction x="48.26" y="50.8"/>
-<pinref part="R97" gate="G$1" pin="2"/>
+<pinref part="R96" gate="G$1" pin="2"/>
 <wire x1="68.58" y1="27.94" x2="60.96" y2="27.94" width="0.1524" layer="91"/>
 <junction x="68.58" y="27.94"/>
 <pinref part="Q9" gate="G$1" pin="C"/>
 <wire x1="53.34" y1="38.1" x2="68.58" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="68.58" y1="27.94" x2="68.58" y2="38.1" width="0.1524" layer="91"/>
-<pinref part="R100" gate="G$1" pin="2"/>
+<pinref part="R99" gate="G$1" pin="2"/>
 <wire x1="48.26" y1="40.64" x2="68.58" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="68.58" y1="40.64" x2="68.58" y2="38.1" width="0.1524" layer="91"/>
 <junction x="68.58" y="38.1"/>
@@ -20661,26 +20651,26 @@ Decrease R58 to 3K3 for ~84oC or to 2K7 for ~90oC.</text>
 </net>
 <net name="N$16" class="0">
 <segment>
-<pinref part="R79" gate="G$1" pin="2"/>
+<pinref part="R78" gate="G$1" pin="2"/>
 <wire x1="20.32" y1="83.82" x2="20.32" y2="86.36" width="0.1524" layer="91"/>
 <pinref part="LED1" gate="-BTM" pin="A"/>
 </segment>
 </net>
 <net name="N$11" class="0">
 <segment>
-<pinref part="R80" gate="G$1" pin="2"/>
+<pinref part="R79" gate="G$1" pin="2"/>
 <wire x1="33.02" y1="83.82" x2="33.02" y2="86.36" width="0.1524" layer="91"/>
 <pinref part="LED1" gate="-TOP" pin="A"/>
 </segment>
 </net>
 <net name="N$46" class="0">
 <segment>
-<pinref part="R89" gate="G$1" pin="2"/>
+<pinref part="R88" gate="G$1" pin="2"/>
 <wire x1="71.12" y1="76.2" x2="71.12" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="101.6" x2="91.44" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="91.44" y1="101.6" x2="116.84" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="101.6" x2="116.84" y2="78.74" width="0.1524" layer="91"/>
-<pinref part="R88" gate="G$1" pin="2"/>
+<pinref part="R87" gate="G$1" pin="2"/>
 <pinref part="IC7" gate="-1" pin="VCC+"/>
 <wire x1="91.44" y1="71.12" x2="91.44" y2="86.36" width="0.1524" layer="91"/>
 <junction x="91.44" y="101.6"/>
@@ -20698,7 +20688,7 @@ Decrease R58 to 3K3 for ~84oC or to 2K7 for ~90oC.</text>
 <wire x1="15.24" y1="101.6" x2="17.78" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="101.6" x2="45.72" y2="93.98" width="0.1524" layer="91"/>
 <junction x="45.72" y="101.6"/>
-<pinref part="R73" gate="G$1" pin="1"/>
+<pinref part="R72" gate="G$1" pin="1"/>
 <wire x1="17.78" y1="101.6" x2="17.78" y2="144.78" width="0.1524" layer="91"/>
 <wire x1="17.78" y1="144.78" x2="20.32" y2="144.78" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="101.6" x2="17.78" y2="101.6" width="0.1524" layer="91"/>
@@ -20708,29 +20698,29 @@ Decrease R58 to 3K3 for ~84oC or to 2K7 for ~90oC.</text>
 <net name="N$28" class="0">
 <segment>
 <pinref part="C73" gate="G$1" pin="2"/>
-<pinref part="R84" gate="G$1" pin="2"/>
+<pinref part="R83" gate="G$1" pin="2"/>
 <wire x1="137.16" y1="88.9" x2="137.16" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$12" class="0">
 <segment>
-<pinref part="R81" gate="G$1" pin="1"/>
-<pinref part="R85" gate="G$1" pin="2"/>
+<pinref part="R80" gate="G$1" pin="1"/>
+<pinref part="R84" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$50" class="0">
 <segment>
-<pinref part="R92" gate="G$1" pin="2"/>
+<pinref part="R91" gate="G$1" pin="2"/>
 <wire x1="137.16" y1="66.04" x2="139.7" y2="66.04" width="0.1524" layer="91"/>
 <junction x="137.16" y="66.04"/>
-<pinref part="R84" gate="G$1" pin="1"/>
+<pinref part="R83" gate="G$1" pin="1"/>
 <wire x1="137.16" y1="76.2" x2="137.16" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="137.16" y1="73.66" x2="144.78" y2="73.66" width="0.1524" layer="91"/>
-<pinref part="R85" gate="G$1" pin="1"/>
+<pinref part="R84" gate="G$1" pin="1"/>
 <wire x1="144.78" y1="76.2" x2="144.78" y2="73.66" width="0.1524" layer="91"/>
-<pinref part="R91" gate="G$1" pin="2"/>
+<pinref part="R90" gate="G$1" pin="2"/>
 <wire x1="134.62" y1="66.04" x2="137.16" y2="66.04" width="0.1524" layer="91"/>
-<pinref part="R94" gate="G$1" pin="2"/>
+<pinref part="R93" gate="G$1" pin="2"/>
 <wire x1="137.16" y1="63.5" x2="137.16" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="137.16" y1="73.66" x2="137.16" y2="66.04" width="0.1524" layer="91"/>
 <junction x="137.16" y="73.66"/>
@@ -20738,11 +20728,11 @@ Decrease R58 to 3K3 for ~84oC or to 2K7 for ~90oC.</text>
 </net>
 <net name="+5VREF" class="0">
 <segment>
-<pinref part="R96" gate="G$1" pin="1"/>
+<pinref part="R95" gate="G$1" pin="1"/>
 <wire x1="22.86" y1="27.94" x2="20.32" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="20.32" y1="27.94" x2="20.32" y2="17.78" width="0.1524" layer="91"/>
 <wire x1="20.32" y1="17.78" x2="22.86" y2="17.78" width="0.1524" layer="91"/>
-<pinref part="R98" gate="G$1" pin="1"/>
+<pinref part="R97" gate="G$1" pin="1"/>
 <wire x1="20.32" y1="17.78" x2="17.78" y2="17.78" width="0.1524" layer="91"/>
 <junction x="20.32" y="17.78"/>
 <label x="17.78" y="17.78" size="1.27" layer="102" rot="MR0" xref="yes"/>
@@ -20750,7 +20740,7 @@ Decrease R58 to 3K3 for ~84oC or to 2K7 for ~90oC.</text>
 </net>
 <net name="N$61" class="0">
 <segment>
-<pinref part="R97" gate="G$1" pin="1"/>
+<pinref part="R96" gate="G$1" pin="1"/>
 <pinref part="Q10" gate="G$1" pin="C"/>
 <wire x1="50.8" y1="27.94" x2="48.26" y2="27.94" width="0.1524" layer="91"/>
 <pinref part="Q9" gate="G$1" pin="B"/>
@@ -20762,14 +20752,14 @@ Decrease R58 to 3K3 for ~84oC or to 2K7 for ~90oC.</text>
 <net name="N$62" class="0">
 <segment>
 <pinref part="Q10" gate="G$1" pin="E"/>
-<pinref part="R96" gate="G$1" pin="2"/>
+<pinref part="R95" gate="G$1" pin="2"/>
 <wire x1="33.02" y1="27.94" x2="35.56" y2="27.94" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$70" class="0">
 <segment>
-<pinref part="R99" gate="G$1" pin="1"/>
-<pinref part="R98" gate="G$1" pin="2"/>
+<pinref part="R98" gate="G$1" pin="1"/>
+<pinref part="R97" gate="G$1" pin="2"/>
 <wire x1="43.18" y1="17.78" x2="40.64" y2="17.78" width="0.1524" layer="91"/>
 <pinref part="Q10" gate="G$1" pin="B"/>
 <wire x1="40.64" y1="17.78" x2="33.02" y2="17.78" width="0.1524" layer="91"/>
@@ -20779,16 +20769,16 @@ Decrease R58 to 3K3 for ~84oC or to 2K7 for ~90oC.</text>
 </net>
 <net name="UVLO" class="0">
 <segment>
-<pinref part="R101" gate="G$1" pin="2"/>
+<pinref part="R100" gate="G$1" pin="2"/>
 <wire x1="40.64" y1="12.7" x2="15.24" y2="12.7" width="0.1524" layer="91"/>
 <label x="15.24" y="12.7" size="1.27" layer="102" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$68" class="0">
 <segment>
-<pinref part="R99" gate="G$1" pin="2"/>
+<pinref part="R98" gate="G$1" pin="2"/>
+<pinref part="R99" gate="G$1" pin="1"/>
 <pinref part="R100" gate="G$1" pin="1"/>
-<pinref part="R101" gate="G$1" pin="1"/>
 <wire x1="55.88" y1="17.78" x2="53.34" y2="17.78" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="12.7" x2="53.34" y2="12.7" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="12.7" x2="53.34" y2="17.78" width="0.1524" layer="91"/>
@@ -20797,7 +20787,7 @@ Decrease R58 to 3K3 for ~84oC or to 2K7 for ~90oC.</text>
 </net>
 <net name="VD1" class="0">
 <segment>
-<pinref part="R70" gate="G$1" pin="1"/>
+<pinref part="R69" gate="G$1" pin="1"/>
 <pinref part="C59" gate="G$1" pin="2"/>
 <pinref part="IC5" gate="G$1" pin="VD1"/>
 <wire x1="76.2" y1="147.32" x2="83.82" y2="147.32" width="0.1524" layer="91"/>
@@ -20809,8 +20799,8 @@ Decrease R58 to 3K3 for ~84oC or to 2K7 for ~90oC.</text>
 </net>
 <net name="N$73" class="0">
 <segment>
-<pinref part="R94" gate="G$1" pin="1"/>
-<pinref part="R95" gate="G$1" pin="2"/>
+<pinref part="R93" gate="G$1" pin="1"/>
+<pinref part="R94" gate="G$1" pin="2"/>
 <wire x1="137.16" y1="53.34" x2="137.16" y2="50.8" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -20818,20 +20808,20 @@ Decrease R58 to 3K3 for ~84oC or to 2K7 for ~90oC.</text>
 <segment>
 <pinref part="TP6" gate="G$1" pin="1"/>
 <wire x1="142.24" y1="38.1" x2="137.16" y2="38.1" width="0.1524" layer="91"/>
-<pinref part="R95" gate="G$1" pin="1"/>
+<pinref part="R94" gate="G$1" pin="1"/>
 <wire x1="137.16" y1="38.1" x2="137.16" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="G1_OUT" class="0">
 <segment>
-<pinref part="R72" gate="G$1" pin="1"/>
+<pinref part="R71" gate="G$1" pin="1"/>
 <pinref part="Q7" gate="G$1" pin="G"/>
 <wire x1="106.68" y1="152.4" x2="111.76" y2="152.4" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="G2_OUT" class="0">
 <segment>
-<pinref part="R75" gate="G$1" pin="1"/>
+<pinref part="R74" gate="G$1" pin="1"/>
 <pinref part="Q8" gate="G$1" pin="G"/>
 <wire x1="106.68" y1="127" x2="111.76" y2="127" width="0.1524" layer="91"/>
 </segment>
@@ -20839,7 +20829,7 @@ Decrease R58 to 3K3 for ~84oC or to 2K7 for ~90oC.</text>
 <net name="VD2" class="0">
 <segment>
 <pinref part="C71" gate="G$1" pin="2"/>
-<pinref part="R76" gate="G$1" pin="2"/>
+<pinref part="R75" gate="G$1" pin="2"/>
 <pinref part="IC5" gate="G$1" pin="VD2"/>
 <wire x1="76.2" y1="132.08" x2="83.82" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="83.82" y1="129.54" x2="83.82" y2="132.08" width="0.1524" layer="91"/>
@@ -20852,13 +20842,13 @@ Decrease R58 to 3K3 for ~84oC or to 2K7 for ~90oC.</text>
 <segment>
 <wire x1="116.84" y1="167.64" x2="43.18" y2="167.64" width="0.1524" layer="91"/>
 <label x="43.18" y="167.64" size="1.27" layer="102" rot="R180" xref="yes"/>
-<pinref part="R68" gate="G$1" pin="1"/>
+<pinref part="R67" gate="G$1" pin="1"/>
 <wire x1="116.84" y1="165.1" x2="124.46" y2="165.1" width="0.1524" layer="91"/>
 <pinref part="Q7" gate="G$1" pin="D"/>
 <junction x="116.84" y="160.02"/>
 <wire x1="116.84" y1="160.02" x2="116.84" y2="165.1" width="0.1524" layer="91"/>
 <wire x1="114.3" y1="162.56" x2="116.84" y2="160.02" width="0.1524" layer="91"/>
-<pinref part="R70" gate="G$1" pin="2"/>
+<pinref part="R69" gate="G$1" pin="2"/>
 <wire x1="116.84" y1="167.64" x2="116.84" y2="165.1" width="0.1524" layer="91"/>
 <junction x="116.84" y="165.1"/>
 <wire x1="114.3" y1="162.56" x2="91.44" y2="162.56" width="0.1524" layer="91"/>
