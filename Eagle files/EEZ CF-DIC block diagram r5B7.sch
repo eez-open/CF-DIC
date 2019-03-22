@@ -358,7 +358,7 @@ Spectrol</description>
 <wire x1="22.86" y1="76.2" x2="22.86" y2="66.04" width="0.4064" layer="104"/>
 <wire x1="22.86" y1="66.04" x2="0" y2="66.04" width="0.4064" layer="104"/>
 <wire x1="0" y1="66.04" x2="0" y2="76.2" width="0.4064" layer="104"/>
-<text x="11.43" y="71.12" size="1.778" layer="104" align="center">AC input filter
+<text x="11.43" y="71.12" size="1.778" layer="104" align="center">AC filter &amp; fuse
 Rectifier + Cbulk</text>
 <text x="27.94" y="84.455" size="1.4224" layer="109">DC_BUS</text>
 <wire x1="78.74" y1="91.44" x2="101.6" y2="91.44" width="0.4064" layer="104"/>

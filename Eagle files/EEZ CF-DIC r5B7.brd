@@ -36,8 +36,8 @@
 <layer number="26" name="bNames" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="14" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="10" fill="1" visible="no" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="1" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="1" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
@@ -4317,7 +4317,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="124.957" y="80.7489" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="122.6185" y="79.756" size="1.016" layer="27" ratio="10" rot="R270"/>
 </element>
-<element name="R3" library="rcl" package="R1206" value="220K" x="141.5435" y="71.4505" smashed="yes" rot="MR270">
+<element name="R3" library="rcl" package="R1206" value="470K" x="141.5435" y="71.4505" smashed="yes" rot="MR270">
 <attribute name="NAME" x="142.877" y="70.5615" size="1.016" layer="26" ratio="10" rot="MR90"/>
 <attribute name="VALUE" x="142.0515" y="73.165" size="1.016" layer="28" ratio="10" rot="MR270"/>
 </element>
@@ -4325,7 +4325,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="140.8215" y="57.5962" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="145.0959" y="51.5341" size="1.016" layer="27" ratio="10"/>
 </element>
-<element name="R2" library="rcl" package="R1206" value="220K" x="141.5435" y="76.4035" smashed="yes" rot="MR270">
+<element name="R2" library="rcl" package="R1206" value="470K" x="141.5435" y="76.4035" smashed="yes" rot="MR270">
 <attribute name="NAME" x="142.877" y="75.6415" size="1.016" layer="26" ratio="10" rot="MR90"/>
 <attribute name="VALUE" x="142.115" y="78.245" size="1.016" layer="28" ratio="10" rot="MR270"/>
 </element>
@@ -4931,7 +4931,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="50.1585" y="78.5945" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="57.258" y="84.9825" size="1.27" layer="27" ratio="10" rot="R180"/>
 </element>
-<element name="R54" library="rcl" package="R0805" value="220p" x="68.961" y="39.116" smashed="yes" rot="MR180">
+<element name="R54" library="rcl" package="R0805" value="220R" x="68.961" y="39.116" smashed="yes" rot="MR180">
 <attribute name="NAME" x="70.866" y="39.624" size="1.016" layer="26" ratio="10" rot="MR180"/>
 <attribute name="VALUE" x="67.945" y="39.751" size="1.016" layer="28" ratio="10" rot="MR180"/>
 </element>

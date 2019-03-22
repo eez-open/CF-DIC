@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.025" unitdist="inch" unit="inch" style="lines" multiple="4" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -15840,10 +15840,10 @@ Solder type</description>
 </part>
 <part name="C2" library="rcl" deviceset="C-EU" device="150-072X183" value="MKP-X2-220NR15/310"/>
 <part name="C3" library="rcl" deviceset="C-EU" device="150-072X183" value="MKP-X2-220NR15/310"/>
-<part name="R3" library="rcl" deviceset="R-EU_" device="R1206" value="220K"/>
+<part name="R3" library="rcl" deviceset="R-EU_" device="R1206" value="470K"/>
 <part name="X1" library="EEZ_connectors" deviceset="MINIFIT_6659-3" device="-CRE" value="39-30-3035"/>
 <part name="PE1" library="supply1" deviceset="PE" device=""/>
-<part name="R2" library="rcl" deviceset="R-EU_" device="R1206" value="220K"/>
+<part name="R2" library="rcl" deviceset="R-EU_" device="R1206" value="470K"/>
 <part name="SAR2" library="EEZ_Lib1" deviceset="SAR" device="PCB-2.4MM" value="PCB 2.4mm"/>
 <part name="B1" library="EEZ_Lib1" deviceset="BRIDGE" device="-CREEPAGE" value="GBU4K"/>
 <part name="GND1" library="supply1" deviceset="GNDA" device=""/>
@@ -16030,7 +16030,7 @@ Solder type</description>
 <part name="D14" library="diode" deviceset="DIODE-" device="SOD323-W" value="N.C."/>
 <part name="C45" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
 <part name="D12" library="EEZ_Lib1" deviceset="SCHOTTKY" device="-TO220" value="C3D03060A"/>
-<part name="R54" library="rcl" deviceset="R-EU_" device="R0805" value="220p"/>
+<part name="R54" library="rcl" deviceset="R-EU_" device="R0805" value="220R"/>
 <part name="C50" library="rcl" deviceset="C-EU" device="C0805" value="470p"/>
 <part name="R39" library="rcl" deviceset="R-EU_" device="R0805" value="47K"/>
 <part name="R30" library="rcl" deviceset="R-EU_" device="R2512" value="22R/2-3W"/>
@@ -16171,8 +16171,6 @@ Solder type</description>
 <text x="78.105" y="29.21" size="1.27" layer="100">Cfb1</text>
 <text x="68.58" y="19.05" size="1.27" layer="100">Rfb1</text>
 <rectangle x1="182.88" y1="146.685" x2="187.96" y2="154.305" layer="97"/>
-<rectangle x1="21.59" y1="154.94" x2="28.575" y2="161.29" layer="97"/>
-<rectangle x1="20.32" y1="139.7" x2="26.035" y2="146.05" layer="97"/>
 <circle x="242.57" y="143.51" radius="0.635" width="0.1524" layer="101"/>
 <circle x="242.57" y="146.05" radius="0.635" width="0.1524" layer="101"/>
 <text x="240.665" y="136.525" size="1.4224" layer="101" rot="R180">U_CTRL+ 5</text>
@@ -17641,7 +17639,7 @@ Decrease R58 to 3K3 for ~84oC or to 2K7 for ~90oC.</text>
 </instance>
 <instance part="R54" gate="G$1" x="134.62" y="68.58" smashed="yes" rot="R180">
 <attribute name="NAME" x="132.715" y="70.0786" size="1.778" layer="95"/>
-<attribute name="VALUE" x="133.35" y="65.278" size="1.778" layer="96"/>
+<attribute name="VALUE" x="132.08" y="65.278" size="1.778" layer="96"/>
 </instance>
 <instance part="C50" gate="G$1" x="127" y="60.96" smashed="yes" rot="R180">
 <attribute name="NAME" x="129.159" y="61.976" size="1.778" layer="95"/>
