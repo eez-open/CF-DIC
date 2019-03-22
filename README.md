@@ -15,7 +15,6 @@ Inspired by article Filho, Barbi (1996), *[A comparison between two current-fed 
 * HV buck section with high performance SiC MOSFET switches
 * High performance Vitroperm 500F core material for power transformer
 * Synchronous rectifier with low R(ds,on) MOSFET switches
-* Active Duty cycle limiter
 * Over-voltage (OVP), short circuit protection and over-temperature protection (OTP) with latched shutdown and opto-isolated open-collector "Fault" output
 * Over-current protection (OCP)
 * QR flyback as bias power supply (VIPer35)
